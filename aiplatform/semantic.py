@@ -179,6 +179,41 @@ class GenericSemanticQuery:
                         f"图谱中多数机构只登记了英文名，换成英文名通常能问到。"
                         f"也可以参考这些已接入的：{cands}。"}
 
+    # 列举类问句里的"装饰词"：剥掉它们后若只剩类名，说明用户是想"列举某一类"，
+    # 而不是在指名道姓
+    LIST_FILLERS = ("所有", "全部", "一些", "有些", "哪些", "什么", "搜索", "查找",
+                    "查询", "查一下", "查查", "找出", "找", "看看", "列出", "显示",
+                    "给我", "一下子", "一下")
+
+    # 图谱里确实没有收录的人事/联系方式类字段。
+    # 用户问了不该假装答上，也不该退化成"列出全部同类"。
+    UNSUPPORTED_ATTRS = ("校长", "院长", "系主任", "主任", "书记", "电话", "邮箱", "地址", "邮编")
+
+    def _strip_decorations(self, text):
+        """剥掉动词/数量词与类名，留下"实体样"的残余"""
+        for w in self.LIST_FILLERS:
+            text = text.replace(w, "")
+        for w in self.CN_CLASSES:
+            text = text.replace(w, "")
+        return text.strip()
+
+    def _is_class_listing(self, kw):
+        """kw 剥掉装饰词后是不是纯类名？是 → 用户在列举某一类，不该报"没找到" """
+        k = kw
+        for w in self.LIST_FILLERS:
+            k = k.replace(w, "")
+        return k in self.CN_CLASSES
+
+    def _unknown_subject(self, question, kw):
+        """这次是不是"用户指了个具体名字、但我们没认出来"？返回那个名字，否则 None"""
+        subj = self._unresolved_subject(question)          # 优先「X的」结构
+        if subj:
+            return subj
+        if not kw or self._is_class_listing(kw):
+            return None
+        rest = self._strip_decorations(kw)
+        return rest if len(rest) >= 2 else None
+
     # ---------- 匹配：找问题里提到的实体 ----------
     def find_mentioned_entities(self, question):
         """在问题中查找提到的实体（按 name/cnLabel 匹配，2字以上）"""
@@ -364,6 +399,19 @@ class GenericSemanticQuery:
             return {"intent": "trend", "field": fname or "全部论文", "data": data,
                     "total": sum(x["count"] for x in data)}
 
+        # 1.5) 问的是图谱根本没收录的人事/联系字段（校长、院长、电话…）
+        #      → 直说没有。既不能假装答上（"详情：国家：CN"），也不能倒全类清单。
+        for attr in self.UNSUPPORTED_ATTRS:
+            if attr in question:
+                who = next((l for u, l in ents
+                            if self._class_of(u) in ("Institution", "Company", "Scholar")), None)
+                if who:
+                    return {"intent": "unsupported_attribute", "attribute": attr,
+                            "entity": who, "count": 0,
+                            "hint": (f"平台没有收录「{who}」的{attr}信息，所以这个问题答不了"
+                                     f"（不编造）。平台现有的是学者、论文、机构、企业、领域等"
+                                     f"结构化数据，暂无人事任免与联系方式字段。")}
+
         # 2) 实体详情（列举型问句不走这里；"某机构的校友/学者是谁"也不走，
         #    交给第 7 条按机构列人，否则只会吐出机构自己的属性而答非所问）
         _people_ask = any(k in question for k in self.PEOPLE_WORDS)
@@ -526,7 +574,7 @@ class GenericSemanticQuery:
                 # 此时不能退化成"把整个类倒出来"（问北理工却列出 960 所机构），
                 # 而要诚实地说没找到。
                 if total > 30:
-                    subj = self._unresolved_subject(question)
+                    subj = self._unknown_subject(question, kw)
                     if subj:
                         return self._not_found(subj, c, items)
                 return {"intent": "list_class", "class": c, "count": total, "samples": items[:25]}

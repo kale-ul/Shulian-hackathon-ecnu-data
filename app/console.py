@@ -439,7 +439,7 @@ def _humanize_result(question: str, result: dict) -> str:
             summary = "、".join(f"{k} {v} 个" for k, v in list(classes.items())[:12])
             return f"平台当前覆盖 {len(classes)} 类数据：{summary}。"
         return apology
-    if intent == "not_found":
+    if intent in ("not_found", "unsupported_attribute"):
         return result.get("hint") or apology
     # 趋势/逐年：必须排在下面通用分支之前。否则通用分支会把 data[].name 抽成
     # ["2022","2023",...] 直接返回，逐年数量（2/34/126/38）全丢了。
@@ -494,6 +494,11 @@ def _answer_with_ai(question: str, picked: dict) -> tuple[dict, list[dict], str]
     answer = response.get("content") or _humanize_result(question, result)
     trace.append({"step": "AI 生成答案", "backend": response.get("backend"),
                   "elapsed_ms": response.get("elapsed_ms"), "error": response.get("error")})
+    if not response.get("content"):
+        # 调用失败时必须说清楚：答案来自平台本地引擎，不是这个 AI 生成的。
+        # 否则界面把模板答案署名成"DeepSeek · deepseek-chat"，属于误导性归因。
+        answer = (f"⚠️ {picked['name']} 调用失败（{response.get('error') or '无返回'}）。\n\n"
+                  f"以下是**平台本地语义引擎**的结果，未经大模型润色：\n\n{answer}")
     return result, trace, answer
 
 
@@ -556,9 +561,15 @@ def render_chat() -> None:
             with st.chat_message("assistant"):
                 with st.spinner("正在执行本体语义查询 ..."):
                     result, trace, answer = _answer_with_ai(question, picked)
+                _ai_step = next((s for s in trace if s.get("step") == "AI 生成答案"), None)
+                _failed = bool(_ai_step and _ai_step.get("error"))
                 st.markdown(answer)
-                st.caption(f"{picked['name']} · {picked.get('model', '')}")
-            st.session_state.messages.append({"role": "assistant", "content": answer, "meta": picked["name"]})
+                st.caption("⚠️ 大模型未生效 · 以上为平台本地语义引擎结果" if _failed
+                           else f"{picked['name']} · {picked.get('model', '')}")
+            st.session_state.messages.append(
+                {"role": "assistant", "content": answer,
+                 "meta": (f"⚠️ 本地语义引擎（{picked['name']} 未生效）" if _failed
+                          else picked["name"])})
             st.session_state.last = {"trace": trace, "result": result, "question": question, "picked": picked}
             st.session_state["scroll_to_chat"] = True
         _scroll_to_latest()
