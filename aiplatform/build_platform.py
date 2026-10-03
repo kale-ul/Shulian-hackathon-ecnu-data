@@ -13,10 +13,10 @@ RAW = os.path.join(BASE, "data", "raw")
 
 def build():
     onto = PlatformOntology(os.path.join(BASE, "ontology", "platform.owl"))
-    print("== 本体加载 ==")
-    print("  类:", onto.classes)
-    print("  对象属性:", onto.object_props)
-    print("  数据属性:", onto.data_props)
+    print("== 本体加载 ==", file=sys.stderr)
+    print("  类:", onto.classes, file=sys.stderr)
+    print("  对象属性:", onto.object_props, file=sys.stderr)
+    print("  数据属性:", onto.data_props, file=sys.stderr)
 
     cat = SourceCatalog()
     # 数据源注册表（来源文件 -> source_id）
@@ -46,24 +46,24 @@ def build():
     mappings = json.load(open(os.path.join(BASE, "mappings.json"), encoding="utf-8"))
 
     graph = UnifiedGraph(onto)
-    print("\n== 数据接入 + 本体性转化 ==")
+    print("\n== 数据接入 + 本体性转化 ==", file=sys.stderr)
     total_triples = 0
     for sid, (name, loc) in sources.items():
         cat.register(sid, name, loc)
         res = graph.ingest(cat, mappings.get(sid, []), sid)
         total_triples += res["triples_added"]
-        print(f"  {name}: {res['rows']} 行 -> {res['triples_added']} 三元组")
+        print(f"  {name}: {res['rows']} 行 -> {res['triples_added']} 三元组", file=sys.stderr)
 
-    print(f"\n== 统一语义图 ==")
+    print(f"\n== 统一语义图 ==", file=sys.stderr)
     stats = graph.stats()
-    print(f"  总三元组: {stats['triples']}")
-    print(f"  总实体: {stats['entities']}")
+    print(f"  总三元组: {stats['triples']}", file=sys.stderr)
+    print(f"  总实体: {stats['entities']}", file=sys.stderr)
     for c, n in sorted(stats["classes"].items()):
-        print(f"    {c}: {n}")
+        print(f"    {c}: {n}", file=sys.stderr)
 
     out = os.path.join(PROC, "platform_graph.ttl")
     graph.g.serialize(destination=out, format="turtle")
-    print(f"\n统一图已保存: {out}")
+    print(f"\n统一图已保存: {out}", file=sys.stderr)
     return onto, cat, graph
 
 if __name__ == "__main__":
