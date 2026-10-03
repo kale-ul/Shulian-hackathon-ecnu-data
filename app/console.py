@@ -439,6 +439,17 @@ def _humanize_result(question: str, result: dict) -> str:
             summary = "、".join(f"{k} {v} 个" for k, v in list(classes.items())[:12])
             return f"平台当前覆盖 {len(classes)} 类数据：{summary}。"
         return apology
+    if intent == "not_found":
+        return result.get("hint") or apology
+    # 趋势/逐年：必须排在下面通用分支之前。否则通用分支会把 data[].name 抽成
+    # ["2022","2023",...] 直接返回，逐年数量（2/34/126/38）全丢了。
+    if intent in ("trend", "year_distribution"):
+        rows = [x for x in (result.get("data") or []) if isinstance(x, dict)]
+        if rows:
+            total = sum(int(x.get("count") or 0) for x in rows)
+            span = "、".join(f"{x.get('name')} 年 {int(x.get('count') or 0)} 篇" for x in rows[:6])
+            return (f"共统计 {len(rows)} 个时间点、{total} 篇论文：{span}。"
+                    f"完整曲线见右侧趋势图。")
     names = _extract_names(result)
     if names:
         count = int(result.get("count") or result.get("total") or len(names))
