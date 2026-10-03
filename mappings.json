@@ -1,0 +1,388 @@
+{
+  "_comment": "语义映射：每个数据源 -> 一组映射。映射把原始列「转化」成本体类/属性/关系。这就是「本体性转化」的声明式配置。",
+  "ds_institutions": [
+    {
+      "kind": "entity",
+      "class": "Institution",
+      "id_column": "openalex_id",
+      "id_template": "i_{id}",
+      "label_column": "name",
+      "properties": [
+        {
+          "column": "country",
+          "property": "country"
+        }
+      ]
+    }
+  ],
+  "ds_scholars": [
+    {
+      "kind": "entity",
+      "class": "Scholar",
+      "id_column": "openalex_id",
+      "id_template": "s_{id}",
+      "label_column": "name",
+      "properties": []
+    }
+  ],
+  "ds_publications": [
+    {
+      "kind": "entity",
+      "class": "Publication",
+      "id_column": "openalex_id",
+      "id_template": "p_{id}",
+      "label_column": "title",
+      "properties": [
+        {
+          "column": "year",
+          "property": "year",
+          "datatype": "integer"
+        },
+        {
+          "column": "cited_by_count",
+          "property": "cited_by_count",
+          "datatype": "integer"
+        },
+        {
+          "column": "doi",
+          "property": "doi"
+        }
+      ]
+    }
+  ],
+  "ds_venues": [
+    {
+      "kind": "entity",
+      "class": "Venue",
+      "id_column": "openalex_id",
+      "id_template": "v_{id}",
+      "label_column": "name",
+      "properties": []
+    }
+  ],
+  "ds_fields": [
+    {
+      "kind": "entity",
+      "class": "Field",
+      "id_column": "openalex_id",
+      "id_template": "f_{id}",
+      "label_column": "name",
+      "properties": [
+        {
+          "column": "level",
+          "property": "level",
+          "datatype": "integer"
+        },
+        {
+          "column": "cn_label",
+          "property": "cnLabel"
+        }
+      ]
+    }
+  ],
+  "ds_affiliation": [
+    {
+      "kind": "relation",
+      "subject_class": "Scholar",
+      "subject_id_column": "scholar_id",
+      "subject_id_template": "s_{id}",
+      "predicate": "affiliatedWith",
+      "object_class": "Institution",
+      "object_id_column": "inst_id",
+      "object_id_template": "i_{id}"
+    }
+  ],
+  "ds_author_of": [
+    {
+      "kind": "relation",
+      "subject_class": "Scholar",
+      "subject_id_column": "scholar_id",
+      "subject_id_template": "s_{id}",
+      "predicate": "authorOf",
+      "object_class": "Publication",
+      "object_id_column": "pub_id",
+      "object_id_template": "p_{id}"
+    }
+  ],
+  "ds_published_in": [
+    {
+      "kind": "relation",
+      "subject_class": "Publication",
+      "subject_id_column": "pub_id",
+      "subject_id_template": "p_{id}",
+      "predicate": "publishedIn",
+      "object_class": "Venue",
+      "object_id_column": "venue_id",
+      "object_id_template": "v_{id}"
+    }
+  ],
+  "ds_belongs_to_field": [
+    {
+      "kind": "relation",
+      "subject_class": "Publication",
+      "subject_id_column": "pub_id",
+      "subject_id_template": "p_{id}",
+      "predicate": "belongsToField",
+      "object_class": "Field",
+      "object_id_column": "field_id",
+      "object_id_template": "f_{id}"
+    }
+  ],
+  "ds_companies": [
+    {
+      "kind": "entity",
+      "class": "Company",
+      "id_column": "company_id",
+      "id_template": "c_{id}",
+      "label_column": "name",
+      "properties": [
+        {
+          "column": "revenue_b",
+          "property": "revenue",
+          "datatype": "float"
+        },
+        {
+          "column": "employees",
+          "property": "employees",
+          "datatype": "integer"
+        },
+        {
+          "column": "region",
+          "property": "region"
+        }
+      ]
+    },
+    {
+      "kind": "relation",
+      "subject_class": "Company",
+      "subject_id_column": "company_id",
+      "subject_id_template": "c_{id}",
+      "predicate": "belongsToIndustry",
+      "object_class": "Industry",
+      "object_id_column": "industry",
+      "object_id_template": "ind_{id}",
+      "object_id_from_value": true
+    }
+  ],
+  "ds_institution_labels": [
+    {
+      "kind": "entity",
+      "class": "Institution",
+      "id_column": "openalex_id",
+      "id_template": "i_{id}",
+      "properties": [
+        {
+          "column": "cn_name",
+          "property": "cnLabel"
+        }
+      ]
+    }
+  ],
+  "ds_companies_v2": [
+    {
+      "kind": "entity",
+      "class": "Company",
+      "id_column": "company_id",
+      "id_template": "c2_{id}",
+      "label_column": "name",
+      "properties": [
+        {
+          "column": "revenue_b",
+          "property": "revenue",
+          "datatype": "float"
+        },
+        {
+          "column": "employees",
+          "property": "employees",
+          "datatype": "integer"
+        },
+        {
+          "column": "region",
+          "property": "region"
+        }
+      ]
+    },
+    {
+      "kind": "relation",
+      "subject_class": "Company",
+      "subject_id_column": "company_id",
+      "subject_id_template": "c2_{id}",
+      "predicate": "belongsToIndustry",
+      "object_class": "Industry",
+      "object_id_column": "industry",
+      "object_id_template": "ind_{id}",
+      "object_id_from_value": true
+    }
+  ],
+  "_v2_comment": "===== 扩充数据（v2）：多机构 / 多领域 / 2213 论文 / 44 企业 / 数据集 =====",
+  "ds_v2_inst": [
+    {
+      "kind": "entity",
+      "class": "Institution",
+      "id_column": "institution_id",
+      "id_template": "i_{id}",
+      "label_column": "name",
+      "properties": [
+        {
+          "column": "works_count",
+          "property": "worksCount",
+          "datatype": "integer"
+        },
+        {
+          "column": "cited_by_count",
+          "property": "citedByCount",
+          "datatype": "integer"
+        },
+        {
+          "column": "h_index",
+          "property": "hIndex",
+          "datatype": "integer"
+        },
+        {
+          "column": "country",
+          "property": "country"
+        },
+        {
+          "column": "region",
+          "property": "region"
+        },
+        {
+          "column": "cn_name",
+          "property": "cnLabel"
+        }
+      ]
+    }
+  ],
+  "ds_v2_fields": [
+    {
+      "kind": "entity",
+      "class": "Field",
+      "id_column": "cn_name",
+      "id_template": "f_{id}",
+      "label_column": "name",
+      "properties": [
+        {
+          "column": "cn_name",
+          "property": "cnLabel"
+        },
+        {
+          "column": "field_id",
+          "property": "openalex_id"
+        }
+      ]
+    }
+  ],
+  "ds_v2_works": [
+    {
+      "kind": "entity",
+      "class": "Publication",
+      "id_column": "work_id",
+      "id_template": "p_{id}",
+      "label_column": "title",
+      "properties": [
+        {
+          "column": "year",
+          "property": "year",
+          "datatype": "integer"
+        },
+        {
+          "column": "cited_by_count",
+          "property": "citedByCount",
+          "datatype": "integer"
+        },
+        {
+          "column": "doi",
+          "property": "doi"
+        },
+        {
+          "column": "venue",
+          "property": "publishedAt"
+        }
+      ]
+    },
+    {
+      "kind": "relation",
+      "subject_class": "Publication",
+      "subject_id_column": "work_id",
+      "subject_id_template": "p_{id}",
+      "predicate": "belongsToField",
+      "object_class": "Field",
+      "object_id_column": "domain",
+      "object_id_template": "f_{id}",
+      "object_id_from_value": true,
+      "object_from_list": true
+    }
+  ],
+  "ds_v2_scholars": [
+    {
+      "kind": "entity",
+      "class": "Scholar",
+      "id_column": "author_ids",
+      "id_template": "s_{id}",
+      "label_column": "authors",
+      "multi_value": true,
+      "properties": []
+    }
+  ],
+  "ds_v2_author_of": [
+    {
+      "kind": "relation",
+      "subject_class": "Scholar",
+      "subject_id_column": "author_ids",
+      "subject_id_template": "s_{id}",
+      "predicate": "authorOf",
+      "object_class": "Publication",
+      "object_id_column": "work_id",
+      "object_id_template": "p_{id}",
+      "subject_multi_value": true
+    }
+  ],
+  "ds_v2_datasets": [
+    {
+      "kind": "entity",
+      "class": "Dataset",
+      "id_column": "dataset_id",
+      "id_template": "d_{id}",
+      "label_column": "name",
+      "properties": [
+        {
+          "column": "size",
+          "property": "size"
+        },
+        {
+          "column": "license",
+          "property": "license"
+        },
+        {
+          "column": "url",
+          "property": "url"
+        }
+      ]
+    },
+    {
+      "kind": "relation",
+      "subject_class": "Dataset",
+      "subject_id_column": "dataset_id",
+      "subject_id_template": "d_{id}",
+      "predicate": "belongsToField",
+      "object_class": "Field",
+      "object_id_column": "field",
+      "object_id_template": "f_{id}",
+      "object_id_from_value": true
+    }
+  ],
+  "ds_scholar_labels": [
+    {
+      "kind": "entity",
+      "class": "Scholar",
+      "id_column": "openalex_id",
+      "id_template": "s_{id}",
+      "properties": [
+        {
+          "column": "cn_name",
+          "property": "cnLabel"
+        }
+      ]
+    }
+  ]
+}

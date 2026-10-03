@@ -1,0 +1,62 @@
+[
+ {
+  "cn_label": "知识图谱",
+  "en_query": "knowledge graph",
+  "openalex_id": "C2987255567"
+ },
+ {
+  "cn_label": "深度学习",
+  "en_query": "deep learning",
+  "openalex_id": "C108583219"
+ },
+ {
+  "cn_label": "数据挖掘",
+  "en_query": "data mining",
+  "openalex_id": "C124101348"
+ },
+ {
+  "cn_label": "大语言模型",
+  "en_query": "large language model",
+  "openalex_id": null
+ },
+ {
+  "cn_label": "可信数据空间",
+  "en_query": "trusted data space",
+  "openalex_id": null
+ },
+ {
+  "cn_label": "联邦学习",
+  "en_query": "federated learning",
+  "openalex_id": "C2992525071"
+ },
+ {
+  "cn_label": "知识蒸馏",
+  "en_query": "knowledge distillation",
+  "openalex_id": null
+ },
+ {
+  "cn_label": "图神经网络",
+  "en_query": "graph neural network",
+  "openalex_id": "C147168706"
+ },
+ {
+  "cn_label": "语义网",
+  "en_query": "semantic web",
+  "openalex_id": "C2129575"
+ },
+ {
+  "cn_label": "数据治理",
+  "en_query": "data governance",
+  "openalex_id": "C196879817"
+ },
+ {
+  "cn_label": "供应链管理",
+  "en_query": "supply chain management",
+  "openalex_id": "C44104985"
+ },
+ {
+  "cn_label": "物流优化",
+  "en_query": "logistics optimization",
+  "openalex_id": "C45296417"
+ }
+]

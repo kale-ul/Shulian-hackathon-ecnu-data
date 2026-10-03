@@ -1,0 +1,398 @@
+[
+ {
+  "company_id": "C001",
+  "name": "顺丰控股",
+  "industry": "物流快递",
+  "region": "深圳",
+  "revenue_b": 2584.09,
+  "employees": 162000,
+  "founded": null
+ },
+ {
+  "company_id": "C002",
+  "name": "中通快递",
+  "industry": "物流快递",
+  "region": "上海",
+  "revenue_b": 384.19,
+  "employees": 24000,
+  "founded": null
+ },
+ {
+  "company_id": "C003",
+  "name": "圆通速递",
+  "industry": "物流快递",
+  "region": "上海",
+  "revenue_b": 576.84,
+  "employees": 17000,
+  "founded": null
+ },
+ {
+  "company_id": "C004",
+  "name": "韵达股份",
+  "industry": "物流快递",
+  "region": "上海",
+  "revenue_b": 449.83,
+  "employees": 13000,
+  "founded": null
+ },
+ {
+  "company_id": "C005",
+  "name": "申通快递",
+  "industry": "物流快递",
+  "region": "上海",
+  "revenue_b": 409.24,
+  "employees": 12000,
+  "founded": null
+ },
+ {
+  "company_id": "C006",
+  "name": "京东物流",
+  "industry": "物流快递",
+  "region": "北京",
+  "revenue_b": 1666.1,
+  "employees": 430000,
+  "founded": null
+ },
+ {
+  "company_id": "C007",
+  "name": "德邦股份",
+  "industry": "物流快递",
+  "region": "上海",
+  "revenue_b": 369.16,
+  "employees": 68000,
+  "founded": null
+ },
+ {
+  "company_id": "C008",
+  "name": "菜鸟网络",
+  "industry": "物流快递",
+  "region": "杭州",
+  "revenue_b": 990.2,
+  "employees": 14000,
+  "founded": null
+ },
+ {
+  "company_id": "C009",
+  "name": "中远海控",
+  "industry": "航运物流",
+  "region": "上海",
+  "revenue_b": 1754.48,
+  "employees": 31232,
+  "founded": null
+ },
+ {
+  "company_id": "C010",
+  "name": "招商轮船",
+  "industry": "航运物流",
+  "region": "上海",
+  "revenue_b": 258.83,
+  "employees": 4769,
+  "founded": null
+ },
+ {
+  "company_id": "C011",
+  "name": "宁波港",
+  "industry": "港口物流",
+  "region": "宁波",
+  "revenue_b": 257.04,
+  "employees": 16790,
+  "founded": null
+ },
+ {
+  "company_id": "C012",
+  "name": "上港集团",
+  "industry": "港口物流",
+  "region": "上海",
+  "revenue_b": 372.86,
+  "employees": 12000,
+  "founded": null
+ },
+ {
+  "company_id": "C013",
+  "name": "青岛港",
+  "industry": "港口物流",
+  "region": "青岛",
+  "revenue_b": 181.67,
+  "employees": 11000,
+  "founded": null
+ },
+ {
+  "company_id": "C014",
+  "name": "广州港",
+  "industry": "港口物流",
+  "region": "广州",
+  "revenue_b": 131.94,
+  "employees": 9000,
+  "founded": null
+ },
+ {
+  "company_id": "C015",
+  "name": "上海机场",
+  "industry": "航空物流",
+  "region": "上海",
+  "revenue_b": 110.47,
+  "employees": 10472,
+  "founded": null
+ },
+ {
+  "company_id": "C016",
+  "name": "白云机场",
+  "industry": "航空物流",
+  "region": "广州",
+  "revenue_b": 68.35,
+  "employees": 8000,
+  "founded": null
+ },
+ {
+  "company_id": "C017",
+  "name": "中国外运",
+  "industry": "供应链",
+  "region": "北京",
+  "revenue_b": 1084.65,
+  "employees": 34000,
+  "founded": null
+ },
+ {
+  "company_id": "C018",
+  "name": "怡亚通",
+  "industry": "供应链",
+  "region": "深圳",
+  "revenue_b": 798.29,
+  "employees": 11000,
+  "founded": null
+ },
+ {
+  "company_id": "C019",
+  "name": "密尔克卫",
+  "industry": "供应链",
+  "region": "上海",
+  "revenue_b": 121.63,
+  "employees": 4000,
+  "founded": null
+ },
+ {
+  "company_id": "C020",
+  "name": "海晨股份",
+  "industry": "供应链",
+  "region": "苏州",
+  "revenue_b": 18.65,
+  "employees": 2500,
+  "founded": null
+ },
+ {
+  "company_id": "C021",
+  "name": "阿里巴巴",
+  "industry": "电商",
+  "region": "杭州",
+  "revenue_b": 9411.68,
+  "employees": 204891,
+  "founded": null
+ },
+ {
+  "company_id": "C022",
+  "name": "京东",
+  "industry": "电商",
+  "region": "北京",
+  "revenue_b": 10462.36,
+  "employees": 517000,
+  "founded": null
+ },
+ {
+  "company_id": "C023",
+  "name": "拼多多",
+  "industry": "电商",
+  "region": "上海",
+  "revenue_b": 2476.39,
+  "employees": 17403,
+  "founded": null
+ },
+ {
+  "company_id": "C024",
+  "name": "美团",
+  "industry": "本地生活",
+  "region": "北京",
+  "revenue_b": 2767.0,
+  "employees": 114554,
+  "founded": null
+ },
+ {
+  "company_id": "C025",
+  "name": "科大讯飞",
+  "industry": "人工智能",
+  "region": "合肥",
+  "revenue_b": 196.5,
+  "employees": 14878,
+  "founded": null
+ },
+ {
+  "company_id": "C026",
+  "name": "商汤科技",
+  "industry": "人工智能",
+  "region": "上海",
+  "revenue_b": 34.06,
+  "employees": 4062,
+  "founded": null
+ },
+ {
+  "company_id": "C027",
+  "name": "百度",
+  "industry": "人工智能",
+  "region": "北京",
+  "revenue_b": 1345.98,
+  "employees": 39800,
+  "founded": null
+ },
+ {
+  "company_id": "C028",
+  "name": "腾讯",
+  "industry": "互联网",
+  "region": "深圳",
+  "revenue_b": 6090.15,
+  "employees": 108436,
+  "founded": null
+ },
+ {
+  "company_id": "C029",
+  "name": "华为",
+  "industry": "通信设备",
+  "region": "深圳",
+  "revenue_b": 7041.74,
+  "employees": 207000,
+  "founded": null
+ },
+ {
+  "company_id": "C030",
+  "name": "中芯国际",
+  "industry": "芯片",
+  "region": "上海",
+  "revenue_b": 452.5,
+  "employees": 21619,
+  "founded": null
+ },
+ {
+  "company_id": "C031",
+  "name": "寒武纪",
+  "industry": "芯片",
+  "region": "北京",
+  "revenue_b": 11.79,
+  "employees": 1373,
+  "founded": null
+ },
+ {
+  "company_id": "C032",
+  "name": "澜起科技",
+  "industry": "芯片",
+  "region": "上海",
+  "revenue_b": 22.86,
+  "employees": 700,
+  "founded": null
+ },
+ {
+  "company_id": "C033",
+  "name": "比亚迪",
+  "industry": "新能源汽车",
+  "region": "深圳",
+  "revenue_b": 6023.15,
+  "employees": 703504,
+  "founded": null
+ },
+ {
+  "company_id": "C034",
+  "name": "宁德时代",
+  "industry": "新能源电池",
+  "region": "宁德",
+  "revenue_b": 4009.17,
+  "employees": 118068,
+  "founded": null
+ },
+ {
+  "company_id": "C035",
+  "name": "隆基绿能",
+  "industry": "光伏",
+  "region": "西安",
+  "revenue_b": 1294.98,
+  "employees": 52465,
+  "founded": null
+ },
+ {
+  "company_id": "C036",
+  "name": "三一重工",
+  "industry": "工程机械",
+  "region": "长沙",
+  "revenue_b": 740.19,
+  "employees": 25539,
+  "founded": null
+ },
+ {
+  "company_id": "C037",
+  "name": "中国中车",
+  "industry": "轨道交通",
+  "region": "北京",
+  "revenue_b": 2342.62,
+  "employees": 162731,
+  "founded": null
+ },
+ {
+  "company_id": "C038",
+  "name": "中国移动",
+  "industry": "通信运营",
+  "region": "北京",
+  "revenue_b": 10093.0,
+  "employees": 451830,
+  "founded": null
+ },
+ {
+  "company_id": "C039",
+  "name": "工商银行",
+  "industry": "金融",
+  "region": "北京",
+  "revenue_b": 8430.7,
+  "employees": 419252,
+  "founded": null
+ },
+ {
+  "company_id": "C040",
+  "name": "招商银行",
+  "industry": "金融",
+  "region": "深圳",
+  "revenue_b": 3391.23,
+  "employees": 116529,
+  "founded": null
+ },
+ {
+  "company_id": "C041",
+  "name": "中国平安",
+  "industry": "金融",
+  "region": "深圳",
+  "revenue_b": 10318.63,
+  "employees": 288751,
+  "founded": null
+ },
+ {
+  "company_id": "C042",
+  "name": "贵州茅台",
+  "industry": "消费品",
+  "region": "遵义",
+  "revenue_b": 1505.6,
+  "employees": 30060,
+  "founded": null
+ },
+ {
+  "company_id": "C043",
+  "name": "海尔智家",
+  "industry": "家电",
+  "region": "青岛",
+  "revenue_b": 2614.28,
+  "employees": 109586,
+  "founded": null
+ },
+ {
+  "company_id": "C044",
+  "name": "美的集团",
+  "industry": "家电",
+  "region": "佛山",
+  "revenue_b": 3737.1,
+  "employees": 166243,
+  "founded": null
+ }
+]

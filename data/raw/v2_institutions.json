@@ -1,0 +1,122 @@
+[
+ {
+  "openalex_id": "https://openalex.org/I66867065",
+  "name": "East China Normal University",
+  "cn_name": "华东师范大学",
+  "country": "CN",
+  "works_count": 87063,
+  "cited_by_count": 5370157,
+  "h_index": 504,
+  "region": "Shanghai"
+ },
+ {
+  "openalex_id": "https://openalex.org/I183067930",
+  "name": "Shanghai Jiao Tong University",
+  "cn_name": "上海交通大学",
+  "country": "CN",
+  "works_count": 374012,
+  "cited_by_count": 29020410,
+  "h_index": 896,
+  "region": "Shanghai"
+ },
+ {
+  "openalex_id": "https://openalex.org/I24943067",
+  "name": "Fudan University",
+  "cn_name": "复旦大学",
+  "country": "CN",
+  "works_count": 246802,
+  "cited_by_count": 20760842,
+  "h_index": 866,
+  "region": "Shanghai"
+ },
+ {
+  "openalex_id": "https://openalex.org/I99065089",
+  "name": "Tsinghua University",
+  "cn_name": "清华大学",
+  "country": "CN",
+  "works_count": 385559,
+  "cited_by_count": 34407875,
+  "h_index": 1197,
+  "region": "Beijing"
+ },
+ {
+  "openalex_id": "https://openalex.org/I76130692",
+  "name": "Zhejiang University",
+  "cn_name": "浙江大学",
+  "country": "CN",
+  "works_count": 377022,
+  "cited_by_count": 30471191,
+  "h_index": 963,
+  "region": "Hangzhou"
+ },
+ {
+  "openalex_id": "https://openalex.org/I20231570",
+  "name": "Peking University",
+  "cn_name": "北京大学",
+  "country": "CN",
+  "works_count": 400057,
+  "cited_by_count": 33546541,
+  "h_index": 1143,
+  "region": "Beijing"
+ },
+ {
+  "openalex_id": "https://openalex.org/I113940042",
+  "name": "Shanghai University",
+  "cn_name": "上海大学",
+  "country": "CN",
+  "works_count": 102439,
+  "cited_by_count": 5315943,
+  "h_index": 476,
+  "region": "Shanghai"
+ },
+ {
+  "openalex_id": "https://openalex.org/I116953780",
+  "name": "Tongji University",
+  "cn_name": "同济大学",
+  "country": "CN",
+  "works_count": 195688,
+  "cited_by_count": 11037400,
+  "h_index": 601,
+  "region": "Shanghai"
+ },
+ {
+  "openalex_id": "https://openalex.org/I96733725",
+  "name": "Shanghai Maritime University",
+  "cn_name": "上海海事大学",
+  "country": "CN",
+  "works_count": 22475,
+  "cited_by_count": 634374,
+  "h_index": 209,
+  "region": "Shanghai"
+ },
+ {
+  "openalex_id": "https://openalex.org/I139759216",
+  "name": "Beijing University of Posts and Telecommunications",
+  "cn_name": "北京邮电大学",
+  "country": "CN",
+  "works_count": 81963,
+  "cited_by_count": 2916265,
+  "h_index": 393,
+  "region": "Beijing"
+ },
+ {
+  "openalex_id": "https://openalex.org/I47720641",
+  "name": "Huazhong University of Science and Technology",
+  "cn_name": "华中科技大学",
+  "country": "CN",
+  "works_count": 268373,
+  "cited_by_count": 24450402,
+  "h_index": 915,
+  "region": "Wuhan"
+ },
+ {
+  "openalex_id": "https://openalex.org/I126520041",
+  "name": "University of Science and Technology of China",
+  "cn_name": "中国科学技术大学",
+  "country": "CN",
+  "works_count": 213792,
+  "cited_by_count": 23858003,
+  "h_index": 992,
+  "region": "Hefei"
+ }
+]

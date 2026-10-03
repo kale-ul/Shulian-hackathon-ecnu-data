@@ -1,0 +1,286 @@
+﻿openalex_id,name,type
+S4210191458,Proceedings of the AAAI Conference on Artificial Intelligence,conference
+S30698027,IEEE Transactions on Knowledge and Data Engineering,journal
+S4306419999,International Joint Conference on Artificial Intelligence,conference
+S129236917,World Wide Web,journal
+S2912241403,Nature Machine Intelligence,journal
+S4363608773,Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval,conference
+S106296714,Lecture notes in computer science,book series
+S4210231404,Frontiers of Computer Science,journal
+S88457320,Journal of Mechanical Design,journal
+S7407056385,Institutional Repositories DataBase (IRDB),repository
+S4210194376,AI Open,journal
+S4363608783,Proceedings of the ACM Web Conference 2022,conference
+S12529635,Computers & Security,journal
+S203062545,Science China Earth Sciences,journal
+S174847851,Information Processing & Management,journal
+S4210226185,Proceedings of the VLDB Endowment,journal
+S78926909,The VLDB Journal,journal
+S4363608767,Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining,conference
+S4363605144,Findings of the Association for Computational Linguistics: ACL 2022,conference
+S4363608846,Companion Proceedings of the Web Conference 2022,conference
+S4306401281,Zurich Open Repository and Archive (University of Zurich),repository
+S10169007,Knowledge-Based Systems,journal
+S41143188,Chemical Reviews,journal
+S68686220,Proceedings of the IEEE,journal
+S4210167893,Communications Medicine,journal
+S4306421405,ACM Transactions on Asian and Low-Resource Language Information Processing,journal
+S4306420732,Principles of Knowledge Representation and Reasoning,conference
+S4306419219,International Conference on Computational Linguistics,conference
+S4363608652,Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),conference
+S65486112,Archives of Computational Methods in Engineering,journal
+S2736968195,Heritage Science,journal
+S45693802,Neurocomputing,journal
+S2492086750,ACM Transactions on Intelligent Systems and Technology,journal
+S4210219751,Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies,journal
+S172073041,Automation in Construction,journal
+S4363608991,Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing,conference
+S131231701,ACM Transactions on the Web,journal
+S204223317,IEEE Transactions on Services Computing,journal
+S115173108,IEEE Transactions on Circuits and Systems for Video Technology,journal
+S41523882,ACM Transactions on Knowledge Discovery from Data,journal
+S68497187,Renewable and Sustainable Energy Reviews,journal
+S900972176,Engineering Applications of Artificial Intelligence,journal
+S4210219776,Information,journal
+S4210215815,Nature Synthesis,journal
+S105046310,ACM Transactions on Design Automation of Electronic Systems,journal
+S8178725,Ocean & Coastal Management,journal
+S13144211,Expert Systems with Applications,journal
+S111395508,Intelligent Buildings International,journal
+S112141509,Advanced Engineering Informatics,journal
+S61310614,IEEE Transactions on Information Forensics and Security,journal
+S4220650901,Chinese Journal of Mechanical Engineering,journal
+S4306420056,International Semantic Web Conference,conference
+S151820558,Pattern Recognition Letters,journal
+S4210175523,IEEE Transactions on Neural Networks and Learning Systems,journal
+S4210186383,Data Intelligence,journal
+S4210189857,Frontiers of Information Technology & Electronic Engineering,journal
+S2486411021,Data Science and Engineering,journal
+S193006928,Information Systems,journal
+S4210240396,Journal of Mechanical Engineering,journal
+S186357190,Future Generation Computer Systems,journal
+S2480266640,IEEE Internet of Things Journal,journal
+S4210177235,Semantic Web,journal
+S4210178793,Health Information Science and Systems,journal
+S4363608757,Proceedings of the 30th ACM International Conference on Multimedia,conference
+S4306525036,PubMed,repository
+S11622463,Journal of Biomedical Informatics,journal
+S2764900261,Communications in computer and information science,book series
+S4210190156,Stroke and Vascular Neurology,journal
+S2491948244,IEEE Geoscience and Remote Sensing Magazine,journal
+S137773608,Nature,journal
+S2487656537,Computational Visual Media,journal
+S4210173141,IEEE Transactions on Image Processing,journal
+S111326731,IEEE Transactions on Geoscience and Remote Sensing,journal
+S137030581,IEEE Transactions on Multimedia,journal
+S141808269,Remote Sensing of Environment,journal
+S142305363,Computer Physics Communications,journal
+S4210192142,Engineering,journal
+S4306420647,Operating Systems Design and Implementation,conference
+S4210239724,Nature Electronics,journal
+S120977877,IEEE Signal Processing Magazine,journal
+S199944782,IEEE Transactions on Pattern Analysis and Machine Intelligence,journal
+S4363607701,2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),conference
+S64511102,Transportation Research Part C Emerging Technologies,journal
+S55737203,Journal of Hydrology,journal
+S109565702,Applied Energy,journal
+S184777250,IEEE Transactions on Industrial Informatics,journal
+S196734849,Scientific Reports,journal
+S155547894,Genomics Proteomics & Bioinformatics,journal
+S5240358,IEEE Transactions on Biomedical Engineering,journal
+S158797327,IEEE Communications Magazine,journal
+S159450355,China Communications,journal
+S64187185,Nature Communications,journal
+S2484288132,IEEE/CAA Journal of Automatica Sinica,journal
+S4306420609,Neural Information Processing Systems,conference
+S192894947,Mobile Networks and Applications,journal
+S89543202,ISA Transactions,journal
+S336866,Comprehensive Reviews in Food Science and Food Safety,journal
+S96000363,Journal of Process Control,journal
+S414566,Pattern Recognition,journal
+S4210202585,Agriculture,journal
+S95522064,Medical Physics,journal
+S173339282,ISPRS Journal of Photogrammetry and Remote Sensing,journal
+S2495854775,IEEE Journal of Biomedical and Health Informatics,journal
+S84775595,IEEE Transactions on Visualization and Computer Graphics,journal
+S63392143,Computer Networks,journal
+S150671403,Computers & Chemical Engineering,journal
+S116571295,Medical Image Analysis,journal
+S126920919,IEEE Geoscience and Remote Sensing Letters,journal
+S29980478,Construction and Building Materials,journal
+S138959710,Computer Methods and Programs in Biomedicine,journal
+S146764194,IEEE Wireless Communications,journal
+S81770430,Knowledge and Information Systems,journal
+S23688054,IEEE Communications Surveys & Tutorials,journal
+S4394735545,ACM Transactions on Information Systems,journal
+S58069681,IEEE Transactions on Medical Imaging,journal
+S122814990,Artificial Intelligence Review,journal
+S24978797,Tsinghua Science & Technology,journal
+S4306555428,癌症：英文版,journal
+S2488537894,IEEE Transactions on Cognitive and Developmental Systems,journal
+S2739142469,Signal Transduction and Targeted Therapy,journal
+S3880285,Science,journal
+S135184319,ACS Photonics,journal
+S3444786,Neuroinformatics,journal
+S202381698,PLoS ONE,journal
+S50280174,Radiology,journal
+S134177497,IEEE Transactions on Fuzzy Systems,journal
+S116775814,Computers and Electronics in Agriculture,journal
+S106174089,Geophysics,journal
+S192559872,Analytica Chimica Acta,journal
+S4210191041,IEEE Transactions on Cybernetics,journal
+S101949793,Sensors,journal
+S40006715,Computer Methods in Applied Mechanics and Engineering,journal
+S9070373,Nano-Micro Letters,journal
+S184645833,Chemical Science,journal
+S4210209078,IEEE Transactions on Systems Man and Cybernetics Systems,journal
+S4210169297,IEEE/ACM Transactions on Audio Speech and Language Processing,journal
+S2485537415,IEEE Access,journal
+S203256638,Nature Medicine,journal
+S7560371,Information Fusion,journal
+S144771191,IEEE Transactions on Intelligent Transportation Systems,journal
+S120037611,Journal of Manufacturing Processes,journal
+S44278595,Computers in Biology and Medicine,journal
+S161464388,Journal of Intelligent Manufacturing,journal
+S123019304,Neural Networks,journal
+S199497470,IEEE Transactions on Audio Speech and Language Processing,journal
+S103321696,European Journal of Operational Research,journal
+S149016011,Electronics Letters,journal
+S59604973,IEEE Transactions on Smart Grid,journal
+S2755174949,Annals of Translational Medicine,journal
+S77581241,Insect Science,journal
+S4220650979,iMeta,journal
+S134668137,Nucleic Acids Research,journal
+S2298632,Nature Neuroscience,journal
+S127827428,Nature Methods,journal
+S13479253,Environmental Science & Technology,journal
+S98183460,IEEE Transactions on Neural Systems and Rehabilitation Engineering,journal
+S113170167,Journal of Molecular Modeling,journal
+S62969111,Data Science Journal,journal
+S2597340651,Frontiers in Genetics,journal
+S81160022,Genome biology,journal
+S181332294,Physical Chemistry Chemical Physics,journal
+S106963461,Nature Biotechnology,journal
+S52395412,Bioinformatics,journal
+S192650101,Information Sciences,journal
+S58031724,IEEE Transactions on Industrial Electronics,journal
+S113611870,Environmental Modelling & Software,journal
+S43295729,Remote Sensing,journal
+S91767247,Briefings in Bioinformatics,journal
+S180838163,Journal of Cheminformatics,journal
+S87725633,IEEE Transactions on Reliability,journal
+S117411352,International Journal of Remote Sensing,journal
+S167961193,Journal of Statistical Software,journal
+S105637730,Energy Conversion and Management,journal
+S21165490,Acta Ophthalmologica,journal
+S58516903,Journal of Cleaner Production,journal
+S48031226,Journal of Ambient Intelligence and Humanized Computing,journal
+S164566984,Physical Review A,journal
+S13619737,Magnetic Resonance Imaging,journal
+S98455728,Sensors and Actuators B Chemical,journal
+S815301,Renewable Energy,journal
+S4363607764,2021 IEEE/CVF International Conference on Computer Vision (ICCV),conference
+S84695101,The Plant Genome,journal
+S128368299,Mechanical Systems and Signal Processing,journal
+S7858788,Analytical Biochemistry,journal
+S97130795,IEEE Transactions on Parallel and Distributed Systems,journal
+S29243050,The Scientific World JOURNAL,journal
+S2898305631,Joule,journal
+S4210169448,IEEE Transactions on Artificial Intelligence,journal
+S117727964,IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing,journal
+S118216261,Robotics and Computer-Integrated Manufacturing,journal
+S2497375143,Energy,journal
+S2491400915,IEEE Transactions on Big Data,journal
+S19032547,BMC Bioinformatics,journal
+S2898150413,Visual Informatics,journal
+S8351582,IEEE Transactions on Software Engineering,journal
+S4393917359,Berichte aus der medizinischen Informatik und Bioinformatik/Journal of integrative bioinformatics,journal
+S4210222834,High Voltage,journal
+S53142634,International Journal of Medical Informatics,journal
+S147897268,Neural Computing and Applications,journal
+S4210218743,Science China Information Sciences,journal
+S4210169774,IEEE Robotics and Automation Letters,journal
+S4210237014,The Lancet Digital Health,journal
+S4210206302,Humanities and Social Sciences Communications,journal
+S33876618,Journal of Pacific Rim Psychology,journal
+S2531685872,EBioMedicine,journal
+S4210195431,npj Digital Medicine,journal
+S157921468,ACM Computing Surveys,journal
+S4210198061,Patterns,journal
+S4387280558,Communications Engineering,journal
+S2764830010,International Journal of Disaster Risk Reduction,journal
+S129839026,Journal of the American Medical Informatics Association,journal
+S4210172589,SSRN Electronic Journal,repository
+S2729999759,Transactions of the Association for Computational Linguistics,journal
+S60115552,Computers Environment and Urban Systems,journal
+S4306542128,中国科学通报：英文版,journal
+S4306400194,arXiv (Cornell University),repository
+S4210220735,npj Science of Learning,journal
+S112809824,ACM Transactions on Reconfigurable Technology and Systems,journal
+S37151855,Journal of Medical Systems,journal
+S142026636,Journal of Translational Medicine,journal
+S100649693,Computer Assisted Language Learning,journal
+S4210191137,Buildings,journal
+S4210178142,Intelligent Medicine,journal
+S142627899,ACM Transactions on Software Engineering and Methodology,journal
+S133795288,IEEE Transactions on Dependable and Secure Computing,journal
+S2898462621,Synthetic and Systems Biotechnology,journal
+S4210178498,Communications in Transportation Research,journal
+S4210228084,Nature Computational Science,journal
+S19610489,ACM Transactions on Multimedia Computing Communications and Applications,journal
+S4389157821,NEJM AI,journal
+S4387289164,Visual Intelligence,journal
+S2764346689,Swarm and Evolutionary Computation,journal
+S186584794,IEEE Network,journal
+S188336720,Accident Analysis & Prevention,journal
+S4210236180,The Innovation,journal
+S42468263,Artificial Intelligence in Medicine,journal
+S17147534,Journal of Medical Internet Research,journal
+S2764478331,Journal of Building Engineering,journal
+S4210185134,Health Data Science,journal
+S4210186228,Intelligence & Robotics,journal
+S4210216867,Cell Reports Physical Science,journal
+S79587146,British Journal of Ophthalmology,journal
+S28082686,Machine Intelligence Research,journal
+S4210193350,Drones,journal
+S4210206740,Energy and Built Environment,journal
+S137445289,Cities,journal
+S173178594,Journal of Computing and Information Science in Engineering,journal
+S47508943,ACM SIGMOD Record,journal
+S104597489,Landscape and Urban Planning,journal
+S2764507669,JMIR Public Health and Surveillance,journal
+S4306521130,NTT technical review,journal
+S10134376,Sustainability,journal
+S97403527,Egyptian Informatics Journal,journal
+S4210196034,The Lancet Regional Health - Europe,journal
+S235346,Wireless Communications and Mobile Computing,journal
+S4210198237,Data & Policy,journal
+S4210238442,Measurement Sensors,journal
+S196280712,International Journal of Public Health,journal
+S4306401271,RePEc: Research Papers in Economics,repository
+S2809516038,National Bureau of Economic Research,repository
+S147767848,Measurement,journal
+S178916657,Computer,journal
+S4306401280,DOAJ (DOAJ: Directory of Open Access Journals),repository
+S4210228009,"Advances in economics, business and management research/Advances in Economics, Business and Management Research",book series
+S4210228075,Computers,journal
+S6309402219,Preprints.org,repository
+S4210173430,Chinese Science Bulletin (Chinese Version),journal
+S4387280434,Advances in Education Humanities and Social Science Research,journal
+S4210202905,Electronics,journal
+S4210185096,IFIP advances in information and communication technology,book series
+S168273071,International Review of Economics & Finance,journal
+S4210179954,Lecture notes in electrical engineering,book series
+S4210201231,Socio-Environmental Systems Modeling,journal
+S126013225,Systems Research and Behavioral Science,journal
+S4306400562,Zenodo (CERN European Organization for Nuclear Research),repository
+S4306401964,Communities in ADDI (University of the Basque Country),repository
+S4210179765,Studies in health technology and informatics,book series
+S4306530612,Special Issues,journal
+S4387284889,European Health & Pharmaceutical Law Review,journal
+S4210177767,Lecture notes in business information processing,book series
+S4210238080,Open Research Europe,journal
+S7407055233,TNO Repository,repository
+S7407050937,ScienceDB,repository
+S4210225659,I2D - Information données & documents,journal
+S2764572829,Advances in Science Technology and Engineering Systems Journal,journal

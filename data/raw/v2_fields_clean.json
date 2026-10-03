@@ -1,0 +1,47 @@
+[
+ {
+  "field_id": "C2987255567",
+  "name": "knowledge graph",
+  "cn_name": "知识图谱"
+ },
+ {
+  "field_id": "C108583219",
+  "name": "deep learning",
+  "cn_name": "深度学习"
+ },
+ {
+  "field_id": "C124101348",
+  "name": "data mining",
+  "cn_name": "数据挖掘"
+ },
+ {
+  "field_id": "C2992525071",
+  "name": "federated learning",
+  "cn_name": "联邦学习"
+ },
+ {
+  "field_id": "C147168706",
+  "name": "graph neural network",
+  "cn_name": "图神经网络"
+ },
+ {
+  "field_id": "C2129575",
+  "name": "semantic web",
+  "cn_name": "语义网"
+ },
+ {
+  "field_id": "C196879817",
+  "name": "data governance",
+  "cn_name": "数据治理"
+ },
+ {
+  "field_id": "C44104985",
+  "name": "supply chain management",
+  "cn_name": "供应链管理"
+ },
+ {
+  "field_id": "C45296417",
+  "name": "logistics optimization",
+  "cn_name": "物流优化"
+ }
+]

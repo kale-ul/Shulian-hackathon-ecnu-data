@@ -1,0 +1,50 @@
+[
+ {
+  "openalex_id": "https://openalex.org/C2987255567",
+  "name": "Knowledge graph",
+  "cn_label": "知识图谱",
+  "level": 2,
+  "works_count": 37932,
+  "description": "information repository structured as a graph"
+ },
+ {
+  "openalex_id": "https://openalex.org/C108583219",
+  "name": "Deep learning",
+  "cn_label": "深度学习",
+  "level": 2,
+  "works_count": 757254,
+  "description": "branch of machine learning"
+ },
+ {
+  "openalex_id": "https://openalex.org/C2988773926",
+  "name": "Generative adversarial network",
+  "cn_label": "深度学习",
+  "level": 3,
+  "works_count": 19785,
+  "description": "deep learning method"
+ },
+ {
+  "openalex_id": "https://openalex.org/C124101348",
+  "name": "Data mining",
+  "cn_label": "数据挖掘",
+  "level": 1,
+  "works_count": 10790528,
+  "description": "process of discovering patterns in large data sets using computational methods at the intersection of statistics, database systems, or machine learning"
+ },
+ {
+  "openalex_id": "https://openalex.org/C139002025",
+  "name": "Lift (data mining)",
+  "cn_label": "数据挖掘",
+  "level": 2,
+  "works_count": 117793,
+  "description": "term in data mining and association rule learning"
+ },
+ {
+  "openalex_id": "https://openalex.org/C2777598771",
+  "name": "Educational data mining",
+  "cn_label": "数据挖掘",
+  "level": 2,
+  "works_count": 7619,
+  "description": "research field"
+ }
+]

@@ -1,0 +1,20 @@
+{
+  "_说明": "把平台接入任意 MCP 兼容的 AI 客户端。推荐用 HTTP 方式（无需本机路径）。",
+  "mcpServers": {
+    "ai-data-platform": {
+      "type": "http",
+      "url": "http://127.0.0.1:8610/mcp",
+      "_http_note": "统一网关(8610)已内置 MCP Streamable HTTP 端点；同域也暴露 /v1/mcp"
+    }
+  },
+  "stdio_替代方案": "若客户端只支持 stdio：command 用本机 python 可执行文件绝对路径，args 用 [<项目绝对路径>\\aiplatform\\mcp_server.py]。把下两行占位符换成你解压后的实际绝对路径：",
+  "stdio_example": {
+    "mcpServers": {
+      "ai-data-platform": {
+        "command": "C:\\PATH\\TO\\项目\\.venv\\Scripts\\python.exe",
+        "args": ["C:\\PATH\\TO\\项目\\aiplatform\\mcp_server.py"],
+        "cwd": "C:\\PATH\\TO\\项目"
+      }
+    }
+  }
+}

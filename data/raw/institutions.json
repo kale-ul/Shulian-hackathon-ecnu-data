@@ -1,0 +1,47 @@
+[
+ {
+  "openalex_id": "https://openalex.org/I66867065",
+  "name": "East China Normal University",
+  "country": "CN",
+  "works_count": 86990,
+  "cited_by_count": 5364868,
+  "h_index": 504,
+  "homepage": "https://www.ecnu.edu.cn"
+ },
+ {
+  "openalex_id": "https://openalex.org/I183067930",
+  "name": "Shanghai Jiao Tong University",
+  "country": "CN",
+  "works_count": 373748,
+  "cited_by_count": 28992435,
+  "h_index": 896,
+  "homepage": "https://www.sjtu.edu.cn"
+ },
+ {
+  "openalex_id": "https://openalex.org/I24943067",
+  "name": "Fudan University",
+  "country": "CN",
+  "works_count": 246645,
+  "cited_by_count": 20742628,
+  "h_index": 865,
+  "homepage": "https://fudan.edu.cn"
+ },
+ {
+  "openalex_id": "https://openalex.org/I99065089",
+  "name": "Tsinghua University",
+  "country": "CN",
+  "works_count": 385288,
+  "cited_by_count": 34375219,
+  "h_index": 1197,
+  "homepage": "https://www.tsinghua.edu.cn"
+ },
+ {
+  "openalex_id": "https://openalex.org/I76130692",
+  "name": "Zhejiang University",
+  "country": "CN",
+  "works_count": 376760,
+  "cited_by_count": 30440412,
+  "h_index": 963,
+  "homepage": "https://www.zju.edu.cn"
+ }
+]

@@ -1,0 +1,61 @@
+# Personal credentials and machine-local configuration
+/ai_clients.json
+.env
+.env.*
+!.env.example
+!.env.sample
+/.streamlit/secrets.toml
+/mcp_config.local.json
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Accounts, private graphs and uploaded original files
+/data/users.json
+/data/private/
+/data/raw/uploads/
+
+# Python environments, caches and packaging output
+/.venv/
+/venv/
+/env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+/build/
+/dist/
+
+# Rebuildable database, RDF output and generated presentation pages
+/data/processed/*.duckdb
+/data/processed/*.duckdb.*
+/data/processed/*.ttl
+/app/console_data.json
+/app/static_console.html
+/app/showcase.html
+
+# Local proposal documents may contain personal metadata
+/方案文档/
+
+# Local tooling, logs and temporary files
+/.codex/
+/.agents/
+/.aws/
+/.vscode/
+/.idea/
+*.log
+*.tmp
+*.bak
+*.swp
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,42 @@
+[
+ {
+  "dataset_id": "D001",
+  "name": "OpenAlex 学术知识图谱",
+  "field": "知识图谱",
+  "size": "2.5亿+ 论文记录",
+  "license": "CC0",
+  "url": "https://openalex.org"
+ },
+ {
+  "dataset_id": "D002",
+  "name": "arXiv 全文语料",
+  "field": "大语言模型",
+  "size": "240万+ 论文",
+  "license": "CC0",
+  "url": "https://arxiv.org"
+ },
+ {
+  "dataset_id": "D003",
+  "name": "Crossref 元数据",
+  "field": "数据治理",
+  "size": "1.5亿+ DOI",
+  "license": "开放",
+  "url": "https://crossref.org"
+ },
+ {
+  "dataset_id": "D004",
+  "name": "DBLP 计算机文献库",
+  "field": "数据挖掘",
+  "size": "700万+ 条目",
+  "license": "开放",
+  "url": "https://dblp.org"
+ },
+ {
+  "dataset_id": "D005",
+  "name": "中国上市公司年报数据",
+  "field": "供应链管理",
+  "size": "5000+ 公司",
+  "license": "公开披露",
+  "url": "-"
+ }
+]

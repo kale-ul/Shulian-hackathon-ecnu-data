@@ -1,0 +1,6 @@
+dataset_id,name,field,size,license,url
+D001,OpenAlex 学术知识图谱,知识图谱,2.5亿+ 论文记录,CC0,https://openalex.org
+D002,arXiv 全文语料,大语言模型,240万+ 论文,CC0,https://arxiv.org
+D003,Crossref 元数据,数据治理,1.5亿+ DOI,开放,https://crossref.org
+D004,DBLP 计算机文献库,数据挖掘,700万+ 条目,开放,https://dblp.org
+D005,中国上市公司年报数据,供应链管理,5000+ 公司,公开披露,-

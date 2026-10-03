@@ -1,0 +1,12 @@
+[
+  {
+    "key": "deepseek",
+    "name": "DeepSeek",
+    "kind": "http",
+    "model": "deepseek-chat",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "api_key": null,
+    "note": "Set the API key in the server environment; do not commit it."
+  }
+]

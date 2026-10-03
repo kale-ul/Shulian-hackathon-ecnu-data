@@ -1,0 +1,876 @@
+﻿openalex_id,doi,title,year,cited_by_count,venue_id,type
+W2184957013,https://doi.org/10.1609/aaai.v29i1.9491,Learning Entity and Relation Embeddings for Knowledge Graph Completion,2015,3690,S4210191458,conference-paper
+W2953356739,https://doi.org/10.18653/v1/p19-1139,ERNIE: Enhanced Language Representation with Informative Entities,2019,1435,,conference-paper
+W2792839191,https://doi.org/10.1145/3269206.3271739,RippleNet,2018,1161,,conference-paper
+W2913560138,https://doi.org/10.1145/3308558.3313417,Knowledge Graph Convolutional Networks for Recommender Systems,2019,1013,,conference-paper
+W3035017890,https://doi.org/10.1109/cvpr42600.2020.00377,Unbiased Scene Graph Generation From Biased Training,2020,755,,conference-paper
+W2499696929,https://doi.org/10.1609/aaai.v30i1.10329,Representation Learning of Knowledge Graphs with Entity Descriptions,2016,735,S4210191458,conference-paper
+W3129482887,https://doi.org/10.1145/3442381.3450133,Learning Intents behind Interactions with Knowledge Graph for Recommendation,2021,581,,conference-paper
+W2912351665,https://doi.org/10.1145/3308558.3313411,Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation,2019,556,,conference-paper
+W2807873315,https://doi.org/10.24963/ijcai.2018/643,Commonsense Knowledge Aware Conversation Generation with Graph Attention,2018,524,,conference-paper
+W2983995706,https://doi.org/10.18653/v1/d19-1282,KagNet: Knowledge-Aware Graph Networks for Commonsense Reasoning,2019,485,,conference-paper
+W2741750617,https://doi.org/10.24963/ijcai.2017/595,Iterative Entity Alignment via Joint Knowledge Embeddings,2017,387,,conference-paper
+W2514852614,https://doi.org/10.18653/v1/p16-1219,TransG : A Generative Model for Knowledge Graph Embedding,2016,371,,conference-paper
+W2889583850,https://doi.org/10.18653/v1/d18-2024,OpenKE: An Open Toolkit for Knowledge Embedding,2018,348,,conference-paper
+W4312044727,https://doi.org/10.1109/tkde.2022.3224228,Multi-Modal Knowledge Graph Construction and Application: A Survey,2022,291,S30698027,article
+W2963485453,https://doi.org/10.18653/v1/n18-1133,KBGAN: Adversarial Learning for Knowledge Graph Embeddings,2018,280,,conference-paper
+W2526174222,https://doi.org/10.24963/ijcai.2017/438,Image-embodied Knowledge Representation Learning,2017,265,,conference-paper
+W2572179331,,Representation learning of knowledge graphs with hierarchical types,2016,258,S4306419999,conference-paper
+W2919278763,https://doi.org/10.18653/v1/n19-1306,Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks,2019,258,,conference-paper
+W4401754921,https://doi.org/10.1007/s11280-024-01297-w,LLMs for knowledge graph construction and reasoning: recent capabilities and future opportunities,2024,244,S129236917,article
+W4381679608,https://doi.org/10.1038/s42256-023-00654-0,Knowledge graph-enhanced molecular contrastive learning with functional prompt,2023,227,S2912241403,article
+W4229024390,https://doi.org/10.1145/3477495.3531992,Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion,2022,225,S4363608773,conference-paper
+W2912664727,https://doi.org/10.1145/3308558.3313607,Jointly Learning Explainable Rules for Recommendation with Knowledge Graph,2019,221,,conference-paper
+W3134371412,https://doi.org/10.1007/978-3-030-67658-2_18,GIKT: A Graph-Based Interaction Model for Knowledge Tracing,2021,204,S106296714,conference-paper
+W2945302307,https://doi.org/10.1145/3308560.3317701,Knowledge-Driven Stock Trend Prediction and Explanation via Temporal Convolutional Network,2019,191,,conference-paper
+W4386275705,https://doi.org/10.1109/tkde.2023.3310002,A Survey of Knowledge Enhanced Pre-Trained Language Models,2023,189,S30698027,article
+W3001896264,https://doi.org/10.1145/3336191.3371804,MRAEA,2020,176,,conference-paper
+W2970921796,https://doi.org/10.18653/v1/d19-1274,Semi-supervised Entity Alignment via Joint Knowledge Embedding Model and Cross-graph Model,2019,175,,conference-paper
+W3211888892,https://doi.org/10.1007/978-3-031-17140-6_29,AttacKG: Constructing Technique Knowledge Graph from Cyber Threat Intelligence Reports,2022,173,S106296714,conference-paper
+W3114916066,https://doi.org/10.18653/v1/2020.coling-main.327,CoLAKE: Contextualized Language and Knowledge Embedding,2020,172,,conference-paper
+W2962869320,https://doi.org/10.1145/3308558.3313612,Iteratively Learning Embeddings and Rules for Knowledge Graph Reasoning,2019,171,,conference-paper
+W2571811098,,Text-enhanced representation learning for knowledge graph,2016,169,S4306419999,conference-paper
+W2788798739,https://doi.org/10.1609/aaai.v32i1.11927,Neural Knowledge Acquisition via Mutual Attention Between Knowledge Graph and Text,2018,166,S4210191458,conference-paper
+W2524949478,https://doi.org/10.1007/s11704-016-5228-9,A retrospective of knowledge graphs,2016,158,S4210231404,article
+W3003507729,https://doi.org/10.1109/tkde.2020.2970044,Modeling Relation Paths for Knowledge Graph Completion,2020,156,S30698027,article
+W4382239895,https://doi.org/10.1609/aaai.v37i4.25601,Temporal Knowledge Graph Reasoning with Historical Contrastive Learning,2023,155,S4210191458,conference-paper
+W2986176093,https://doi.org/10.1145/3357384.3358166,Cross-Domain Recommendation via Preference Propagation GraphNet,2019,153,,conference-paper
+W3014406063,https://doi.org/10.1115/1.4046807,A Knowledge Graph-Aided Concept–Knowledge Approach for Evolutionary Smart Product–Service System Development,2020,152,S88457320,article
+W2907510403,https://doi.org/10.1145/3289600.3291014,Interaction Embeddings for Prediction and Explanation in Knowledge Graphs,2019,151,,conference-paper
+W2172684358,,Transition-based Knowledge Graph Embedding with Relational Mapping Properties,2014,139,S7407056385,conference-paper
+W3156850293,https://doi.org/10.1016/j.aiopen.2021.02.002,A comprehensive survey of entity alignment for knowledge graphs,2021,131,S4210194376,article
+W3187454871,https://doi.org/10.24963/ijcai.2021/379,Smart Contract Vulnerability Detection: From Pure Neural Network to Interpretable Graph Feature and Expert Pattern Fusion,2021,131,,conference-paper
+W4224317449,https://doi.org/10.1145/3485447.3512008,Knowledge Graph Reasoning with Relational Digraph,2022,129,S4363608783,conference-paper
+W4285600519,https://doi.org/10.24963/ijcai.2022/299,TiRGN: Time-Guided Recurrent Graph Network with Local-Global Historical Patterns for Temporal Knowledge Graph Reasoning,2022,128,,conference-paper
+W3191802839,https://doi.org/10.1109/tkde.2021.3124061,Anomaly Detection in Dynamic Graphs via Transformer,2021,127,S30698027,article
+W4386076360,https://doi.org/10.1109/cvpr52729.2023.01897,KiUT: Knowledge-injected U-Transformer for Radiology Report Generation,2023,127,,conference-paper
+W2336384382,https://doi.org/10.1609/aaai.v31i1.10952,SSP: Semantic Space Projection for Knowledge Graph Embedding with Text Descriptions,2017,126,S4210191458,conference-paper
+W3035191547,https://doi.org/10.24963/ijcai.2020/439,BERT-INT:A BERT-based Interaction Model For Knowledge Graph Alignment,2020,126,,conference-paper
+W3034569646,https://doi.org/10.18653/v1/2020.acl-main.184,Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs,2020,125,,conference-paper
+W3035442578,https://doi.org/10.24963/ijcai.2020/219,Improving Knowledge Tracing via Pre-training Question Embeddings,2020,125,,conference-paper
+W3075591326,https://doi.org/10.1145/3340531.3412001,Relational Reflection Entity Alignment,2020,119,,conference-paper
+W2963157366,https://doi.org/10.18653/v1/p18-1223,Entity-Duet Neural Ranking: Understanding the Role of Knowledge Graph Semantics in Neural Information Retrieval,2018,116,,conference-paper
+W3080152140,https://doi.org/10.1145/3394486.3403050,An Efficient Neighborhood-based Interaction Model for Recommendation on Heterogeneous Graph,2020,116,,conference-paper
+W3029587262,https://doi.org/10.1145/3397271.3401171,Leveraging Demonstrations for Reinforcement Recommendation Reasoning over Knowledge Graphs,2020,115,,conference-paper
+W4400612817,https://doi.org/10.1016/j.cose.2024.103999,LLM-TIKG: Threat intelligence knowledge graph construction utilizing large language model,2024,115,S12529635,article
+W2558476738,https://doi.org/10.24963/ijcai.2017/183,Knowledge Graph Representation with Jointly Structural and Textual Encoding,2017,114,,conference-paper
+W2890216969,https://doi.org/10.18653/v1/d18-1222,Differentiating Concepts and Instances for Knowledge Graph Embedding,2018,113,,conference-paper
+W3164032516,https://doi.org/10.1007/s11430-020-9750-4,Geoscience knowledge graph in the big data era,2021,110,S203062545,article
+W3035336738,https://doi.org/10.1145/3397271.3401427,Knowledge Graph-based Event Embedding Framework for Financial Quantitative Investments,2020,105,,conference-paper
+W3215452784,https://doi.org/10.1609/aaai.v36i4.20313,Molecular Contrastive Learning with Chemical Element Knowledge Graph,2022,103,S4210191458,conference-paper
+W2487925454,https://doi.org/10.1109/infocom.2016.7524578,De-anonymizing social networks and inferring private attributes using knowledge graphs,2016,102,,conference-paper
+W2901934569,https://doi.org/10.1109/icsme.2018.00028,Improving API Caveats Accessibility by Mining API Caveats Knowledge Graph,2018,98,,conference-paper
+W3036397942,https://doi.org/10.1016/j.ipm.2020.102324,"HKGB: An Inclusive, Extensible, Intelligent, Semi-auto-constructed Knowledge Graph Framework for Healthcare with Clinicians’ Expertise Incorporated",2020,97,S174847851,article
+W3104007871,https://doi.org/10.18653/v1/2020.emnlp-main.54,Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph,2020,97,,conference-paper
+W2482023025,https://doi.org/10.14778/2983200.2983201,Semantic SPARQL similarity search over RDF knowledge graphs,2016,96,S4210226185,article
+W3174048174,https://doi.org/10.1109/cvpr46437.2021.01545,Amalgamating Knowledge from Heterogeneous Graph Neural Networks,2021,94,,conference-paper
+W4287252285,https://doi.org/10.1007/s00778-022-00747-z,A benchmark and comprehensive survey on knowledge graph entity alignment via representation learning,2022,92,S78926909,article
+W4290927794,https://doi.org/10.1145/3534678.3539281,Spatio-Temporal Graph Few-Shot Learning with Cross-City Knowledge Transfer,2022,92,S4363608767,conference-paper
+W4285261975,https://doi.org/10.18653/v1/2022.findings-acl.282,Do Pre-trained Models Benefit Knowledge Graph Completion? A Reliable Evaluation and a Reasonable Approach,2022,90,S4363605144,conference-paper
+W4321480047,https://doi.org/10.1145/3539597.3570483,Knowledge-Adaptive Contrastive Learning for Recommendation,2023,89,,conference-paper
+W2004858782,https://doi.org/10.1145/2187836.2187899,Cross-lingual knowledge linking across wiki knowledge bases,2012,88,,conference-paper
+W2577076988,,"Knowledge representation learning with entities, attributes and relations",2016,88,S4306419999,conference-paper
+W2971142670,https://doi.org/10.18653/v1/d19-1334,Adapting Meta Knowledge Graph Information for Multi-Hop Reasoning over Few-Shot Relations,2019,87,,conference-paper
+W4221021831,https://doi.org/10.1145/3487553.3524238,From Discrimination to Generation: Knowledge Graph Completion with Generative Transformer,2022,86,S4363608846,conference-paper
+W4402716098,https://doi.org/10.1109/cvpr52733.2024.01076,Dynamic Graph Representation with Knowledge-Aware Attention for Histopathology Whole Slide Image Analysis,2024,86,,conference-paper
+W2964262329,https://doi.org/10.1609/aaai.v32i1.11924,Does William Shakespeare REALLY Write Hamlet? Knowledge Representation Learning With Confidence,2018,84,S4210191458,conference-paper
+W3156351347,https://doi.org/10.1145/3442381.3449816,AutoSTG: Neural Architecture Search for Predictions of Spatio-Temporal Graph✱,2021,84,,conference-paper
+W4403791927,https://doi.org/10.1145/3664647.3681327,Making Large Language Models Perform Better in Knowledge Graph Completion,2024,84,,conference-paper
+W3106176046,https://doi.org/10.5167/uzh-162876,Interaction Embeddings for Prediction and Explanation in Knowledge Graphs,2019,83,S4306401281,conference-paper
+W3093200502,https://doi.org/10.1145/3394171.3413943,Boosting Visual Question Answering with Context-aware Knowledge Aggregation,2020,82,,conference-paper
+W4206136286,https://doi.org/10.1016/j.knosys.2021.108100,JointE: Jointly utilizing 1D and 2D convolution for knowledge graph embedding,2022,81,S10169007,article
+W2891649471,https://doi.org/10.1145/3269206.3271768,Semi-supervised Learning on Graphs with Generative Adversarial Nets,2018,80,,conference-paper
+W2776054229,https://doi.org/10.1007/978-3-319-71249-9_43,TransT: Type-Based Multiple Embedding Representations for Knowledge Graph Completion,2017,79,S106296714,conference-paper
+W4414290389,https://doi.org/10.1021/acs.chemrev.5c00461,Graph Neural Networks in Modern AI-Aided Drug Discovery,2025,79,S41143188,review
+W3012584427,https://doi.org/10.1145/3366423.3380089,Relation Adversarial Network for Low Resource Knowledge Graph Completion,2020,78,,conference-paper
+W4379382656,https://doi.org/10.1109/jproc.2023.3279374,Zero-Shot and Few-Shot Learning With Knowledge Graphs: A Comprehensive Survey,2023,77,S68686220,article
+W3035566692,https://doi.org/10.1145/3397271.3401040,Jointly Non-Sampling Learning for Knowledge Graph Enhanced Recommendation,2020,76,,conference-paper
+W4224309032,https://doi.org/10.1145/3485447.3511945,SelfKG: Self-Supervised Entity Alignment in Knowledge Graphs,2022,76,S4363608783,conference-paper
+W2966459188,https://doi.org/10.24963/ijcai.2019/268,TransMS: Knowledge Graph Embedding for Complex Relations by Multidirectional Semantics,2019,75,,conference-paper
+W4207076851,https://doi.org/10.1145/3502223.3502233,FedE: Embedding Knowledge Graphs in Federated Setting,2021,75,,conference-paper
+W2912137501,https://doi.org/10.1145/3308558.3313586,Triple Trustworthiness Measurement for Knowledge Graph,2019,73,,conference-paper
+W4393260925,https://doi.org/10.1038/s43856-024-00486-y,Accurate and interpretable drug-drug interaction prediction enabled by knowledge subgraph learning,2024,73,S4210167893,article
+W3101786725,https://doi.org/10.18653/v1/2020.emnlp-main.579,A Knowledge-Aware Sequence-to-Tree Network for Math Word Problem Solving,2020,71,,conference-paper
+W4391681328,https://doi.org/10.1145/3641850,CodeKGC: Code Language Model for Generative Knowledge Graph Construction,2024,71,S4306421405,article
+W2963276152,,Knowledge graph embedding by flexible translation,2016,69,S4306420732,article
+W4284687473,https://doi.org/10.1145/3477495.3531757,Meta-Knowledge Transfer for Inductive Knowledge Graph Embedding,2022,69,S4363608773,conference-paper
+W2579831760,,GAKE: Graph Aware Knowledge Embedding,2016,68,S4306419219,conference-paper
+W4221157571,https://doi.org/10.1145/3485447.3511921,Ontology-enhanced Prompt-tuning for Few-shot Learning,2022,68,S4363608783,conference-paper
+W4225632115,https://doi.org/10.24963/ijcai.2022/318,Language Models as Knowledge Embeddings,2022,68,,conference-paper
+W4226361124,https://doi.org/10.18653/v1/2022.acl-long.415,Graph Pre-training for AMR Parsing and Generation,2022,66,S4363608652,conference-paper
+W4387789903,https://doi.org/10.1109/tkde.2023.3325484,AutoAlign: Fully Automatic and Effective Knowledge Graph Alignment Enabled by Large Language Models,2023,62,S30698027,article
+W3154815051,https://doi.org/10.1007/s11831-021-09576-9,Knowledge Extraction and Discovery Based on BIM: A Critical Review and Future Directions,2021,61,S65486112,article
+W3100187427,https://doi.org/10.18653/v1/2020.emnlp-main.459,Dynamic Anticipation and Completion for Multi-Hop Reasoning over Sparse Knowledge Graph,2020,60,,conference-paper
+W3166051255,https://doi.org/10.1145/3447548.3467057,AliCG: Fine-grained and Evolvable Conceptual Graph Construction for Semantic Search at Alibaba,2021,59,,conference-paper
+W4385270408,https://doi.org/10.1109/icde55515.2023.00098,Relational Message Passing for Fully Inductive Knowledge Graph Completion,2023,59,,conference-paper
+W1509849758,https://doi.org/10.1007/978-3-319-18818-8_31,FrameBase: Representing N-Ary Relations Using Semantic Frames,2015,58,S106296714,conference-paper
+W4386811014,https://doi.org/10.1186/s40494-023-01042-y,Using knowledge graphs and deep learning algorithms to enhance digital cultural heritage management,2023,58,S2736968195,article
+W4385574107,https://doi.org/10.18653/v1/2022.emnlp-main.1,Generative Knowledge Graph Construction: A Review,2022,57,,conference-paper
+W4388776291,https://doi.org/10.1016/j.neucom.2023.127044,Relphormer: Relational Graph Transformer for Knowledge Graph Representations,2023,57,S45693802,article
+W3209080096,https://doi.org/10.1145/3459637.3482010,MOOCCubeX: A Large Knowledge-centered Repository for Adaptive Learning in MOOCs,2021,56,,conference-paper
+W4328127395,https://doi.org/10.1145/3588577,UrbanKG: An Urban Knowledge Graph System,2023,56,S2492086750,article
+W3211468413,https://doi.org/10.1145/3494993,Spatio-Temporal Urban Knowledge Graph Enabled Mobility Prediction,2021,55,S4210219751,article
+W4409379779,https://doi.org/10.1016/j.autcon.2025.106179,Automating construction contract review using knowledge graph-enhanced large language models,2025,55,S172073041,article
+W3202473058,https://doi.org/10.1007/978-3-030-88361-4_9,Zero-Shot Visual Question Answering Using Knowledge Graph,2021,54,S106296714,conference-paper
+W4390146402,https://doi.org/10.1016/j.knosys.2023.111323,LMKG: A large-scale and multi-source medical knowledge graph for intelligent medicine applications,2023,53,S10169007,article
+W4367047490,https://doi.org/10.1145/3543507.3583412,KRACL: Contrastive Learning with Graph Context Modeling for Sparse Knowledge Graph Completion,2023,52,,conference-paper
+W2942231519,https://doi.org/10.1007/978-3-030-18576-3_42,A Knowledge Graph Enhanced Topic Modeling Approach for Herb Recommendation,2019,50,S106296714,conference-paper
+W4284672936,https://doi.org/10.1145/3477495.3531987,HAKG,2022,50,S4363608773,conference-paper
+W4285606599,https://doi.org/10.1016/j.knosys.2022.109459,Federated knowledge graph completion via embedding-contrastive learning,2022,50,S10169007,article
+W4396982395,https://doi.org/10.1109/tkde.2024.3399746,Scene-Driven Multimodal Knowledge Graph Construction for Embodied AI,2024,50,S30698027,article
+W3197381498,https://doi.org/10.18653/v1/2021.emnlp-main.139,CR-Walker: Tree-Structured Graph Reasoning and Dialog Acts for Conversational Recommendation,2021,48,S4363608991,conference-paper
+W3202082017,https://doi.org/10.18653/v1/2021.emnlp-main.222,Weakly-supervised Text Classification Based on Keyword Graph,2021,45,S4363608991,conference-paper
+W4224131719,https://doi.org/10.18653/v1/2022.acl-long.10,Dynamic Schema Graph Fusion Network for Multi-Domain Dialogue State Tracking,2022,42,S4363608652,conference-paper
+W4319795207,https://doi.org/10.1145/3543507.3583381,Unsupervised Entity Alignment for Temporal Knowledge Graphs,2023,42,,conference-paper
+W4322736931,https://doi.org/10.1145/3580510,Reinforced MOOCs Concept Recommendation in Heterogeneous Information Networks,2023,42,S131231701,article
+W4402671243,https://doi.org/10.18653/v1/2024.bionlp-1.13,KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques,2024,42,,conference-paper
+W4393154896,https://doi.org/10.1609/aaai.v38i3.28017,Structure-CLIP: Towards Scene Graph Knowledge to Enhance Multi-Modal Structured Representations,2024,39,S4210191458,conference-paper
+W4383890187,https://doi.org/10.1109/tsc.2023.3293890,LogKG: Log Failure Diagnosis Through Knowledge Graph,2023,37,S204223317,article
+W4379108576,https://doi.org/10.1109/tcsvt.2023.3282349,Label Semantic Knowledge Distillation for Unbiased Scene Graph Generation,2023,33,S115173108,article
+W4385482714,https://doi.org/10.1109/ijcnn54540.2023.10191314,Modality-Aware Negative Sampling for Multi-modal Knowledge Graph Embedding,2023,33,,conference-paper
+W4380344018,https://doi.org/10.1016/j.neucom.2023.126390,Hierarchical graph attention network for temporal knowledge graph reasoning,2023,31,S45693802,article
+W4390532736,https://doi.org/10.1145/3639472,Enhancing Heterogeneous Knowledge Graph Completion with a Novel GAT-based Approach,2024,26,S41523882,article
+W4407165300,https://doi.org/10.1016/j.rser.2025.115389,Low temperature heating methods for lithium-ion batteries: A state-of-art review based on knowledge graph,2025,26,S68497187,article
+W4404562698,https://doi.org/10.1016/j.engappai.2024.109711,A knowledge-refined hybrid graph model for quality prediction of industrial processes,2024,22,S900972176,article
+W4366331080,https://doi.org/10.1145/3539618.3591763,Schema-aware Reference as Prompt Improves Data-Efficient Knowledge Graph Construction,2023,21,,conference-paper
+W4403680948,https://doi.org/10.3390/info15110666,Construction of Legal Knowledge Graph Based on Knowledge-Enhanced Large Language Models,2024,21,S4210219776,article
+W4400525003,https://doi.org/10.1145/3626772.3657723,EditKG: Editing Knowledge Graph for Recommendation,2024,17,,conference-paper
+W4408507944,https://doi.org/10.1016/j.neucom.2025.129999,MKGF: A multi-modal knowledge graph based RAG framework to enhance LVLMs for Medical visual question answering,2025,17,S45693802,article
+W4409209969,https://doi.org/10.1038/s44160-025-00770-2,Integrating a multitask graph neural network with DFT calculations for site-selectivity prediction of arenes and mechanistic knowledge generation,2025,17,S4210215815,article
+W4410683950,https://doi.org/10.1145/3736166,AMSnet-KG: A Netlist Dataset for LLM-based AMS Circuit Auto-design Using Knowledge Graph RAG,2025,17,S105046310,article
+W4416612650,https://doi.org/10.1016/j.ocecoaman.2025.108015,Automated knowledge extraction from marine accident reports using large language models: Graph construction and evaluation,2025,17,S8178725,article
+W4405740227,https://doi.org/10.1016/j.eswa.2024.126175,Prompting disentangled embeddings for knowledge graph completion with pre-trained language model,2024,16,S13144211,article
+W4400486570,https://doi.org/10.1080/17508975.2024.2370372,Towards digital-twin-enabled facility management: the natural language processing model for managing facilities in buildings,2024,14,S111395508,article
+W4412956629,https://doi.org/10.1016/j.aei.2025.103633,Intelligent port logistics: A spatiotemporal knowledge graph and AI-agent framework for berth allocation,2025,13,S112141509,article
+W4416961238,https://doi.org/10.1109/tifs.2025.3639985,G 2 uardFL: Safeguarding Federated Learning Against Backdoor Attacks via Attributed Client Graph Clustering,2025,11,S61310614,article
+W4401863536,https://doi.org/10.1145/3637528.3671997,DiffusionE: Reasoning on Knowledge Graphs via Diffusion-based Graph Neural Networks,2024,10,,conference-paper
+W4412944954,https://doi.org/10.18653/v1/2025.acl-long.907,Tree-KG: An Expandable Knowledge Graph Construction Framework for Knowledge-intensive Domains,2025,9,,conference-paper
+W7133964346,https://doi.org/10.1016/j.cjme.2025.100141,Knowledge extraction and retrieval-augmented generation for intelligent maintenance of wind power equipment based on graph attention networks,2026,9,S4220650901,article
+W2965653989,https://doi.org/10.24963/ijcai.2019/674,Data Poisoning Attack against Knowledge Graph Embedding,2019,76,,conference-paper
+W2294078178,,XLore: a large-scale English-Chinese Bilingual knowledge graph,2013,73,S4306420056,conference-paper
+W2941274872,https://doi.org/10.1007/978-3-030-18590-9_81,AgriKG: An Agricultural Knowledge Graph and Its Applications,2019,65,S106296714,conference-paper
+W2994717084,https://doi.org/10.1145/3326937.3341257,An end-to-end neighborhood-based interaction model for knowledge-enhanced recommendation,2019,63,,conference-paper
+W2808652502,https://doi.org/10.24963/ijcai.2018/596,Translating Embeddings for Knowledge Graph Completion with Relation Attention Mechanism,2018,61,,conference-paper
+W2604791493,https://doi.org/10.1609/aaai.v31i1.10951,Incorporating Knowledge Graph Embeddings into Topic Modeling,2017,60,S4210191458,conference-paper
+W2131753116,https://doi.org/10.3115/v1/p14-1036,Collective Tweet Wikification based on Semi-supervised Graph Regularization,2014,58,,conference-paper
+W2039281672,https://doi.org/10.1145/2464464.2464470,Simultaneously detecting fake reviews and review spammers using factor graph model,2013,57,,conference-paper
+W2970485665,https://doi.org/10.18653/v1/d19-1269,Collaborative Policy Learning for Open Knowledge Graph Reasoning,2019,52,,conference-paper
+W2566820872,https://doi.org/10.1609/aaai.v30i1.10336,PEAK: Pyramid Evaluation via Automated Knowledge Extraction,2016,50,S4210191458,conference-paper
+W2767692092,https://doi.org/10.1145/3132847.3132912,Hike,2017,50,,conference-paper
+W3210317057,https://doi.org/10.1145/3459637.3482331,Conditional Graph Attention Networks for Distilling and Refining Knowledge Graphs in Recommendation,2021,48,,conference-paper
+W2522332826,https://doi.org/10.1016/j.patrec.2016.09.005,Distributed representation learning for knowledge graphs with entity descriptions,2016,44,S151820558,article
+W2596775847,https://doi.org/10.1109/tnnls.2017.2673243,Dynamic Uncertain Causality Graph for Knowledge Representation and Reasoning: Utilization of Statistical Data and Domain Knowledge in Complex Cases,2017,44,S4210175523,article
+W2934677901,https://doi.org/10.1162/dint_a_00003,XLORE2: Large-scale Cross-lingual Knowledge Graph Construction and Application,2019,43,S4210186383,article
+W3166938950,https://doi.org/10.18653/v1/2021.naacl-main.465,Improving Zero-Shot Cross-lingual Transfer for Multilingual Question Answering over Knowledge Graph,2021,43,,conference-paper
+W2985576648,https://doi.org/10.1145/3357384.3358156,Using External Knowledge for Financial Event Prediction Based on Graph Neural Networks,2019,41,,conference-paper
+W2251182116,https://doi.org/10.18653/v1/w15-4004,Joint Semantic Relevance Learning with Text Data and Graph Knowledge,2015,40,,conference-paper
+W2908826119,https://doi.org/10.1109/tkde.2019.2893939,Trust Relationship Prediction in Alibaba E-Commerce Platform,2019,40,S30698027,article
+W2996678664,https://doi.org/10.1631/fitee.1800260,An error recognition method for power equipment defect records based on knowledge graph technology,2019,39,S4210189857,article
+W3022382967,https://doi.org/10.1007/s41019-019-00109-w,Leveraging Domain Context for Question Answering Over Knowledge Graph,2019,38,S2486411021,article
+W3090716330,https://doi.org/10.1016/j.aiopen.2021.06.004,CokeBERT: Contextual knowledge selection and embedding towards enhanced pre-trained language models,2021,38,S4210194376,article
+W3217374296,https://doi.org/10.1609/aaai.v36i10.21425,DKPLM: Decomposable Knowledge-Enhanced Pre-trained Language Model for Natural Language Understanding,2022,36,S4210191458,conference-paper
+W4210914368,https://doi.org/10.1016/j.is.2022.102000,Bilateral knowledge graph enhanced online course recommendation,2022,36,S193006928,article
+W4230454915,https://doi.org/10.3901/jme.2021.05.090,A Review on Knowledge Graph and Its Application Prospects to Intelligent Manufacturing,2021,36,S4210240396,article
+W1608376207,https://doi.org/10.1109/icdew.2015.7129545,Challenges in Chinese knowledge graph construction,2015,35,,conference-paper
+W2604197414,https://doi.org/10.1609/aaai.v31i1.10676,Graph-Based Wrong IsA Relation Detection in a Large-Scale Lexical Taxonomy,2017,34,S4210191458,conference-paper
+W2889870114,https://doi.org/10.1016/j.future.2018.09.040,"Knowledge graph embedding via reasoning over entities, relations, and text",2018,34,S186357190,article
+W3010644598,https://doi.org/10.1109/jiot.2019.2959063,A3ID: An Automatic and Interpretable Implicit Interference Detection Method for Smart Home via Knowledge Graph,2019,32,S2480266640,article
+W3173937547,https://doi.org/10.18653/v1/2021.findings-acl.403,Modeling Event-Pair Relations in External Knowledge Graphs for Script Reasoning,2021,31,,conference-paper
+W3189907793,https://doi.org/10.24963/ijcai.2021/278,Unsupervised Knowledge Graph Alignment by Probabilistic Reasoning and Semantic Embedding,2021,31,,conference-paper
+W2985165384,https://doi.org/10.1145/3357384.3358014,Bayes EMbedding (BEM),2019,30,,conference-paper
+W3180352486,https://doi.org/10.1109/tkde.2021.3096200,Learning Relation Prototype from Unlabeled Texts for Long-tail Relation Extraction,2021,30,S30698027,article
+W3188599330,https://doi.org/10.3233/sw-210435,Explainable zero-shot learning via attentive graph convolutional network and knowledge graphs,2021,30,S4210177235,article
+W3012409376,https://doi.org/10.1007/s13755-020-0102-4,Automatic approach for constructing a knowledge graph of knee osteoarthritis in Chinese,2020,29,S4210178793,article
+W4304142382,https://doi.org/10.1145/3503161.3548257,Visual Knowledge Graph for Human Action Reasoning in Videos,2022,29,S4363608757,conference-paper
+W4367047402,https://doi.org/10.1145/3543507.3583401,Knowledge Graph Completion with Counterfactual Augmentation,2023,29,,conference-paper
+W2890711249,https://doi.org/10.1016/j.neucom.2018.08.070,Representation learning over multiple knowledge graphs for knowledge graphs alignment,2018,28,S45693802,article
+W3115091907,https://doi.org/10.18653/v1/2020.coling-main.217,GenWiki: A Dataset of 1.3 Million Content-Sharing Text and Graphs for Unsupervised Graph-to-Text Generation,2020,28,,conference-paper
+W3125333348,https://doi.org/10.1145/3324884.3416628,Generating concept based API element comparison using a knowledge graph,2020,28,,conference-paper
+W4372259959,https://doi.org/10.1109/icassp49357.2023.10095395,Time-Aware Multiway Adaptive Fusion Network for Temporal Knowledge Graph Question Answering,2023,28,,conference-paper
+W4379206827,https://doi.org/10.1016/j.jbi.2023.104415,Multimodal learning on graphs for disease relation extraction.,2023,28,S4306525036,article
+W4385573097,https://doi.org/10.18653/v1/2022.emnlp-main.207,Knowledge Prompting in Pre-trained Language Model for Natural Language Understanding,2022,28,,conference-paper
+W3168743030,https://doi.org/10.1016/j.jbi.2021.103834,KeMRE: Knowledge-enhanced medical relation extraction for Chinese medicine instructions,2021,27,S11622463,article
+W3174738170,https://doi.org/10.18653/v1/2021.findings-acl.354,Learning Contextualized Knowledge Structures for Commonsense Reasoning,2021,27,,conference-paper
+W3193273225,https://doi.org/10.1007/978-981-16-6471-7_26,DiaKG: An Annotated Diabetes Dataset for Medical Knowledge Graph Construction,2021,27,S2764900261,conference-paper
+W3197754599,https://doi.org/10.18653/v1/2021.emnlp-main.169,"Thinking Clearly, Talking Fast: Concept-Guided Non-Autoregressive Generation for Open-Domain Dialogue Systems",2021,27,S4363608991,conference-paper
+W3160260982,https://doi.org/10.1162/dint_a_00095,OpenKG Chain: A Blockchain Infrastructure for Open Knowledge Graphs,2021,26,S4210186383,article
+W3213525309,https://doi.org/10.18653/v1/2021.findings-emnlp.94,KERS: A Knowledge-Enhanced Framework for Recommendation Dialog Systems with Multiple Subgoals,2021,26,,conference-paper
+W4320507215,https://doi.org/10.1145/3579051.3579053,LaKo: Knowledge-driven Visual Question Answering via Late Knowledge-to-Text Injection,2022,25,,conference-paper
+W2960538829,https://doi.org/10.1109/icde48307.2020.00093,Improving Neural Relation Extraction with Implicit Mutual Relations,2020,24,,conference-paper
+W3037266902,https://doi.org/10.1145/3394486.3403325,Comprehensive Information Integration Modeling Framework for Video Titling,2020,24,,conference-paper
+W3209967235,https://doi.org/10.1145/3459637.3482232,Are Negative Samples Necessary in Entity Alignment?,2021,24,,conference-paper
+W3152893301,https://doi.org/10.1016/j.aiopen.2021.01.001,Graph neural networks: A review of methods and applications,2020,5853,S4210194376,article
+W2664267452,https://doi.org/10.1136/svn-2017-000101,"Artificial intelligence in healthcare: past, present and future",2017,4863,S4210190156,article
+W4321232185,https://doi.org/10.1007/978-3-031-25066-8_9,Swin-Unet: Unet-Like Pure Transformer for Medical Image Segmentation,2023,3997,S106296714,conference-paper
+W2764034829,https://doi.org/10.1109/mgrs.2017.2762307,Deep Learning in Remote Sensing: A Comprehensive Review and List of Resources,2017,3230,S2491948244,article
+W2774644650,https://doi.org/10.1109/cvpr.2018.00957,Boosting Adversarial Attacks with Momentum,2018,3045,,conference-paper
+W2799058067,https://doi.org/10.1109/cvpr.2018.00935,High Performance Visual Tracking with Siamese Region Proposal Network,2018,3028,,conference-paper
+W2887280559,https://doi.org/10.1007/978-3-030-01424-7_27,A Survey on Deep Transfer Learning,2018,2909,S106296714,conference-paper
+W2962851801,https://doi.org/10.1109/iccv.2017.298,Learning Efficient Convolutional Networks through Network Slimming,2017,2652,,conference-paper
+W2560722161,https://doi.org/10.1109/cvpr.2017.264,A Point Set Generation Network for 3D Object Reconstruction from a Single Image,2017,2504,,conference-paper
+W3003821665,https://doi.org/10.1038/s41586-020-1942-4,Fully hardware-implemented memristor convolutional neural network,2020,2189,S137773608,article
+W2964233199,https://doi.org/10.1109/iccv.2017.541,ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression,2017,1970,,conference-paper
+W2331143823,https://doi.org/10.1007/978-3-319-46493-0_39,Deep Networks with Stochastic Depth,2016,1883,S106296714,conference-paper
+W3111535274,https://doi.org/10.1007/s41095-021-0229-5,PCT: Point cloud transformer,2021,1881,S2487656537,article
+W2962721361,https://doi.org/10.1109/cvpr.2019.00091,Libra R-CNN: Towards Balanced Learning for Object Detection,2019,1762,,conference-paper
+W3011667710,https://doi.org/10.1109/tkde.2020.2981333,Deep Learning on Graphs: A Survey,2020,1563,S30698027,article
+W2967515867,https://doi.org/10.1109/cvprw.2019.00190,Bag of Tricks and a Strong Baseline for Deep Person Re-Identification,2019,1511,,conference-paper
+W2572939427,https://doi.org/10.1109/yac.2016.7804912,Using LSTM and GRU neural network methods for traffic flow prediction,2016,1436,,conference-paper
+W1616262590,https://doi.org/10.1109/tip.2015.2475625,PCANet: A Simple Deep Learning Baseline for Image Classification?,2015,1360,S4210173141,article
+W2410591237,https://doi.org/10.1109/tgrs.2016.2551720,Target Classification Using the Deep Convolutional Networks for SAR Images,2016,1351,S111326731,article
+W2962778872,https://doi.org/10.1007/978-3-030-01252-6_4,Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images,2018,1342,S106296714,conference-paper
+W2795758732,https://doi.org/10.1145/3240508.3240552,Learning Discriminative Features with Multiple Granularities for Person Re-Identification,2018,1195,,conference-paper
+W1910776219,https://doi.org/10.1109/cvpr.2015.7298684,Cross-scene crowd counting via deep convolutional neural networks,2015,1191,,conference-paper
+W2887695188,https://doi.org/10.1109/tmm.2019.2919431,Deep Learning for Single Image Super-Resolution: A Brief Review,2019,1181,S137030581,article
+W3035725276,https://doi.org/10.1109/tkde.2021.3090866,Self-supervised Learning: Generative or Contrastive,2021,1072,S30698027,article
+W2903282641,https://doi.org/10.1016/j.rse.2018.11.032,Deep learning based multi-temporal crop classification,2018,1026,S141808269,article
+W1934184906,https://doi.org/10.1109/cvpr.2015.7298958,Recurrent convolutional neural network for object recognition,2015,1020,,conference-paper
+W2808168148,https://doi.org/10.24963/ijcai.2018/309,Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks,2018,1013,,conference-paper
+W3198659451,https://doi.org/10.1016/j.aiopen.2021.08.002,"Pre-trained models: Past, present and future",2021,982,S4210194376,article
+W4386076222,https://doi.org/10.1109/cvpr52729.2023.01385,InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions,2023,981,,conference-paper
+W3006005697,https://doi.org/10.1016/j.cpc.2020.107206,DP-GEN: A concurrent learning platform for the generation of reliable deep learning based potential energy models,2020,974,S142305363,article
+W2981873476,https://doi.org/10.1109/iccv.2019.00041,Symmetric Cross Entropy for Robust Learning With Noisy Labels,2019,964,,conference-paper
+W3007170347,https://doi.org/10.1016/j.eng.2020.04.010,A Deep Learning System to Screen Novel Coronavirus Disease 2019 Pneumonia,2020,956,S4210192142,article
+W3034303554,https://doi.org/10.1109/cvpr42600.2020.00643,Circle Loss: A Unified Perspective of Pair Similarity Optimization,2020,953,,conference-paper
+W2804032941,https://doi.org/10.5555/3291168.3291211,TVM: an automated end-to-end optimizing compiler for deep learning,2018,919,S4306420647,article
+W4391092744,https://doi.org/10.1109/tip.2024.3354108,DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content-Guided Attention,2024,915,S4210173141,article
+W3044192339,https://doi.org/10.1038/s41928-020-0435-7,Neuro-inspired computing chips,2020,896,S4210239724,article
+W2242161203,,Network representation learning with rich text information,2015,893,,article
+W2963158438,https://doi.org/10.1007/978-3-030-01237-3_6,SpiderCNN: Deep Learning on Point Sets with Parameterized Convolutional Filters,2018,880,S106296714,conference-paper
+W2964052347,https://doi.org/10.24963/ijcai.2017/435,Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks,2017,877,,conference-paper
+W2963993763,https://doi.org/10.1109/cvpr.2018.00291,CondenseNet: An Efficient DenseNet Using Learned Group Convolutions,2018,858,,conference-paper
+W2964304299,https://doi.org/10.1109/iccv.2017.349,Deeply-Learned Part-Aligned Representations for Person Re-identification,2017,847,,conference-paper
+W2783538964,https://doi.org/10.1109/msp.2017.2765695,"Model Compression and Acceleration for Deep Neural Networks: The Principles, Progress, and Challenges",2018,834,S120977877,article
+W2123229215,https://doi.org/10.1145/2647868.2654948,Deep Learning for Content-Based Image Retrieval,2014,829,,conference-paper
+W2344786740,https://doi.org/10.1109/tnnls.2016.2522401,Deep Direct Reinforcement Learning for Financial Signal Representation and Trading,2016,820,S4210175523,article
+W3036446966,https://doi.org/10.1145/3394486.3403168,GCC,2020,789,,conference-paper
+W3204647170,https://doi.org/10.1109/tpami.2021.3117837,Dynamic Neural Networks: A Survey,2021,787,S199944782,article
+W2964449965,https://doi.org/10.1109/cvprw.2019.00038,Accurate 3D Face Reconstruction With Weakly-Supervised Learning: From Single Image to Image Set,2019,771,,conference-paper
+W4312270234,https://doi.org/10.1109/cvpr52688.2022.01871,Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling,2022,759,S4363607701,conference-paper
+W2695874637,https://doi.org/10.1016/j.trc.2017.10.016,Short-term forecasting of passenger demand under on-demand ride services: A spatio-temporal deep learning approach,2017,741,S64511102,article
+W2964280870,https://doi.org/10.1109/iccv.2017.598,HashNet: Deep Learning to Hash by Continuation,2017,731,,conference-paper
+W2533696134,https://doi.org/10.1016/j.eswa.2016.09.040,Collaborative filtering and deep learning based recommendation system for cold start items,2016,723,S13144211,article
+W3009650506,https://doi.org/10.1016/j.eswa.2021.115537,Applications of deep learning in stock market prediction: Recent progress,2021,706,S13144211,article
+W2567079332,https://doi.org/10.1007/978-3-319-66179-7_48,Medical Image Synthesis with Context-Aware Generative Adversarial Networks,2017,700,S106296714,conference-paper
+W2975495759,https://doi.org/10.1007/978-3-030-32236-6_51,"Explainable AI: A Brief Survey on History, Research Areas, Approaches and Challenges",2019,700,S106296714,conference-paper
+W3036363354,https://doi.org/10.1016/j.jhydrol.2020.125188,Short-term runoff prediction with GRU and LSTM networks without requiring time step optimization during sample generation,2020,699,S55737203,article
+W2595984151,https://doi.org/10.1016/j.apenergy.2017.03.064,A short-term building cooling load prediction method using deep learning algorithms,2017,696,S109565702,article
+W2889945482,https://doi.org/10.1109/tpami.2018.2868685,Transferable Representation Learning with Deep Adaptation Networks,2018,688,S199944782,article
+W2405933695,https://doi.org/10.1609/aaai.v28i1.8916,Learning Deep Representations for Graph Clustering,2014,679,S4210191458,conference-paper
+W2754361766,https://doi.org/10.1109/tgrs.2017.2743222,Complex-Valued Convolutional Neural Network and Its Application in Polarimetric SAR Image Classification,2017,679,S111326731,article
+W2997532515,https://doi.org/10.1016/j.eng.2019.12.012,Adversarial Attacks and Defenses in Deep Learning,2020,673,S4210192142,article
+W2892077605,https://doi.org/10.1609/aaai.v33i01.33011311,"Direct Training for Spiking Neural Networks: Faster, Larger, Better",2019,655,S4210191458,conference-paper
+W2548570154,https://doi.org/10.1109/icdm.2016.0151,Product-Based Neural Networks for User Response Prediction,2016,654,,conference-paper
+W3123899295,https://doi.org/10.1109/tii.2021.3053128,A Survey on Deep Learning for Data-Driven Soft Sensors,2021,652,S184777250,article
+W2160306971,https://doi.org/10.1109/asru.2011.6163899,Feature engineering in Context-Dependent Deep Neural Networks for conversational speech transcription,2011,639,,conference-paper
+W2751538714,https://doi.org/10.1038/s41598-017-10649-8,A Deep Learning-Based Radiomics Model for Prediction of Survival in Glioblastoma Multiforme,2017,639,S196734849,article
+W4297243391,https://doi.org/10.1038/s42256-022-00534-z,scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data,2022,639,S2912241403,article
+W2789367970,https://doi.org/10.1016/j.gpb.2017.07.003,Deep Learning and Its Applications in Biomedicine,2018,637,S155547894,article
+W2789713147,https://doi.org/10.1109/tbme.2018.2814538,Medical Image Synthesis with Deep Convolutional Adversarial Networks,2018,637,S5240358,article
+W3138340468,https://doi.org/10.1109/tpami.2022.3165153,PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning,2022,635,S199944782,article
+W2896827527,https://doi.org/10.1109/mcom.2019.1800155,Deep Learning with Long Short-Term Memory for Time Series Prediction,2019,631,S158797327,article
+W3176327543,https://doi.org/10.1109/cvpr46437.2021.00894,Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans,2021,631,,conference-paper
+W2963813458,https://doi.org/10.1109/iccv.2017.212,DSOD: Learning Deeply Supervised Object Detectors from Scratch,2017,630,,conference-paper
+W2963889719,https://doi.org/10.1109/cc.2017.8233654,Deep learning for wireless physical layer: Opportunities and challenges,2017,629,S159450355,article
+W3164440025,https://doi.org/10.1038/s41467-021-23458-5,A deep learning system for detecting diabetic retinopathy across the disease spectrum,2021,622,S64187185,article
+W2962903125,https://doi.org/10.1109/cvprw.2018.00113,Unsupervised Image Super-Resolution Using Cycle-in-Cycle Generative Adversarial Networks,2018,619,,conference-paper
+W2756050327,https://doi.org/10.1109/iccv.2017.51,Towards 3D Human Pose Estimation in the Wild: A Weakly-Supervised Approach,2017,616,,conference-paper
+W2963169753,https://doi.org/10.1609/aaai.v32i1.11872,GraphGAN: Graph Representation Learning With Generative Adversarial Nets,2018,616,S4210191458,conference-paper
+W2498017881,https://doi.org/10.1109/jas.2016.7508798,Traffic signal timing via deep reinforcement learning,2016,615,S2484288132,article
+W4290876361,https://doi.org/10.1145/3534678.3539321,GraphMAE: Self-Supervised Masked Graph Autoencoders,2022,610,S4363608767,conference-paper
+W2768975186,,PredRNN: recurrent neural networks for predictive learning using spatiotemporal LSTMs,2017,608,S4306420609,article
+W3034185248,https://doi.org/10.1109/cvpr42600.2020.01374,Combating Noisy Labels by Agreement: A Joint Training Method with Co-Regularization,2020,602,,conference-paper
+W2998376881,https://doi.org/10.1007/s11036-019-01445-x,Deep Learning Models for Real-time Human Activity Recognition with Smartphones,2019,597,S192894947,article
+W2962897020,https://doi.org/10.18653/v1/p17-1001,Adversarial Multi-task Learning for Text Classification,2017,594,,conference-paper
+W1956333070,https://doi.org/10.1109/cvpr.2015.7298862,Deep hashing for compact binary codes learning,2015,588,,conference-paper
+W3035693354,https://doi.org/10.1109/cvpr42600.2020.00594,CurricularFace: Adaptive Curriculum Learning Loss for Deep Face Recognition,2020,588,,conference-paper
+W4226042837,https://doi.org/10.1609/aaai.v36i2.20072,Image-Adaptive YOLO for Object Detection in Adverse Weather Conditions,2022,586,S4210191458,conference-paper
+W2798149494,https://doi.org/10.1016/j.isatra.2019.08.012,Deep transfer network with joint distribution adaptation: A new intelligent fault diagnosis framework for industry application,2019,582,S89543202,article
+W2984618279,https://doi.org/10.1109/iccv.2019.00339,MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning,2019,580,,conference-paper
+W4353056919,https://doi.org/10.1038/s41586-023-05732-2,Dense reinforcement learning for safety validation of autonomous vehicles,2023,575,S137773608,article
+W2147347517,https://doi.org/10.1109/tip.2016.2579306,DeepSaliency: Multi-Task Deep Neural Network Model for Salient Object Detection,2016,571,S4210173141,article
+W2950817888,https://doi.org/10.1145/3292500.3330884,Urban Traffic Prediction from Spatio-Temporal Data Using Deep Meta Learning,2019,568,,conference-paper
+W2974140502,https://doi.org/10.1111/1541-4337.12492,Application of Deep Learning in Food: A Review,2019,567,S336866,article
+W2295537950,https://doi.org/10.1109/iccv.2015.55,Deep Colorization,2015,566,,conference-paper
+W2766042539,https://doi.org/10.1145/3123266.3123451,Spatio-Temporal AutoEncoder for Video Anomaly Detection,2017,566,,conference-paper
+W2809583854,https://doi.org/10.1145/3219819.3220077,DeepInf,2018,560,,conference-paper
+W2085862958,https://doi.org/10.1016/j.jprocont.2014.01.012,Data-driven soft sensor development based on deep learning technique,2014,550,S96000363,article
+W3021182036,https://doi.org/10.1016/j.patcog.2020.107332,Understanding adversarial attacks on deep learning based medical image analysis systems,2020,550,S414566,article
+W3158304688,https://doi.org/10.1145/3532611,Dynamic Graph Convolutional Recurrent Network for Traffic Prediction: Benchmark and Solution,2022,547,S41523882,article
+W2955084925,https://doi.org/10.1109/cvpr.2019.00374,"See More, Know More: Unsupervised Video Object Segmentation With Co-Attention Siamese Networks",2019,536,,conference-paper
+W3185377372,https://doi.org/10.3390/agriculture11080707,Review on Convolutional Neural Network (CNN) Applied to Plant Leaf Disease Classification,2021,535,S4210202585,article
+W2900237898,https://doi.org/10.1002/mp.13300,AnatomyNet: Deep learning for fast and fully automated whole‐volume segmentation of head and neck anatomy,2018,534,S95522064,article
+W4226456028,https://doi.org/10.1016/j.isprsjprs.2021.12.004,FAIR1M: A benchmark dataset for fine-grained object recognition in high-resolution remote sensing imagery,2022,527,S173339282,article
+W2749008552,https://doi.org/10.1145/3133956.3134018,Neural Network-based Graph Embedding for Cross-Platform Binary Code Similarity Detection,2017,525,,conference-paper
+W2800388963,https://doi.org/10.1016/j.isprsjprs.2018.04.003,Multi-scale object detection in remote sensing imagery with convolutional neural networks,2018,525,S173339282,article
+W2559785631,https://doi.org/10.1109/jbhi.2016.2635663,An Ensemble of Fine-Tuned Convolutional Neural Networks for Medical Image Classification,2016,524,S2495854775,article
+W3004946360,https://doi.org/10.1145/3366423.3380214,Structural Deep Clustering Network,2020,524,,conference-paper
+W2892816441,https://doi.org/10.1109/tkde.2018.2872063,A Survey of Multi-View Representation Learning,2018,519,S30698027,article
+W2343061342,https://doi.org/10.1109/tvcg.2016.2598831,Towards Better Analysis of Deep Convolutional Neural Networks,2016,518,S84775595,article
+W3006334803,https://doi.org/10.1016/j.comnet.2020.107138,IMCFN: Image-based malware classification using fine-tuned convolutional neural network architecture,2020,517,S63392143,article
+W2796942168,https://doi.org/10.1016/j.compchemeng.2018.04.009,Deep convolutional neural network model based chemical process fault diagnosis,2018,514,S150671403,article
+W3093394156,https://doi.org/10.1016/j.media.2020.101832,A global benchmark of algorithms for segmenting the left atrium from late gadolinium-enhanced cardiac magnetic resonance imaging,2020,511,S116571295,article
+W2559324447,https://doi.org/10.1109/lgrs.2016.2618840,Polarimetric SAR Image Classification Using Deep Convolutional Neural Networks,2016,509,S126920919,article
+W3006871679,https://doi.org/10.1109/tpami.2020.2975798,Deep Multi-View Enhancement Hashing for Image Retrieval,2020,508,S199944782,article
+W2983902176,https://doi.org/10.1016/j.conbuildmat.2019.117367,Image-based concrete crack detection in tunnels using deep fully convolutional networks,2019,506,S29980478,article
+W2755012395,https://doi.org/10.1016/j.cmpb.2017.09.005,A deep learning-based multi-model ensemble method for cancer prediction,2017,500,S138959710,article
+W3091940685,https://doi.org/10.1038/s41467-020-18685-1,Development and evaluation of an artificial intelligence system for COVID-19 diagnosis,2020,499,S64187185,article
+W3039075121,https://doi.org/10.1145/3394486.3403177,AM-GCN: Adaptive Multi-channel Graph Convolutional Networks,2020,495,,conference-paper
+W2533328922,https://doi.org/10.1109/smartcity.2015.63,Predicting Short-Term Traffic Flow by Long Short-Term Memory Recurrent Neural Network,2015,494,,conference-paper
+W2964121960,https://doi.org/10.1109/mwc.2019.1800447,Model-Driven Deep Learning for Physical Layer Communications,2019,493,S146764194,article
+W4295808856,https://doi.org/10.1007/s10115-022-01756-8,"Interpretable deep learning: interpretation, interpretability, trustworthiness, and beyond",2022,491,S81770430,article
+W2964186374,https://doi.org/10.1007/978-3-030-01240-3_40,Pose-Normalized Image Generation for Person Re-identification,2018,490,S106296714,conference-paper
+W2903917280,https://doi.org/10.1016/j.knosys.2018.12.019,A novel adversarial learning framework in deep convolutional neural network for intelligent diagnosis of mechanical faults,2018,485,S10169007,article
+W2999146029,https://doi.org/10.1109/comst.2020.2965856,Thirty Years of Machine Learning: The Road to Pareto-Optimal Wireless Networks,2020,483,S23688054,article
+W2161565164,https://doi.org/10.1145/2733373.2806222,Modeling Spatial-Temporal Clues in a Hybrid Deep Learning Framework for Video Classification,2015,475,,conference-paper
+W4366352735,https://doi.org/10.1109/tpami.2023.3268209,LRRNet: A Novel Representation Learning Guided Fusion Network for Infrared and Visible Images,2023,470,S199944782,article
+W2893230400,https://doi.org/10.1145/3309547,Temporal Relational Ranking for Stock Prediction,2019,469,S4394735545,article
+W3172614365,https://doi.org/10.1109/tmi.2021.3090082,"Multi-Centre, Multi-Vendor and Multi-Disease Cardiac Segmentation: The M&Ms Challenge",2021,466,S58069681,article
+W2810392541,https://doi.org/10.1007/s10462-018-9641-3,Recent progress in semantic image segmentation,2018,464,S122814990,article
+W2339172597,https://doi.org/10.1007/978-3-319-46478-7_29,Relay Backpropagation for Effective Learning of Deep Convolutional Neural Networks,2016,461,S106296714,conference-paper
+W2798644314,https://doi.org/10.1109/cvpr.2018.00558,Deep Progressive Reinforcement Learning for Skeleton-Based Action Recognition,2018,461,,conference-paper
+W2313513770,https://doi.org/10.1109/tst.2016.7399288,Droiddetector: android malware characterization and detection using deep learning,2016,455,S24978797,article
+W2963030525,https://doi.org/10.1109/cvpr.2019.00146,Target-Aware Deep Tracking,2019,450,,conference-paper
+W3015357052,https://doi.org/10.1002/cac2.12012,Emerging role of deep learning‐based artificial intelligence in tumor pathology,2020,447,S4306555428,article
+W3159301005,https://doi.org/10.1109/tcds.2021.3071170,Comparing Recognition Performance and Robustness of Multimodal Deep Learning Models for Multimodal Emotion Recognition,2022,447,S2488537894,article
+W4229447215,https://doi.org/10.1038/s41392-022-00994-0,Artificial intelligence in cancer target identification and drug discovery,2022,436,S2739142469,article
+W2908497602,https://doi.org/10.1109/tmm.2018.2889563,A Deep Neural Framework for Continuous Sign Language Recognition by Iterative Training,2019,428,S137030581,article
+W2963843052,https://doi.org/10.1109/cvpr.2016.117,Hierarchical Recurrent Neural Encoder for Video Representation with Application to Captioning,2016,426,,conference-paper
+W4386736788,https://doi.org/10.1126/science.ade3483,Edge learning using a fully integrated neuro-inspired memristor chip,2023,423,S3880285,article
+W3081006013,https://doi.org/10.1038/s41467-020-18147-8,Clinically applicable histopathological diagnosis system for gastric cancer detection using deep learning,2020,421,S64187185,article
+W2962741379,https://doi.org/10.18653/v1/p18-2094,Double Embeddings and CNN-based Sequence Labeling for Aspect Extraction,2018,420,,conference-paper
+W2972986629,https://doi.org/10.1109/cvpr.2019.00790,Efficient Decision-Based Black-Box Adversarial Attacks on Face Recognition,2019,417,,conference-paper
+W2806031239,https://doi.org/10.1016/j.jbi.2018.04.007,Benchmarking deep learning models on large healthcare datasets,2018,416,S11622463,article
+W2989293933,https://doi.org/10.1021/acsphotonics.9b00966,A Deep Learning Approach for Objective-Driven All-Dielectric Metasurface Design,2019,416,S135184319,article
+W2888557792,https://doi.org/10.1145/3238147.3238206,Improving automatic source code summarization via deep reinforcement learning,2018,413,,conference-paper
+W2791282053,https://doi.org/10.1007/s12021-018-9370-4,Multi-Modality Cascaded Convolutional Neural Networks for Alzheimer’s Disease Diagnosis,2018,405,S3444786,article
+W2898716605,https://doi.org/10.1371/journal.pone.0206049,A novel attention-based hybrid CNN-RNN architecture for sEMG-based gesture recognition,2018,405,S202381698,article
+W1777628566,https://doi.org/10.1109/tpami.2017.2670560,Exploiting Feature and Class Relationships in Video Categorization with Regularized Deep Neural Networks,2017,404,S199944782,article
+W2886944874,https://doi.org/10.1007/978-3-030-01234-2_39,SegStereo: Exploiting Semantic Information for Disparity Estimation,2018,404,S106296714,conference-paper
+W2989693433,https://doi.org/10.1148/radiol.2019190372,Lymph Node Metastasis Prediction from Primary Breast Cancer US Images Using Deep Learning,2019,404,S50280174,article
+W1938425378,https://doi.org/10.1109/cvpr.2015.7298968,Deep multiple instance learning for image classification and auto-annotation,2015,403,,conference-paper
+W2417420127,https://doi.org/10.1109/tfuzz.2016.2574915,A Hierarchical Fused Fuzzy Deep Neural Network for Data Classification,2016,401,S134177497,article
+W2908671501,https://doi.org/10.1016/j.patrec.2019.01.008,Extended deep neural network for facial emotion recognition,2019,401,S151820558,article
+W2758216428,https://doi.org/10.1016/j.compag.2017.09.012,An in-field automatic wheat disease diagnosis system,2017,387,S116775814,article
+W2461086877,https://doi.org/10.1109/cvpr.2016.133,Learning Compact Binary Descriptors with Unsupervised Deep Neural Networks,2016,384,,conference-paper
+W2894410771,https://doi.org/10.1190/geo2017-0495.1,Deep-learning-based seismic data interpolation: A preliminary result,2018,383,S106174089,article
+W2964266063,https://doi.org/10.1109/cvpr.2019.00289,Variational Convolutional Neural Network Pruning,2019,381,,conference-paper
+W3001319253,https://doi.org/10.1109/msp.2019.2950557,Deep Magnetic Resonance Image Reconstruction: Inverse Problems Meet Neural Networks,2020,381,S120977877,article
+W2909516836,https://doi.org/10.1016/j.aca.2019.01.002,DeepSpectra: An end-to-end deep learning approach for quantitative spectral analysis,2019,377,S192559872,article
+W2497173630,https://doi.org/10.1109/tcyb.2016.2591583,Deep Multimodal Distance Metric Learning Using Click Constraints for Image Ranking,2016,371,S4210191041,article
+W2050418754,https://doi.org/10.1109/icassp.2014.6853873,Deep learning of feature representation with multiple instance learning for medical image analysis,2014,370,,conference-paper
+W2589747988,https://doi.org/10.3390/s17030458,Surface EMG-Based Inter-Session Gesture Recognition Enhanced by Deep Domain Adaptation,2017,369,S101949793,article
+W3083791730,https://doi.org/10.1016/j.cma.2020.113377,Deep generative modeling for mechanistic-based learning and design of metamaterial systems,2020,369,S40006715,article
+W2788997482,https://doi.org/10.1609/aaai.v32i1.11877,When Will You Arrive? Estimating Travel Time Based on Deep Neural Networks,2018,367,S4210191458,conference-paper
+W4388639388,https://doi.org/10.1007/s40820-023-01235-x,Artificial Intelligence Meets Flexible Sensors: Emerging Smart Flexible Sensing Systems Driven by Machine Learning and Artificial Synapses,2023,365,S9070373,article
+W3096805028,https://doi.org/10.1007/978-3-030-58548-8_26,Negative Margin Matters: Understanding Margin in Few-Shot Classification,2020,363,S106296714,conference-paper
+W2752037867,,Runtime Neural Pruning,2017,362,S4306420609,article
+W2945027804,https://doi.org/10.1039/c9sc04336e,Target identification among known drugs by deep learning from heterogeneous networks,2020,362,S184645833,article
+W2580506952,https://doi.org/10.1038/s41467-017-00705-2,Efficient representation of quantum many-body states with deep neural networks,2017,355,S64187185,article
+W2745144057,https://doi.org/10.1109/iccv.2017.253,SurfaceNet: An End-to-End 3D Neural Network for Multiview Stereopsis,2017,355,,conference-paper
+W1655956671,https://doi.org/10.1109/qrs.2015.14,Deep Learning for Just-in-Time Defect Prediction,2015,352,,conference-paper
+W3042916480,https://doi.org/10.1109/tsmc.2020.3005231,"A Survey of the Four Pillars for Small Object Detection: Multiscale Representation, Contextual Information, Super-Resolution, and Region Proposal",2020,352,S4210209078,article
+W2515753980,https://doi.org/10.1109/taslp.2016.2602884,Very Deep Convolutional Neural Networks for Noise Robust Speech Recognition,2016,351,S4210169297,article
+W2004104731,https://doi.org/10.1109/icme.2014.6890166,EEG-based emotion classification using deep belief networks,2014,350,,conference-paper
+W2794081072,https://doi.org/10.1109/access.2018.2794765,Sequential Fault Diagnosis Based on LSTM Neural Network,2018,350,S2485537415,article
+W2746301562,https://doi.org/10.1109/cvpr.2017.175,Recurrent Convolutional Neural Networks for Continuous Sign Language Recognition by Staged Optimization,2017,349,,conference-paper
+W4388834713,https://doi.org/10.1038/s41591-023-02640-w,Large-scale pancreatic cancer detection via non-contrast CT and deep learning,2023,345,S203256638,article
+W1900913856,https://doi.org/10.1109/cvpr.2015.7298872,DevNet: A Deep Event Network for multimedia event detection and evidence recounting,2015,344,,conference-paper
+W2889165715,https://doi.org/10.1109/access.2018.2867564,An Intrusion Detection System Using a Deep Neural Network With Gated Recurrent Units,2018,342,S2485537415,article
+W2734369741,https://doi.org/10.1038/s41598-017-05848-2,Deep Learning based Radiomics (DLR) and its usage in noninvasive IDH1 prediction for low grade glioma,2017,340,S196734849,article
+W2964027659,https://doi.org/10.1016/j.inffus.2018.11.017,Fusion of multispectral data through illumination-aware deep neural networks for pedestrian detection,2018,340,S7560371,article
+W2479109623,https://doi.org/10.1109/cvpr.2016.128,Picking Deep Filter Responses for Fine-Grained Image Recognition,2016,339,,conference-paper
+W2905526464,https://doi.org/10.14722/ndss.2019.23138,TextBugger: Generating Adversarial Text Against Real-world Applications,2019,338,,conference-paper
+W3034371424,https://doi.org/10.1109/cvpr42600.2020.00520,Disentangled and Controllable Face Image Generation via 3D Imitative-Contrastive Learning,2020,337,,conference-paper
+W3198062544,https://doi.org/10.1109/tip.2021.3109518,GMNet: Graded-Feature Multilabel-Learning Network for RGB-Thermal Urban Scene Semantic Segmentation,2021,337,S4210173141,article
+W2549858646,https://doi.org/10.1109/iccv.2017.94,Hard-Aware Deeply Cascaded Embedding,2017,333,,conference-paper
+W2734024016,https://doi.org/10.1109/tits.2017.2706963,Capturing Car-Following Behaviors by Deep Learning,2017,333,S144771191,article
+W2960155470,https://doi.org/10.1016/j.jmapro.2019.06.023,Weld image deep learning-based on-line defects detection using convolutional neural networks for Al alloy in robotic arc welding,2019,333,S120037611,article
+W2908954810,https://doi.org/10.1631/fitee.1800573,Cyber security meets artificial intelligence: a survey,2018,329,S4210189857,article
+W4389827562,https://doi.org/10.1016/j.compbiomed.2023.107840,Learning with limited annotations: A survey on deep semi-supervised learning for medical image segmentation,2023,329,S44278595,article
+W2963016543,https://doi.org/10.1109/cvpr.2018.00647,MegDet: A Large Mini-Batch Object Detector,2018,328,,conference-paper
+W3080642298,https://doi.org/10.1145/3394486.3403344,Controllable Multi-Interest Framework for Recommendation,2020,328,,conference-paper
+W3137613462,https://doi.org/10.1007/s10845-021-01750-x,Remaining useful life estimation via transformer encoder enhanced by a gated convolutional unit,2021,328,S161464388,article
+W1034159276,https://doi.org/10.1016/j.neunet.2015.07.007,Towards dropout training for convolutional neural networks,2015,327,S123019304,article
+W2986519585,https://doi.org/10.1109/iccv.2019.00292,LPD-Net: 3D Point Cloud Learning for Large-Scale Place Recognition and Environment Analysis,2019,327,,conference-paper
+W2963771536,https://doi.org/10.1109/cvpr.2019.00624,ComDefend: An Efficient Image Compression Model to Defend Adversarial Examples,2019,324,,conference-paper
+W2997353220,https://doi.org/10.1109/access.2019.2963092,Deep Learning-Based Intelligent Fault Diagnosis Methods Toward Rotating Machinery,2019,322,S2485537415,article
+W2729145866,https://doi.org/10.1016/j.neucom.2017.06.048,Deep auto-context convolutional neural networks for standard-dose PET image estimation from low-dose PET/MRI,2017,320,S45693802,article
+W3030380536,https://doi.org/10.1109/tip.2021.3061932,Uncertainty-Aware Blind Image Quality Assessment in the Laboratory and Wild,2021,320,S4210173141,article
+W3014146531,https://doi.org/10.1109/tii.2020.2983760,Remaining Useful Life Prediction Using a Novel Feature-Attention-Based End-to-End Approach,2020,319,S184777250,article
+W1985242443,https://doi.org/10.1109/tasl.2012.2229986,Deep Belief Networks Based Voice Activity Detection,2012,318,S199497470,article
+W2132791018,https://doi.org/10.1007/11538059_91,Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning,2005,4058,S106296714,conference-paper
+W1997201895,https://doi.org/10.1109/tpami.2012.88,Robust Recovery of Subspace Structures by Low-Rank Representation,2012,3712,S199944782,article
+W2159128662,https://doi.org/10.1007/s11036-013-0489-0,Big Data: A Survey,2014,2887,S192894947,article
+W2393319904,https://doi.org/10.1145/2939672.2939753,Structural Deep Network Embedding,2016,2845,,conference-paper
+W2982220924,https://doi.org/10.1109/iccvw.2019.00246,GCNet: Non-Local Networks Meet Squeeze-Excitation Networks and Beyond,2019,2137,,conference-paper
+W2055873761,https://doi.org/10.1016/j.ejor.2010.11.018,Remaining useful life estimation – A review on the statistical data driven approaches,2010,2105,S103321696,article
+W2892880750,https://doi.org/10.1609/aaai.v33i01.33013558,Hypergraph Neural Networks,2019,1733,S4210191458,conference-paper
+W2950361482,https://doi.org/10.1145/3292500.3330672,Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network,2019,1650,,conference-paper
+W1964641132,https://doi.org/10.1049/el:20020212,Information measure for performance of image fusion,2002,1433,S149016011,article
+W2047670868,https://doi.org/10.1109/cvpr.2014.360,Saliency Optimization from Robust Background Detection,2014,1371,,conference-paper
+W2786918196,https://doi.org/10.1109/tsg.2018.2818167,"Review of Smart Meter Data Analytics: Applications, Methodologies, and Challenges",2018,1350,S59604973,article
+W2119191234,https://doi.org/10.1109/tkde.2006.17,Training cost-sensitive neural networks with methods addressing the class imbalance problem,2006,1345,S30698027,article
+W2342603028,https://doi.org/10.21037/atm.2016.03.37,Introduction to machine learning: k-nearest neighbors,2016,1298,S2755174949,article
+W2962975498,https://doi.org/10.1109/tkde.2018.2849727,A Survey on Network Embedding,2018,1296,S30698027,article
+W2147953360,https://doi.org/10.1016/j.eswa.2008.02.021,Application of data mining techniques in customer relationship management: A literature review and classification,2008,1266,S13144211,article
+W2593539516,https://doi.org/10.1109/tmm.2018.2818020,Arbitrary-Oriented Scene Text Detection via Rotation Proposals,2018,1255,S137030581,article
+W2114309015,https://doi.org/10.1111/j.1744-7917.2012.01519.x,"Data Processing System (DPS) software with experimental design, statistical analysis and data mining developed for use in entomological research",2012,1233,S77581241,article
+W4284885053,https://doi.org/10.1002/imt2.36,"Sangerbox: A comprehensive, interaction‐friendly clinical bioinformatics analysis platform",2022,1232,S4220650979,article
+W4312804044,https://doi.org/10.1109/cvpr52688.2022.00943,SimMIM: a Simple Framework for Masked Image Modeling,2022,1227,S4363607701,conference-paper
+W2963507231,https://doi.org/10.1109/tkde.2017.2781227,Untangling Blockchain: A Data Processing View of Blockchain Systems,2018,1183,S30698027,article
+W4393936599,https://doi.org/10.1093/nar/gkae236,"ADMETlab 3.0: an updated comprehensive online ADMET prediction platform enhanced with broader coverage, improved performance, API functionality and decision support",2024,1165,S134668137,article
+W2195506630,https://doi.org/10.1038/nn.4186,Cortical tracking of hierarchical linguistic structures in connected speech,2015,1151,S2298632,article
+W2963919031,https://doi.org/10.1109/tkde.2016.2598561,A survey of heterogeneous information network analysis,2016,1146,S30698027,article
+W861925310,https://doi.org/10.11919/j.issn.1002-0829.215044,Decision tree methods: applications for classification and prediction.,2015,1141,S4306525036,article
+W2128873747,https://doi.org/10.1145/1835804.1835848,Unsupervised feature selection for multi-cluster data,2010,1122,,conference-paper
+W2117486996,https://doi.org/10.1038/nmeth.2340,A large-scale evaluation of computational protein function prediction,2013,1120,S127827428,article
+W2419559816,https://doi.org/10.1021/acs.est.5b03163,Microplastic Pollution in Table Salts from China,2015,1116,S13479253,article
+W2515462165,https://doi.org/10.18653/v1/p16-1200,Neural Relation Extraction with Selective Attention over Instances,2016,1101,,conference-paper
+W2164104048,https://doi.org/10.1109/tnsre.2007.897025,Characterization of Surface EMG Signal Based on Fuzzy Entropy,2007,1099,S98183460,article
+W3010537688,https://doi.org/10.1021/acs.est.9b04535,"A Review of Microplastics in Table Salt, Drinking Water, and Air: Direct Human Exposure",2020,1058,S13479253,article
+W1979432452,https://doi.org/10.1016/0031-3203(95)00169-7,A survey on evaluation methods for image segmentation,1996,1055,S414566,article
+W2300061772,https://doi.org/10.1007/s00894-016-2909-0,COMPASS II: extended coverage for polymer and drug-like molecule databases,2016,1038,S113170167,article
+W4312312588,https://doi.org/10.1109/cvpr52688.2022.01325,DN-DETR: Accelerate DETR Training by Introducing Query DeNoising,2022,1022,S4363607701,conference-paper
+W935072310,https://doi.org/10.5334/dsj-2015-002,The Challenges of Data Quality and Data Quality Assessment in the Big Data Era,2015,1018,S62969111,article
+W2926010705,https://doi.org/10.3389/fgene.2019.00317,Single-Cell RNA-Seq Technologies and Related Computational Data Analysis,2019,1011,S2597340651,article
+W182707955,https://doi.org/10.1137/1.9781611972764.29,Density-Based Clustering over an Evolving Data Stream with Noise,2006,1010,,conference-paper
+W3134482219,https://doi.org/10.1186/s13059-021-02286-2,Giotto: a toolbox for integrative analysis and visualization of spatial expression data,2021,1003,S81160022,article
+W2334483166,https://doi.org/10.1039/c6cp01555g,Comprehensive evaluation of ten docking programs on a diverse set of protein–ligand complexes: the prediction accuracy of sampling power and scoring power,2016,990,S181332294,article
+W2103706175,https://doi.org/10.1038/nmeth.2808,Objective comparison of particle tracking methods,2014,936,S127827428,article
+W1971402834,https://doi.org/10.1145/2487575.2488188,U-Air,2013,930,,conference-paper
+W2753953057,https://doi.org/10.1038/s41467-017-00680-8,A network integration approach for drug-target interaction prediction and computational drug repositioning from heterogeneous information,2017,924,S64187185,article
+W2021560851,https://doi.org/10.1038/nbt.1665,The MicroArray Quality Control (MAQC)-II study of common practices for the development and validation of microarray-based predictive models,2010,922,S106963461,article
+W2160979370,https://doi.org/10.1093/bioinformatics/17.8.721,Support vector machine approach for protein subcellular localization prediction,2001,857,S52395412,article
+W1982675899,https://doi.org/10.1016/j.ins.2006.12.019,Intuitionistic preference relations and their application in group decision making☆,2007,851,S192650101,article
+W2145039203,https://doi.org/10.1109/tits.2006.869623,A Bayesian Network Approach to Traffic Flow Forecasting,2006,799,S144771191,article
+W2785362611,https://doi.org/10.1145/3178876.3185996,Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications,2018,792,,conference-paper
+W2556013418,https://doi.org/10.1109/tie.2016.2627020,Deep Model Based Domain Adaptation for Fault Diagnosis,2016,768,S58031724,article
+W2052982604,https://doi.org/10.1016/j.envsoft.2010.06.001,Spatial sensitivity analysis of multi-criteria weights in GIS-based land suitability evaluation,2010,756,S113611870,article
+W1969198379,https://doi.org/10.1109/tkde.2007.190672,Label Propagation through Linear Neighborhoods,2007,714,S30698027,article
+W3200733355,https://doi.org/10.3390/rs13183690,SAR Ship Detection Dataset (SSDD): Official Release and Comprehensive Data Analysis,2021,708,S43295729,article
+W4220842087,https://doi.org/10.1016/j.rser.2022.112128,"Data-driven probabilistic machine learning in sustainable smart energy/smart energy systems: Key developments, challenges, and future research opportunities in the context of smart grid paradigm",2022,708,S68497187,article
+W1976258951,https://doi.org/10.1109/cvpr.2014.267,Collective Matrix Factorization Hashing for Multimodal Data,2014,704,,conference-paper
+W2951837249,https://doi.org/10.1038/s41598-017-19120-0,Missing Value Imputation Approach for Mass Spectrometry-based Metabolomics Data,2018,699,S196734849,article
+W2095483845,https://doi.org/10.1016/j.future.2014.10.029,Remote sensing big data computing: Challenges and opportunities,2014,681,S186357190,article
+W2259538443,https://doi.org/10.1093/bib/bbv066,"Drug–target interaction prediction: databases, web servers and computational models",2015,681,S91767247,article
+W2965838158,https://doi.org/10.24963/ijcai.2019/658,LogAnomaly: Unsupervised Detection of Sequential and Quantitative Anomalies in Unstructured Logs,2019,677,,conference-paper
+W2113273124,https://doi.org/10.1145/1076034.1076056,Scalable collaborative filtering using cluster-based smoothing,2005,663,,conference-paper
+W3116202926,https://doi.org/10.1186/s13321-020-00479-8,Could graph neural networks learn better molecular representation for drug discovery? A comparison study of descriptor-based and graph-based models,2021,663,S180838163,article
+W2108898839,https://doi.org/10.1109/tr.2011.2182221,Remaining Useful Life Estimation Based on a Nonlinear Diffusion Degradation Process,2012,662,S87725633,article
+W1979061792,https://doi.org/10.1080/01431160801950162,PCA‐based land‐use change detection and analysis using multitemporal and multisensor satellite data,2008,655,S117411352,article
+W4312473433,https://doi.org/10.1007/978-3-031-19812-0_38,MOTR: End-to-End Multiple-Object Tracking with Transformer,2022,655,S106296714,conference-paper
+W2132949918,https://doi.org/10.18637/jss.v045.i02,Multiple Imputation with Diagnostics (mi) inR: Opening Windows into the Black Box,2011,653,S167961193,article
+W2203543769,https://doi.org/10.1609/aaai.v28i1.8995,Large-Scale Supervised Multimodal Hashing with Semantic Correlation Maximization,2014,649,S4210191458,conference-paper
+W2788376297,https://doi.org/10.1145/3178876.3186070,Neural Attentional Rating Regression with Review-level Explanations,2018,642,,conference-paper
+W3016208458,https://doi.org/10.1016/j.enconman.2020.112766,A day-ahead PV power forecasting method based on LSTM-RNN model and time correlation modification under partial daily pattern prediction framework,2020,638,S105637730,article
+W2592774827,https://doi.org/10.1111/aos.13403,Time spent in outdoor activities in relation to myopia prevention and control: a meta‐analysis and systematic review,2017,632,S21165490,review
+W7682646,https://doi.org/10.1007/978-3-319-10593-2_25,Single-Image Super-Resolution: A Benchmark,2014,632,S106296714,conference-paper
+W2127414816,https://doi.org/10.1109/access.2014.2362522,Information Security in Big Data: Privacy and Data Mining,2014,631,S2485537415,article
+W2963777632,https://doi.org/10.18653/v1/d18-1514,FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation,2018,627,,conference-paper
+W2062112832,https://doi.org/10.1016/j.patcog.2008.05.018,Learning a Mahalanobis distance metric for data clustering and classification,2008,620,S414566,article
+W1963489908,https://doi.org/10.1109/tii.2014.2306382,Ubiquitous Data Accessing Method in IoT-Based Information System for Emergency Medical Services,2014,612,S184777250,article
+W1546111015,https://doi.org/10.1109/icde.2015.7113322,False rumors detection on Sina Weibo by propagation structures,2015,601,,conference-paper
+W1986849266,https://doi.org/10.1371/journal.pone.0017238,Removing Batch Effects in Analysis of Expression Microarray Data: An Evaluation of Six Batch Adjustment Methods,2011,597,S202381698,article
+W2626972740,https://doi.org/10.1016/j.jclepro.2017.06.075,Methodology and applications of city level CO2 emission accounts in China,2017,592,S58516903,article
+W2802187397,https://doi.org/10.1109/tkde.2018.2831682,NAIS: Neural Attentive Item Similarity Model for Recommendation,2018,592,S30698027,article
+W1426956448,https://doi.org/10.18653/v1/d15-1082,Modeling Relation Paths for Representation Learning of Knowledge Bases,2015,589,,conference-paper
+W2401246392,https://doi.org/10.1109/jproc.2016.2598228,Big Data for Remote Sensing: Challenges and Opportunities,2016,589,S68686220,article
+W2532521045,https://doi.org/10.1109/jiot.2016.2619369,IoT-Based Big Data Storage Systems in Cloud Computing: Perspectives and Challenges,2016,589,S2480266640,article
+W2808904300,https://doi.org/10.1007/s12652-018-0911-3,An application framework of digital twin and its case study,2018,588,S48031226,article
+W1655403841,https://doi.org/10.1109/mgrs.2015.2441912,Missing Information Reconstruction of Remote Sensing Data: A Technical Review,2015,582,S2491948244,article
+W2063149790,https://doi.org/10.1016/j.ins.2014.02.125,Distance and similarity measures for hesitant fuzzy linguistic term sets and their application in multi-criteria decision making,2014,582,S192650101,article
+W1922199343,https://doi.org/10.1109/cvpr.2015.7299011,Semantics-preserving hashing for cross-view retrieval,2015,572,,conference-paper
+W2061922307,https://doi.org/10.1145/2623330.2623715,A dirichlet multinomial mixture model-based approach for short text clustering,2014,567,,conference-paper
+W2140321362,https://doi.org/10.1109/tpami.2008.110,Supervised and Traditional Term Weighting Methods for Automatic Text Categorization,2009,566,S199944782,article
+W2778363563,https://doi.org/10.1109/jas.2017.7510736,Internet of vehicles in big data era,2017,566,S2484288132,article
+W3168112135,https://doi.org/10.1109/cvpr46437.2021.00866,Camouflaged Object Segmentation with Distraction Mining,2021,562,,conference-paper
+W2072055974,https://doi.org/10.1103/physreva.82.042103,Quantum Fisher information flow and non-Markovian processes of open systems,2010,546,S164566984,article
+W2952179106,https://doi.org/10.18653/v1/p19-1074,DocRED: A Large-Scale Document-Level Relation Extraction Dataset,2019,538,,conference-paper
+W1989944970,https://doi.org/10.1109/tfuzz.2013.2272585,Intuitionistic Fuzzy Analytic Hierarchy Process,2013,536,S134177497,article
+W2008602421,https://doi.org/10.1016/j.mri.2014.09.004,Quantitative susceptibility mapping: current status and future directions,2014,530,S13619737,article
+W2020089616,https://doi.org/10.1016/j.snb.2015.02.025,Feature selection and analysis on correlated gas sensor data with recursive feature elimination,2015,527,S98455728,article
+W2963213486,https://doi.org/10.1109/jproc.2015.2487976,Learning to Hash for Indexing Big Data—A Survey,2015,525,S68686220,article
+W2808535700,https://doi.org/10.24963/ijcai.2018/476,GeoMAN: Multi-level Attention Networks for Geo-sensory Time Series Prediction,2018,523,,conference-paper
+W2291593693,https://doi.org/10.1016/j.media.2016.02.006,Multi-scale patch and multi-modality atlases for whole heart segmentation of MRI,2016,522,S116571295,article
+W2056748234,https://doi.org/10.14778/2350229.2350263,CrowdER,2012,517,S4210226185,article
+W4391307079,https://doi.org/10.1109/smc53992.2023.10394415,AFPN: Asymptotic Feature Pyramid Network for Object Detection,2023,513,,conference-paper
+W3034584726,https://doi.org/10.1109/cvpr42600.2020.00768,PF-Net: Point Fractal Network for 3D Point Cloud Completion,2020,512,,conference-paper
+W2129291408,https://doi.org/10.1109/icip.1998.723655,Adaptive key frame extraction using unsupervised clustering,2002,511,,conference-paper
+W2039791408,https://doi.org/10.1016/s0167-8655(03)00111-9,Similarity measures on intuitionistic fuzzy sets,2003,510,S151820558,article
+W2896784509,https://doi.org/10.1016/j.renene.2018.10.031,Fault diagnosis of wind turbine based on Long Short-term memory networks,2018,510,S815301,article
+W2513378248,https://doi.org/10.18653/v1/p16-1123,Relation Classification via Multi-Level Attention CNNs,2016,504,,conference-paper
+W2142720090,https://doi.org/10.1016/j.eswa.2010.02.102,A new approach to intrusion detection using Artificial Neural Networks and fuzzy clustering,2010,503,S13144211,article
+W2948069880,https://doi.org/10.1109/cvpr.2019.00283,Universal Domain Adaptation,2019,500,,conference-paper
+W3204875639,https://doi.org/10.1109/iccv48922.2021.01502,DenseTNT: End-to-end Trajectory Prediction from Dense Goal Sets,2021,491,S4363607764,conference-paper
+W2313931749,https://doi.org/10.3835/plantgenome2015.11.0120,GAPIT Version 2: An Enhanced Integrated Tool for Genomic Association and Prediction,2016,487,S84695101,article
+W2997365797,https://doi.org/10.1016/j.autcon.2019.103063,Blockchain-based framework for improving supply chain traceability and information sharing in precast construction,2019,483,S172073041,article
+W2086958058,https://doi.org/10.1145/2600428.2609610,Latent semantic sparse hashing for cross-modal similarity search,2014,482,,conference-paper
+W1982397092,https://doi.org/10.1145/1921591.1921596,Recommending friends and locations based on individual location history,2011,481,S131231701,article
+W2022749020,https://doi.org/10.1145/1658373.1658374,Understanding transportation modes based on GPS data for web applications,2010,480,S131231701,article
+W3040685212,https://doi.org/10.1016/j.media.2020.101765,Multi-site fMRI analysis using privacy-preserving federated learning and domain adaptation: ABIDE results,2020,476,S116571295,article
+W2026562765,https://doi.org/10.1145/1010614.1010616,Efficient mining of both positive and negative association rules,2004,471,S4394735545,article
+W2024820182,https://doi.org/10.1016/j.rser.2007.12.002,A review on adsorption working pairs for refrigeration,2008,470,S68497187,article
+W2149956719,https://doi.org/10.1109/phm.2008.4711421,A similarity-based prognostics approach for Remaining Useful Life estimation of engineered systems,2008,468,,conference-paper
+W1969150846,https://doi.org/10.1016/j.ymssp.2012.08.016,A Wiener-process-based degradation model with a recursive filter algorithm for remaining useful life estimation,2012,461,S128368299,article
+W2977072935,https://doi.org/10.1016/j.jbi.2019.103291,Patient clustering improves efficiency of federated machine learning to predict mortality and hospital stay time using distributed electronic medical records,2019,461,S11622463,article
+W3149255455,https://doi.org/10.1109/icse.2012.6227210,Where should the bugs be fixed? More accurate information retrieval-based bug localization based on bug reports,2012,461,,conference-paper
+W2227395312,https://doi.org/10.1186/s13059-016-1037-6,An expanded evaluation of protein function prediction methods shows an improvement in accuracy,2016,460,S81160022,article
+W2017846705,https://doi.org/10.1016/j.ins.2008.06.008,Clustering algorithm for intuitionistic fuzzy sets,2008,455,S192650101,article
+W2804395012,https://doi.org/10.1016/j.rser.2018.05.029,A review of uncertainty analysis in building energy assessment,2018,446,S68497187,article
+W3092879151,https://doi.org/10.1145/3394171.3413769,WildDeepfake,2020,441,,conference-paper
+W2588941434,https://doi.org/10.1109/tii.2017.2670505,A Manufacturing Big Data Solution for Active Preventive Maintenance,2017,440,S184777250,article
+W2038681300,https://doi.org/10.1016/j.ab.2007.10.012,PseAAC: A flexible web server for generating various kinds of protein pseudo amino acid composition,2007,439,S7858788,article
+W2163150789,https://doi.org/10.1109/tits.2009.2026312,PPCA-Based Missing Data Imputation for Traffic Flow Volume: A Systematical Approach,2009,438,S144771191,article
+W2585226541,https://doi.org/10.14778/3055540.3055547,Truth inference in crowdsourcing,2017,438,S4210226185,article
+W3178835722,https://doi.org/10.1145/3404835.3462968,Sequential Recommendation with Graph Neural Networks,2021,438,,conference-paper
+W3176187859,https://doi.org/10.1109/cvpr46437.2021.01146,Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection,2021,437,,conference-paper
+W2517850251,https://doi.org/10.1109/tpds.2016.2603511,A Parallel Random Forest Algorithm for Big Data in a Spark Cloud Computing Environment,2016,433,S97130795,article
+W2145773134,https://doi.org/10.1109/tpami.2013.134,Neighborhood Repulsed Metric Learning for Kinship Verification,2013,432,S199944782,article
+W2056227828,https://doi.org/10.1100/tsw.2011.2,"Longitudinal Data Analyses Using Linear Mixed Models in SPSS: Concepts, Procedures and Illustrations",2011,430,S29243050,article
+W4399430129,https://doi.org/10.1016/j.joule.2024.05.008,Advancing electrochemical impedance analysis through innovations in the distribution of relaxation times method,2024,430,S2898305631,article
+W2962917547,https://doi.org/10.1109/cvpr.2017.557,RON: Reverse Connection with Objectness Prior Networks for Object Detection,2017,429,,conference-paper
+W2114538147,https://doi.org/10.1109/tkde.2008.202,RiMOM: A Dynamic Multistrategy Ontology Alignment Framework,2008,428,S30698027,article
+W3210458411,https://doi.org/10.1016/j.neunet.2021.10.021,Exploiting dynamic spatio-temporal graph convolutional neural networks for citywide traffic flows prediction,2021,428,S123019304,article
+W3176694003,https://doi.org/10.1109/tai.2021.3065894,A Survey on Multiview Clustering,2021,427,S4210169448,article
+W2059900053,https://doi.org/10.1145/1150402.1150504,Utility-based anonymization using local recoding,2006,424,,conference-paper
+W2762294195,https://doi.org/10.1109/jstars.2017.2755672,OpenSARShip: A Dataset Dedicated to Sentinel-1 Ship Interpretation,2017,420,S117727964,article
+W2947877009,https://doi.org/10.1038/s41592-019-0425-8,Benchmarking single cell RNA-sequencing analysis pipelines using mixture control experiments,2019,418,S127827428,article
+W421662763,https://doi.org/10.1016/j.rcim.2010.03.013,An overview of dynamic parameter identification of robots,2010,417,S118216261,article
+W2102999520,https://doi.org/10.1007/11731139_68,Ranking Outliers Using Symmetric Neighborhood Relationship,2006,416,S106296714,conference-paper
+W3170937175,https://doi.org/10.1145/3447548.3467075,Multivariate Time Series Anomaly Detection and Interpretation using Hierarchical Inter-Metric and Temporal Embedding,2021,416,,conference-paper
+W2061798849,https://doi.org/10.1016/j.eswa.2008.06.121,Customer churn prediction using improved balanced random forests,2008,415,S13144211,article
+W1860884375,https://doi.org/10.1103/physreva.92.022124,Intrinsic randomness as a measure of quantum coherence,2015,413,S164566984,article
+W4382655263,https://doi.org/10.1016/j.energy.2023.128274,Short-term power load forecasting for combined heat and power using CNN-LSTM enhanced by attention mechanism,2023,413,S2497375143,article
+W2019863495,https://doi.org/10.1109/tpami.2011.170,A Multimedia Retrieval Framework Based on Semi-Supervised Ranking and Relevance Feedback,2011,411,S199944782,article
+W3108202858,https://doi.org/10.1109/tbdata.2022.3177455,"A Survey on Heterogeneous Graph Embedding: Methods, Techniques, Applications and Sources",2022,405,S2491400915,article
+W2000264668,https://doi.org/10.1186/1471-2105-9-s9-s10,"The balance of reproducibility, sensitivity, and specificity of lists of differentially expressed genes in microarray studies",2008,403,S19032547,article
+W2060093109,https://doi.org/10.1109/tfuzz.2014.2360556,Hesitant Fuzzy Linguistic VIKOR Method and Its Application in Qualitative Multiple Criteria Decision Making,2014,403,S134177497,article
+W2587299461,https://doi.org/10.1016/j.visinf.2017.01.006,Towards better analysis of machine learning models: A visual analytics perspective,2017,403,S2898150413,article
+W3008497156,https://doi.org/10.1016/j.cose.2020.101748,Image-Based malware classification using ensemble of CNN architectures (IMCEC),2020,403,S12529635,article
+W2889935068,https://doi.org/10.1109/icme.2018.8486597,Real-Time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification,2018,400,,conference-paper
+W2903799441,https://doi.org/10.1109/tse.2018.2887384,"Fault Analysis and Debugging of Microservice Systems: Industrial Survey, Benchmark System, and Empirical Study",2018,400,S8351582,article
+W2227178360,https://doi.org/10.1093/nar/gkv1505,TopDom: an efficient and deterministic method for identifying topological domains in genomes,2015,399,S134668137,article
+W2952522777,https://doi.org/10.1093/bioinformatics/bty543,NeoDTI: neural integration of neighbor information from a heterogeneous network for discovering new drug–target interactions,2018,399,S52395412,article
+W2051549110,https://doi.org/10.1609/aaai.v25i1.7900,Large Scale Spectral Clustering with Landmark-Based Representation,2011,397,S4210191458,conference-paper
+W2798355657,https://doi.org/10.1109/cvpr.2018.00062,Scale-Transferrable Object Detection,2018,396,,conference-paper
+W1971014006,https://doi.org/10.1109/tcyb.2015.2401732,The Analysis of Image Contrast: From Quality Assessment to Automatic Enhancement,2015,392,S4210191041,article
+W2905471643,https://doi.org/10.1609/aaai.v33i01.33016407,Hybrid Attention-Based Prototypical Networks for Noisy Few-Shot Relation Classification,2019,390,S4210191458,conference-paper
+W2068430427,https://doi.org/10.1145/2025113.2025120,ReLink,2011,389,,conference-paper
+W3125675327,https://doi.org/10.1007/s41019-020-00151-z,A Survey of Traffic Prediction: from Spatio-Temporal Data to Intelligent Transportation,2021,387,S2486411021,article
+W2096076988,https://doi.org/10.1145/1376616.1376706,EASE,2008,386,,conference-paper
+W2116737258,https://doi.org/10.5555/2337223.2337226,Where should the bugs be fixed? - more accurate information retrieval-based bug localization based on bug reports,2012,384,,article
+W3120227884,https://doi.org/10.1109/tifs.2021.3050608,Accurate Decentralized Application Identification via Encrypted Traffic Analysis Using Graph Neural Networks,2021,383,S61310614,article
+W2802925146,https://doi.org/10.1515/jib-2017-0030,Big Data Analytics in Medicine and Healthcare,2018,382,S4393917359,article
+W2337881469,https://doi.org/10.1049/hve.2016.0005,"Fault detection, classification and location for transmission lines and distribution systems: a review on the methods",2016,381,S4210222834,article
+W2766402183,https://doi.org/10.1145/3123266.3123343,Single Shot Temporal Action Detection,2017,380,,conference-paper
+W2915004230,https://doi.org/10.1109/tgrs.2019.2953473,Deep-Learning Inversion of Seismic Data,2019,378,S111326731,article
+W2148145769,https://doi.org/10.1093/bioinformatics/btv256,Improving compound–protein interaction prediction by building up highly credible negative samples,2015,377,S52395412,article
+W3096068180,https://doi.org/10.1007/978-3-030-58548-8_9,Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking,2020,375,S106296714,conference-paper
+W2906305053,https://doi.org/10.1016/j.autcon.2018.12.016,Construction site accident analysis using text mining and natural language processing techniques,2018,374,S172073041,article
+W2950722229,https://doi.org/10.1016/j.ijmedinf.2016.09.014,A machine learning-based framework to identify type 2 diabetes through electronic health records,2016,371,S53142634,article
+W3009901425,https://doi.org/10.1109/icdm.2019.00070,A Semi-Supervised Graph Attentive Network for Financial Fraud Detection,2019,368,,conference-paper
+W3194836374,https://doi.org/10.1145/3485447.3511998,KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction,2022,368,S4363608783,conference-paper
+W4312183515,https://doi.org/10.1007/s00521-022-08077-5,Improved YOLOv5 network for real-time multi-scale traffic sign detection,2022,368,S147897268,article
+W2614935527,https://doi.org/10.1093/nar/gkx449,NOREVA: normalization and evaluation of MS-based metabolomics data,2017,366,S134668137,article
+W2541577353,https://doi.org/10.1016/j.autcon.2016.10.004,Visualization technology-based construction safety management: A review,2016,365,S172073041,article
+W4390490761,https://doi.org/10.1145/3639372,Explainability for Large Language Models: A Survey,2024,624,S2492086750,article
+W4406800520,https://doi.org/10.1007/s11432-024-4222-0,The rise and potential of large language model based agents: a survey,2025,597,S4210218743,article
+W4401386967,https://doi.org/10.1109/lra.2024.3440097,DriveGPT4: Interpretable End-to-End Autonomous Driving Via Large Language Model,2024,403,S4210169774,article
+W4389518671,https://doi.org/10.18653/v1/2023.emnlp-main.322,Query Rewriting in Retrieval-Augmented Large Language Models,2023,257,,conference-paper
+W4389520455,https://doi.org/10.18653/v1/2023.findings-emnlp.603,Text Classification via Large Language Models,2023,187,,conference-paper
+W4388922836,https://doi.org/10.1016/s2589-7500(23)00201-7,Large language models and their impact in ophthalmology,2023,165,S4210237014,article
+W4402901320,https://doi.org/10.1057/s41599-024-03611-3,Large language models empowered agent-based modeling and simulation: a survey and perspectives,2024,256,S4210206302,article
+W4385570088,https://doi.org/10.18653/v1/2023.acl-long.147,Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models,2023,323,,conference-paper
+W4404782209,https://doi.org/10.18653/v1/2024.emnlp-main.992,Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate,2024,256,,conference-paper
+W4391590983,https://doi.org/10.1145/3651890.3672268,NetLLM: Adapting Large Language Models for Networking,2024,159,,conference-paper
+W4409695426,https://doi.org/10.1038/s41591-025-03727-2,Benchmark evaluation of DeepSeek large language models in clinical decision-making,2025,215,S203256638,article
+W4388708748,https://doi.org/10.1177/18344909231213958,Emotional intelligence of Large Language Models,2023,126,S33876618,article
+W4386110374,https://doi.org/10.1016/j.ebiom.2023.104770,"Benchmarking large language models’ performances for myopia care: a comparative analysis of ChatGPT-3.5, ChatGPT-4.0, and Google Bard",2023,317,S2531685872,article
+W4400606525,https://doi.org/10.1145/3678004,How Can Recommender Systems Benefit from Large Language Models: A Survey,2024,204,S4394735545,article
+W4389267014,https://doi.org/10.1038/s41746-023-00952-2,A medical multimodal large language model for future pandemics,2023,152,S4210195431,article
+W4403753254,https://doi.org/10.1007/s11704-024-40663-9,A survey on LoRA of large language models,2024,117,S4210231404,article
+W4394745858,https://doi.org/10.1145/3597503.3639219,Evaluating Large Language Models in Class-Level Code Generation,2024,152,,conference-paper
+W4389524500,https://doi.org/10.18653/v1/2023.findings-emnlp.1055,SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities,2023,181,,conference-paper
+W4389520468,https://doi.org/10.18653/v1/2023.findings-emnlp.620,Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy,2023,180,,conference-paper
+W4407881031,https://doi.org/10.1145/3719664,"A Review on Edge Large Language Models: Design, Execution, and Applications",2025,148,S157921468,article
+W4406241919,https://doi.org/10.1016/j.patter.2024.101118,A survey of multilingual large language models,2025,104,S4210198061,article
+W4394862732,https://doi.org/10.1109/wacvw60836.2024.00102,Drive Like a Human: Rethinking Autonomous Driving with Large Language Models,2024,158,,conference-paper
+W4392362609,https://doi.org/10.1038/s41598-024-55686-2,Bias of AI-generated content: an examination of news produced by large language models,2024,165,S196734849,article
+W4389523710,https://doi.org/10.18653/v1/2023.emnlp-main.214,GPT-RE: In-context Learning for Relation Extraction using Large Language Models,2023,150,,conference-paper
+W4402582321,https://doi.org/10.1038/s44172-024-00271-8,Interactive computer-aided diagnosis on medical image using large language models,2024,144,S4387280558,article
+W4401042993,https://doi.org/10.18653/v1/2024.findings-naacl.176,Multilingual Machine Translation with Large Language Models: Empirical Results and Analysis,2024,126,,conference-paper
+W4402670791,https://doi.org/10.18653/v1/2024.findings-acl.33,MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning,2024,126,,conference-paper
+W4403220611,https://doi.org/10.1145/3640457.3688104,Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models,2024,135,,conference-paper
+W4404401018,https://doi.org/10.1145/3694715.3695964,PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU,2024,123,,conference-paper
+W4393578753,https://doi.org/10.1145/3626202.3637562,FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs,2024,132,,conference-paper
+W4366341968,https://doi.org/10.1145/3579371.3589038,OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization,2023,150,,conference-paper
+W4399442007,https://doi.org/10.1039/d4sc00924j,Fine-tuning large language models for chemical text mining,2024,102,S184645833,article
+W4385571189,https://doi.org/10.18653/v1/2023.acl-long.792,LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion,2023,122,,conference-paper
+W4408411093,https://doi.org/10.1038/s41746-025-01550-0,Enhancing diagnostic capability with multi-agents conversational large language models,2025,107,S4210195431,article
+W4402467765,https://doi.org/10.1016/j.ijdrr.2024.104804,Enhancing emergency decision-making with knowledge graphs and large language models,2024,100,S2764830010,article
+W4401857637,https://doi.org/10.1145/3637528.3671582,OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning,2024,119,,conference-paper
+W4391032878,https://doi.org/10.1007/s41019-023-00235-6,DB-GPT: Large Language Model Meets Database,2024,79,S2486411021,article
+W4391225179,https://doi.org/10.1093/jamia/ocad252,Harnessing the potential of large language models in medical education: promise and pitfalls,2024,97,S129839026,article
+W4403778769,https://doi.org/10.1007/978-3-031-72698-9_8,PointLLM: Empowering Large Language Models to Understand Point Clouds,2024,87,S106296714,conference-paper
+W4406828533,https://doi.org/10.1145/3715318,Scientific Large Language Models: A Survey on Biological & Chemical Domains,2025,87,S157921468,article
+W4389519982,https://doi.org/10.18653/v1/2023.findings-emnlp.97,On the Risk of Misinformation Pollution with Large Language Models,2023,69,,conference-paper
+W4387848774,https://doi.org/10.1145/3583780.3614905,Hallucination Detection: Robustly Discerning Reliable Answers in Large Language Models,2023,95,,conference-paper
+W4388744821,https://doi.org/10.2139/ssrn.4607026,S3: Social-network Simulation System with Large Language Model-Empowered Agents,2023,105,S4210172589,preprint
+W4416296080,https://doi.org/10.1145/3777411,Instruction Tuning for Large Language Models: A Survey,2025,68,S157921468,article
+W4404641323,https://doi.org/10.1038/s41467-024-54457-x,An automatic end-to-end chemical synthesis development platform powered by large language models,2024,113,S64187185,article
+W4396877721,https://doi.org/10.1109/tsmc.2024.3392930,LLMScenario: Large Language Model Driven Scenario Generation,2024,74,S4210209078,article
+W4392616472,https://doi.org/10.1162/tacl_a_00642,Exploring Human-Like Translation Strategy with Large Language Models,2024,82,S2729999759,article
+W4322766882,https://doi.org/10.1038/s42256-023-00626-4,Parameter-efficient fine-tuning of large-scale pre-trained language models,2023,1023,S2912241403,article
+W4395112660,https://doi.org/10.1145/3620666.3651335,SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification,2024,101,,conference-paper
+W4401065398,https://doi.org/10.1016/j.compenvurbsys.2024.102153,Exploring large language models for human mobility prediction under public events,2024,92,S60115552,article
+W4390577395,https://doi.org/10.1016/j.scib.2024.01.004,Large language models for diabetes care: Potentials and prospects,2024,66,S4306542128,article
+W4385848430,https://doi.org/10.4230/tgdk.1.1.2,Large Language Models and Knowledge Graphs: Opportunities and Challenges,2023,66,S4306400194,preprint
+W4402671897,https://doi.org/10.18653/v1/2024.acl-long.445,Full Parameter Fine-tuning for Large Language Models with Limited Resources,2024,80,,conference-paper
+W4407953078,https://doi.org/10.1145/3701551.3703546,Large Language Model Simulator for Cold-Start Recommendation,2025,62,,conference-paper
+W4403056940,https://doi.org/10.1038/s41539-024-00273-3,Evaluating large language models in analysing classroom dialogue,2024,61,S4210220735,article
+W4392543779,https://doi.org/10.1109/tsg.2024.3373256,Applying Large Language Models to Power Systems: Potential Security Threats,2024,76,S59604973,article
+W4402727124,https://doi.org/10.1109/cvpr52733.2024.00370,GSVA: Generalized Segmentation via Multimodal Large Language Models,2024,68,,conference-paper
+W4402169037,https://doi.org/10.1145/3691626,A Survey of Text Watermarking in the Era of Large Language Models,2024,59,S157921468,article
+W4403221502,https://doi.org/10.1145/3699518,"Survey on Knowledge Distillation for Large Language Models: Methods, Evaluation, and Application",2024,73,S2492086750,article
+W4402671302,https://doi.org/10.18653/v1/2024.acl-long.830,SafetyBench: Evaluating the Safety of Large Language Models,2024,51,,conference-paper
+W4385571050,https://doi.org/10.18653/v1/2023.findings-acl.551,Do Large Language Models Know What They Don’t Know?,2023,62,,conference-paper
+W4405367158,https://doi.org/10.1016/j.patter.2024.101098,Integration of large language models and federated learning,2024,49,S4210198061,article
+W4393949386,https://doi.org/10.1145/3656177,Understanding the Potential of FPGA-based Spatial Acceleration for Large Language Model Inference,2024,76,S112809824,article
+W4388975763,https://doi.org/10.1007/s10916-023-02021-3,Evaluating the Performance of Different Large Language Models on Health Consultation and Patient Education in Urolithiasis,2023,83,S37151855,article
+W4366447635,https://doi.org/10.1186/s12967-023-04123-5,Can the ChatGPT and other large language models with internet-connected database solve the questions and concerns of patient with prostate cancer and help democratize medical knowledge?,2023,155,S142026636,article
+W4388212670,https://doi.org/10.1109/issre59848.2023.00026,LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning,2023,106,,conference-paper
+W4392405493,https://doi.org/10.1109/tvcg.2024.3368060,LEVA: Using Large Language Models to Enhance Visual Analytics,2024,60,S84775595,article
+W4403582420,https://doi.org/10.1145/3627673.3680016,RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models,2024,87,,conference-paper
+W4389518895,https://doi.org/10.18653/v1/2023.findings-emnlp.691,Self-Knowledge Guided Retrieval Augmentation for Large Language Models,2023,59,,conference-paper
+W4401515033,https://doi.org/10.1080/09588221.2024.2389923,"Integrating large language models into EFL writing instruction: effects on performance, self-regulated learning strategies, and motivation",2024,102,S100649693,article
+W4385638369,https://doi.org/10.1016/j.aiopen.2023.08.001,Information Retrieval meets Large Language Models: A strategic report from Chinese IR community,2023,85,S4210194376,article
+W4402684113,https://doi.org/10.18653/v1/2024.findings-acl.247,DebugBench: Evaluating Debugging Capability of Large Language Models,2024,51,,conference-paper
+W4400209938,https://doi.org/10.3390/buildings14071983,Automated Building Information Modeling Compliance Check through a Large Language Model Combined with Deep Learning and Ontology,2024,87,S4210191137,article
+W4389519972,https://doi.org/10.18653/v1/2023.findings-emnlp.187,UReader: Universal OCR-free Visually-situated Language Understanding with Multimodal Large Language Model,2023,69,,conference-paper
+W4409091111,https://doi.org/10.1016/j.imed.2025.03.002,Evaluating large language models and agents in healthcare: key challenges in clinical applications,2025,65,S4210178142,article
+W4411735779,https://doi.org/10.1145/3746635,A Survey of AIOps in the Era of Large Language Models,2025,42,S157921468,article
+W4402702988,https://doi.org/10.1109/cvpr52733.2024.01480,LayoutLLM: Layout Instruction Tuning with Large Language Models for Document Understanding,2024,56,,conference-paper
+W4411900553,https://doi.org/10.1038/s42256-025-01066-y,Large language models to accelerate organic chemistry synthesis,2025,45,S2912241403,article
+W4409156407,https://doi.org/10.1016/j.aei.2025.103312,AutoTRIZ: Automating engineering innovation with TRIZ and large language models,2025,50,S112141509,article
+W4403007658,https://doi.org/10.1145/3697012,On the Effectiveness of Large Language Models in Domain-Specific Code Generation,2024,50,S142627899,article
+W4392449489,https://doi.org/10.1109/tdsc.2024.3372777,PrivacyAsst: Safeguarding User Privacy in Tool-Using Large Language Model Agents,2024,61,S133795288,article
+W4414008559,https://doi.org/10.1109/mcom.001.2400764,"Pushing Large Language Models to the 6G Edge: Vision, Challenges, and Opportunities",2025,55,S158797327,article
+W4392931626,https://doi.org/10.1109/icassp48485.2024.10445874,Connecting Speech Encoder and Large Language Model for ASR,2024,44,,conference-paper
+W4406829669,https://doi.org/10.1038/s41746-024-01390-4,Towards evaluating and building versatile large language models for medicine,2025,49,S4210195431,article
+W4404608635,https://doi.org/10.1109/comst.2024.3503680,"Toward Federated Large Language Models: Motivations, Methods, and Future Directions",2024,54,S23688054,article
+W4401042394,https://doi.org/10.18653/v1/2024.naacl-long.478,On Learning to Summarize with Large Language Models as References,2024,38,,conference-paper
+W4400909566,https://doi.org/10.1109/icde60146.2024.00009,PURPLE: Making a Large Language Model a Better SQL Writer,2024,48,,conference-paper
+W4415070954,https://doi.org/10.1016/j.patter.2025.101370,Toward large reasoning models: A survey of reinforced reasoning with large language models,2025,49,S4210198061,article
+W4400942383,https://doi.org/10.1016/j.synbio.2024.07.004,Integrating chemistry knowledge in large language models via prompt engineering,2024,53,S2898462621,article
+W4403929549,https://doi.org/10.1016/j.compag.2024.109587,Visual large language model for wheat disease diagnosis in the wild,2024,47,S116775814,article
+W4404113537,https://doi.org/10.1016/j.commtr.2024.100146,Harnessing multimodal large language models for traffic knowledge graph generation and decision-making,2024,64,S4210178498,article
+W4410964376,https://doi.org/10.1145/3742420,Survey on Factuality in Large Language Models,2025,32,S157921468,article
+W4402043038,https://doi.org/10.14778/3681954.3681960,Combining Small Language Models and Large Language Models for Zero-Shot NL2SQL,2024,47,S4210226185,article
+W4402667014,https://doi.org/10.18653/v1/2024.acl-demos.20,AutoRE: Document-Level Relation Extraction with Large Language Models,2024,45,,conference-paper
+W4396758737,https://doi.org/10.1145/3589334.3645467,ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation,2024,61,,conference-paper
+W4407194361,https://doi.org/10.1016/j.patter.2025.101176,Attention heads of large language models,2025,31,S4210198061,article
+W4402671152,https://doi.org/10.18653/v1/2024.acl-long.702,DRAGIN: Dynamic Retrieval Augmented Generation based on the Real-time Information Needs of Large Language Models,2024,71,,conference-paper
+W4401352024,https://doi.org/10.14778/3675034.3675043,D-Bot: Database Diagnosis System using Large Language Models,2024,48,S4210226185,article
+W4406015426,https://doi.org/10.1038/s41598-024-84109-5,Evaluating the ability of large language models to emulate personality,2025,39,S196734849,article
+W4406324010,https://doi.org/10.1145/3712005,The Current Challenges of Software Engineering in the Era of Large Language Models,2025,43,S142627899,article
+W4402727134,https://doi.org/10.1109/cvpr52733.2024.00296,LLaFS: When Large Language Models Meet Few-Shot Segmentation,2024,48,,conference-paper
+W4414065237,https://doi.org/10.1038/s43588-025-00846-1,Urban planning in the era of large language models,2025,34,S4210228084,article
+W4400493343,https://doi.org/10.1145/3674838,TWIN-GPT : Digital Twins for Clinical Trials via Large Language Model,2024,51,S19610489,article
+W4393147046,https://doi.org/10.1609/aaai.v38i17.29902,SECap: Speech Emotion Captioning with Large Language Model,2024,37,S4210191458,conference-paper
+W4389573032,https://doi.org/10.1056/aie2300128,Why We Support and Encourage the Use of Large Language Models in NEJM AI Submissions,2023,56,S4389157821,editorial
+W4401043375,https://doi.org/10.18653/v1/2024.naacl-long.51,Unveiling the Generalization Power of Fine-Tuned Large Language Models,2024,41,,conference-paper
+W4403878024,https://doi.org/10.1007/978-3-031-72992-8_22,MM-SafetyBench: A Benchmark for Safety Evaluation of Multimodal Large Language Models,2024,45,S106296714,conference-paper
+W4402671229,https://doi.org/10.18653/v1/2024.acl-long.829,EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities,2024,45,,conference-paper
+W4401856679,https://doi.org/10.1145/3637528.3671620,AutoWebGLM: A Large Language Model-based Web Navigating Agent,2024,40,,conference-paper
+W4385572601,https://doi.org/10.18653/v1/2023.findings-acl.99,AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation,2023,44,,conference-paper
+W4404708476,https://doi.org/10.1109/jbhi.2024.3505955,BioMedGPT: An Open Multimodal Large Language Model for BioMedicine,2024,35,S2495854775,article
+W4403600564,https://doi.org/10.1109/jbhi.2024.3483816,Benchmarking Large Language Models in Evidence-Based Medicine,2024,35,S2495854775,article
+W4417147545,https://doi.org/10.1007/s44267-025-00099-6,Efficient multimodal large language models: a survey,2025,31,S4387289164,article
+W4400528558,https://doi.org/10.1145/3626772.3657762,Sequential Recommendation with Latent Relations based on Large Language Model,2024,39,,conference-paper
+W4392903596,https://doi.org/10.1109/icassp48485.2024.10446267,PoisonPrompt: Backdoor Attack on Prompt-Based Large Language Models,2024,39,,conference-paper
+W4385573069,https://doi.org/10.18653/v1/2022.emnlp-main.259,BBTv2: Towards a Gradient-Free Future with Large Language Models,2022,38,,conference-paper
+W4402897562,https://doi.org/10.1016/j.swevo.2024.101741,Large language models as surrogate models in evolutionary algorithms: A preliminary study,2024,39,S2764346689,article
+W4409365576,https://doi.org/10.1609/aaai.v39i10.33131,Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference,2025,46,S4210191458,conference-paper
+W4402671841,https://doi.org/10.18653/v1/2024.acl-long.106,LoRAMoE: Alleviating World Knowledge Forgetting in Large Language Models via MoE-Style Plugin,2024,55,,conference-paper
+W4405022259,https://doi.org/10.1109/mnet.2024.3510936,"Large Language Models for Networking: Workflow, Advances, and Challenges",2024,32,S186584794,article
+W4391596770,https://doi.org/10.1016/j.aap.2024.107497,Integrating visual large language model and reasoning chain for driver behavior analysis and risk assessment,2024,54,S188336720,article
+W4406087634,https://doi.org/10.1016/j.xinn.2024.100749,Urban sensing in the era of large language models,2025,28,S4210236180,article
+W4414563742,https://doi.org/10.1016/j.artmed.2025.103268,A survey for large language models in biomedicine,2025,25,S42468263,article
+W4403220991,https://doi.org/10.1145/3640457.3688075,Large Language Models as Evaluators for Recommendation Explanations,2024,28,,conference-paper
+W4403982217,https://doi.org/10.2196/60063,EyeGPT for Patient Inquiries and Medical Education: Development and Validation of an Ophthalmology Large Language Model,2024,47,S17147534,article
+W4411665971,https://doi.org/10.1016/j.ijdrr.2025.105642,Large language model applications in disaster management: An interdisciplinary review,2025,34,S2764830010,article
+W4389519799,https://doi.org/10.18653/v1/2023.newsum-1.2,Zero-Shot Cross-Lingual Summarization via Large Language Models,2023,38,,conference-paper
+W4400216594,https://doi.org/10.1016/j.jobe.2024.109996,Intelligent design and optimization system for shear wall structures based on large language models and generative artificial intelligence,2024,60,S2764478331,article
+W4405500989,https://doi.org/10.34133/hds.0221,ECG-LM: Understanding Electrocardiogram with a Large Language Model,2024,30,S4210185134,article
+W4397003497,https://doi.org/10.1056/aira2400012,Clinical Text Datasets for Medical Artificial Intelligence and Large Language Models — A Systematic Review,2024,45,S4389157821,review
+W4396723563,https://doi.org/10.1145/3589334.3645633,PMG : Personalized Multimodal Generation with Large Language Models,2024,29,,conference-paper
+W4404536559,https://doi.org/10.1007/978-3-031-72904-1_9,A Comprehensive Study of Multimodal Large Language Models for Image Quality Assessment,2024,36,S106296714,conference-paper
+W4405783533,https://doi.org/10.20517/ir.2024.27,A survey of datasets in medicine for large language models,2024,25,S4210186228,article
+W4393114551,https://doi.org/10.1631/fitee.2300747,Large language model and domain-specific model collaboration for smart education,2024,33,S4210189857,article
+W4407951437,https://doi.org/10.1109/cdc56724.2024.10885862,Prompt a Robot to Walk with Large Language Models,2024,25,,conference-paper
+W4393156546,https://doi.org/10.1609/aaai.v38i16.29723,MedBench: A Large-Scale Chinese Benchmark for Evaluating Medical Large Language Models,2024,35,S4210191458,conference-paper
+W4392156151,https://doi.org/10.1016/j.xcrp.2024.101844,Potential to transform words to watts with large language models in battery research,2024,35,S4210216867,article
+W4399864536,https://doi.org/10.1016/j.media.2024.103248,PneumoLLM: Harnessing the power of large language model for pneumoconiosis diagnosis,2024,31,S116571295,article
+W4385572068,https://doi.org/10.18653/v1/2023.acl-long.482,Element-aware Summarization with Large Language Models: Expert-aligned Evaluation and Chain-of-Thought Method,2023,46,,conference-paper
+W4406874718,https://doi.org/10.1016/j.scib.2025.01.034,Large language models for diabetes training: a prospective study,2025,26,S4306542128,article
+W4389524263,https://doi.org/10.18653/v1/2023.findings-emnlp.858,Probing the “Creativity” of Large Language Models: Can models produce divergent semantic association?,2023,37,,conference-paper
+W4403606691,https://doi.org/10.1021/acs.est.4c07634,Mitigating Grand Challenges in Life Cycle Inventory Modeling through the Applications of Large Language Models,2024,40,S13479253,article
+W4389524162,https://doi.org/10.18653/v1/2023.emnlp-main.84,Unveiling the Implicit Toxicity in Large Language Models,2023,23,,conference-paper
+W4402671828,https://doi.org/10.18653/v1/2024.acl-long.481,Defending Large Language Models Against Jailbreaking Attacks Through Goal Prioritization,2024,36,,conference-paper
+W4402670272,https://doi.org/10.18653/v1/2024.findings-acl.854,Unsupervised Real-Time Hallucination Detection based on the Internal States of Large Language Models,2024,39,,conference-paper
+W4391069894,https://doi.org/10.1016/j.energy.2024.130303,Demand-side energy management reimagined: A comprehensive literature analysis leveraging large language models,2024,42,S2497375143,article
+W4402684058,https://doi.org/10.18653/v1/2024.findings-acl.128,EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models,2024,25,,conference-paper
+W4402672079,https://doi.org/10.18653/v1/2024.acl-long.171,Detoxifying Large Language Models via Knowledge Editing,2024,25,,conference-paper
+W4396498719,https://doi.org/10.1093/jamia/ocae079,Large language models leverage external knowledge to extend clinical insight beyond language boundaries,2024,37,S129839026,article
+W4405016591,https://doi.org/10.1039/d4sc06864e,3DSMILES-GPT: 3D molecular pocket-based generation with token-only large language model,2024,42,S184645833,article
+W4388718403,https://doi.org/10.2139/ssrn.4606937,Large Language Model-Empowered Agents for Simulating Macroeconomic Activities,2023,27,S4210172589,preprint
+W4408665284,https://doi.org/10.1016/j.eswa.2025.127306,Retrieval-Augmented Generation-aided causal identification of aviation accidents: A large language model methodology,2025,41,S13144211,article
+W4402671735,https://doi.org/10.18653/v1/2024.acl-long.178,Unified Hallucination Detection for Multimodal Large Language Models,2024,24,,conference-paper
+W4403578219,https://doi.org/10.1145/3627673.3679760,SINKT: A Structure-Aware Inductive Knowledge Tracing Model with Large Language Model,2024,31,,conference-paper
+W4400727220,https://doi.org/10.1136/bjo-2023-324526,Development and evaluation of a large language model of ophthalmology in Chinese,2024,24,S79587146,article
+W4402683994,https://doi.org/10.18653/v1/2024.acl-long.326,EmoBench: Evaluating the Emotional Intelligence of Large Language Models,2024,24,,conference-paper
+W4404601423,https://doi.org/10.1007/978-3-031-72633-0_6,VISA: Reasoning Video Object Segmentation via Large Language Models,2024,30,S106296714,conference-paper
+W4396832059,https://doi.org/10.1145/3613904.3642790,MindShift: Leveraging Large Language Models for Mental-States-Based Problematic Smartphone Use Intervention,2024,40,,conference-paper
+W4398138749,https://doi.org/10.1007/s11633-024-1502-8,MOSS: An Open Conversational Large Language Model,2024,21,S28082686,article
+W4402277737,https://doi.org/10.1016/j.apenergy.2024.124378,"Domain-specific large language models for fault diagnosis of heating, ventilation, and air conditioning systems by labeled-data-supervised fine-tuning",2024,61,S109565702,article
+W4408781722,https://doi.org/10.3390/drones9040238,Applications of Large Language Models and Multimodal Large Models in Autonomous Driving: A Comprehensive Review,2025,30,S4210193350,article
+W4401863589,https://doi.org/10.1145/3637528.3671709,LLM4DyG: Can Large Language Models Solve Spatial-Temporal Problems on Dynamic Graphs?,2024,36,,conference-paper
+W4412589540,https://doi.org/10.1038/s41591-025-03856-8,Large language model-based biological age prediction in large-scale populations,2025,29,S203256638,article
+W4400529431,https://doi.org/10.1145/3626772.3661377,Preventing and Detecting Misinformation Generated by Large Language Models,2024,23,,conference-paper
+W4405144021,https://doi.org/10.1145/3673791.3698403,Mitigating Entity-Level Hallucination in Large Language Models,2024,23,,conference-paper
+W4400448985,https://doi.org/10.1057/s41599-024-03407-5,Automating psychological hypothesis generation with AI: when large language models meet causal graph,2024,39,S4210206302,article
+W4402672007,https://doi.org/10.18653/v1/2024.acl-long.607,Draft& Verify: Lossless Large Language Model Acceleration via Self-Speculative Decoding,2024,35,,conference-paper
+W4404781224,https://doi.org/10.18653/v1/2024.findings-emnlp.994,MiLoRA: Efficient Mixture of Low-Rank Adaptation for Large Language Models Fine-tuning,2024,35,,conference-paper
+W4396919460,https://doi.org/10.1145/3659600,Can Large Language Models Be Good Companions?,2024,20,S4210219751,article
+W4393160233,https://doi.org/10.1609/aaai.v38i16.29751,Can Large Language Models Serve as Rational Players in Game Theory? A Systematic Analysis,2024,35,S4210191458,conference-paper
+W4412352442,https://doi.org/10.2196/71916,Implementing Large Language Models in Health Care: Clinician-Focused Review With Interactive Guideline,2025,35,S17147534,article
+W4399282423,https://doi.org/10.1057/s41599-024-03209-9,Applying large language models for automated essay scoring for non-native Japanese,2024,31,S4210206302,article
+W4403674467,https://doi.org/10.1109/mwc.009.2400244,"Federated Large Language Model: Solutions, Challenges and Future Directions",2024,25,S146764194,article
+W4403582591,https://doi.org/10.1145/3627673.3679665,Empowering Private Tutoring by Chaining Large Language Models,2024,22,,conference-paper
+W4393236964,https://doi.org/10.1016/j.enbenv.2024.03.010,"Evaluation of large language models (LLMs) on the mastery of knowledge and skills in the heating, ventilation and air conditioning (HVAC) industry",2024,44,S4210206740,article
+W4411892026,https://doi.org/10.1038/s41467-025-61040-5,Efficient GPT-4V level multimodal large language model for deployment on edge devices,2025,33,S64187185,article
+W4400484838,https://doi.org/10.1145/3663529.3663826,MonitorAssistant: Simplifying Cloud Service Monitoring via Large Language Models,2024,27,,conference-paper
+W4389524107,https://doi.org/10.18653/v1/2023.emnlp-main.914,Large Language Models are Complex Table Parsers,2023,19,,conference-paper
+W4416432328,https://doi.org/10.1016/j.apenergy.2025.127076,"Large Language Models Meet Energy Systems: Opportunities, Challenges, and Future Perspectives",2025,30,S109565702,article
+W4405755009,https://doi.org/10.1109/icpics62053.2024.10796670,Financial Sentiment Analysis on News and Reports Using Large Language Models and FinBERT,2024,29,,conference-paper
+W4411080230,https://doi.org/10.1016/j.cities.2025.106142,Advancements in the application of large language models in urban studies: A systematic review,2025,26,S137445289,review
+W4393161039,https://doi.org/10.1609/aaai.v38i17.29872,SciEval: A Multi-Level Large Language Model Evaluation Benchmark for Scientific Research,2024,29,S4210191458,conference-paper
+W4412654797,https://doi.org/10.1093/bib/bbaf357,Bridging artificial intelligence and biological sciences: a comprehensive review of large language models in bioinformatics,2025,32,S91767247,article
+W4393160590,https://doi.org/10.1609/aaai.v38i17.29837,Generative Multi-Modal Knowledge Retrieval with Large Language Models,2024,23,S4210191458,conference-paper
+W4415604498,https://doi.org/10.1007/s11704-025-50058-z,A comprehensive taxonomy of prompt engineering techniques for large language models,2025,23,S4210231404,article
+W4403095656,https://doi.org/10.1115/1.4066773,A Conceptual Design Method Based on Concept–Knowledge Theory and Large Language Models,2024,28,S173178594,article
+W4402727888,https://doi.org/10.1109/cvpr52733.2024.01188,Towards Language-Driven Video Inpainting via Multimodal Large Language Models,2024,25,,conference-paper
+W4401042811,https://doi.org/10.18653/v1/2024.naacl-long.35,ALoRA: Allocating Low-Rank Adaptation for Fine-tuning Large Language Models,2024,28,,conference-paper
+W4388221277,https://doi.org/10.1145/3631504.3631518,From Large Language Models to Databases and Back: A Discussion on Research and Education,2023,25,S47508943,article
+W4407892286,https://doi.org/10.1016/j.landurbplan.2025.105323,Using large language models to investigate cultural ecosystem services perceptions: A few-shot and prompt method,2025,37,S104597489,article
+W4402684226,https://doi.org/10.18653/v1/2024.findings-acl.772,InFoBench: Evaluating Instruction Following Ability in Large Language Models,2024,22,,conference-paper
+W4405429486,https://doi.org/10.1109/jiot.2024.3510553,FCLLM-DT: Enpowering Federated Continual Learning With Large Language Models for Digital-Twin-Based Industrial IoT,2024,40,S2480266640,article
+W4403791911,https://doi.org/10.1145/3664647.3680562,Generative Text Steganography with Large Language Model,2024,17,,conference-paper
+W4416037369,https://doi.org/10.18653/v1/2025.emnlp-industry.151,Depression Detection on Social Media with Large Language Models,2025,19,,conference-paper
+W4407450191,https://doi.org/10.1109/access.2025.3541295,Trans-Border Trusted Data Spaces: A General Framework Supporting Trustworthy International Data Circulation,2025,12,S2485537415,article
+W4313061809,https://doi.org/10.2196/34123,Trusted Data Spaces as a Viable and Sustainable Solution for Networks of Population-Based Patient Registries,2022,7,S2764507669,article
+W4365809852,https://doi.org/10.53829/ntr202304fa7,Trusted Data Space Technology for Data Governance in the IOWN Era,2023,2,S4306521130,article
+W4386756104,https://doi.org/10.3390/su151813746,Towards Trusted Data Sharing and Exchange in Agro-Food Supply Chains: Design Principles for Agricultural Data Spaces,2023,51,S10134376,article
+W4286376027,https://doi.org/10.1007/978-3-030-93975-5_9,Building Trust in Data Spaces,2022,20,,book-chapter
+W4285420655,https://doi.org/10.1007/978-3-030-78307-5_6,Privacy-Preserving Technologies for Trusted Data Spaces,2021,1,,book-chapter
+W4415745242,https://doi.org/10.1109/hpcc67675.2025.00187,"Trusted Data Space: Conceptual Connotation, Technical Architecture and Construction Paths",2025,1,,conference-paper
+W4210443007,https://doi.org/10.53829/ntr202201fa8,Trusted Data Space for Creating Value from Data in a Chain Reaction Manner,2022,1,S4306521130,article
+W7147029895,https://doi.org/10.1016/j.eij.2026.100940,A dynamic revenue allocation model for trusted data spaces based on blockchain and federated learning,2026,1,S97403527,article
+W7135228880,https://doi.org/10.1109/mnet.2026.3669250,"Trusted Data Spaces for Vehicle-Road-Cloud Collaboration: Architecture, Challenges, and Future Directions",2026,1,S186584794,article
+W2804966948,https://doi.org/10.1145/3198458.3198459,An Ecosystem and IoT Device Architecture for Building Trust in the Industrial Data Space,2018,19,,conference-paper
+W4394775619,https://doi.org/10.1016/j.lanepe.2024.100906,Moving forward with the European health data space: the need to restore trust in European health systems,2024,8,S4210196034,article
+W4297666456,https://doi.org/10.1007/978-3-030-98636-0_5,Increasing Trust for Data Spaces with Federated Learning,2022,3,,book-chapter
+W4416945443,https://doi.org/10.3390/info16121066,"Trustworthy Data Space Collaborative Trust Mechanism Driven by Blockchain: Technology Integration, Cross-Border Governance, and Standardization Path",2025,9,S4210219776,article
+W4303453208,https://doi.org/10.1155/2022/5338876,Trusted Data Sharing Mechanism Based on Blockchain and Federated Learning in Space‐Air‐Ground Integrated Networks,2022,7,S235346,article
+W4380997614,https://doi.org/10.1017/dap.2023.14,Local Data Spaces: Leveraging trusted research environments for secure location-based policy research in the age of coronavirus disease-2019,2023,9,S4210198237,article
+W4405849411,https://doi.org/10.1016/j.measen.2024.101484,Digital Calibration Certificate in a trusted quality infrastructure federated data space: A proof of concept,2024,4,S4210238442,article
+W2799250073,https://doi.org/10.48550/arxiv.1804.09442,Der Trusted Connector im Industrial Data Space,2018,2,S4306400194,preprint
+W4415236390,https://doi.org/10.3389/ijph.2025.1608708,Trust Performance Indicators and Trust Stress Tests: A Conceptual Proposition for Trustworthy Health Data Spaces,2025,2,S196280712,article
+W4407938004,https://doi.org/10.5220/0013372900003899,Enabling Trusted Data Sharing in Data Spaces: PROTON - A Privacy-by-Design Approach to Data Products,2025,2,,conference-paper
+W3122473029,,Social Construction of Trust to Protect Ideas and Data in Space Science and Geophysics,1995,2,S4306401271,preprint
+W7131887050,https://doi.org/10.1016/j.ipm.2026.104710,A trusted industrial data space for automotive supply chain (TIDS-ASC): enabling secure and traceable data sharing,2026,2,S174847851,article
+W4415480787,https://doi.org/10.1145/3704413.3765512,Enabling secure and trusted digital twin federations with data spaces,2025,1,,conference-paper
+W1523806484,https://doi.org/10.3386/w5373,Social Construction of Trust to Protect Ideas and Data in Space Science and Geophysics,1995,1,S2809516038,report
+W4415641313,https://doi.org/10.1016/j.measurement.2025.119523,Toward the NQI trusted scientific data space building an information integration and data sharing platform,2025,1,S147767848,article
+W7139062481,https://doi.org/10.1109/tdsc.2026.3674806,A Secure Self-Sovereign Identity Scheme Based on Soulbound Token and Trusted Personal Data Space,2026,1,S133795288,article
+W4411552719,https://doi.org/10.1109/cscwd64889.2025.11033599,Data Space-Driven Trusted Circulation and Synergistic Application Paradigm of Multi-Source Operational Data at Container Transshipment Ports,2025,1,,conference-paper
+W3157152880,,Why Should I Trust You? Supporting the Sharing of Health Data in the Interprofessional Space of Child Development.,2020,1,S4306525036,conference-paper
+W7204267787,https://doi.org/10.1109/mc.2026.3675829,Building Trusted Data Spaces: The IEEE Computer Society Trusted Data Spaces Standards Committee from Architecture to Assurance and Interoperable Governance,2026,0,S178916657,article
+W7126742298,,Construction of the Trusted Data Space Based on Reality-Data Integration,2026,0,S4306401280,article
+W7204884350,https://doi.org/10.1145/3813822.3814036,Battery Passport Generation Method Based on Trusted Data Space,2026,0,,conference-paper
+W7125495998,https://doi.org/10.1109/admit67050.2025.11336959,Construction of a Blockchain-Based Trusted Data Space for Public Health,2025,0,,conference-paper
+W7151920575,https://doi.org/10.1117/12.3109022,A revenue distribution model for trusted data spaces based on information entropy,2026,0,,conference-paper
+W7164636938,,Progress and Typical Case Studies on the Construction of Marine Trusted Data Space,2026,0,S4306401280,article
+W7161596248,https://doi.org/10.23919/dapic.2026.00073,Lightweight Trusted Data Space Construction Method in Edge Computing Environment,2026,0,,conference-paper
+W7208812437,https://doi.org/10.2991/978-94-6239-758-3_25,Research on Data Trusted Sharing Mechanism Based on Trusted Data Space in the Defense Industry,2026,0,S4210228009,book-chapter
+W7164872417,,High-quality dataset construction based on the trusted data space architecture,2026,0,S4306401280,article
+W7171680523,https://doi.org/10.3390/computers15080482,DAO-TDS: Decentralized Autonomous Trusted Data Space for Global Data Circulation,2026,0,S4210228075,article
+W7126712327,,Exploring data governance pathways for grassroots government in the context of trusted data space,2026,0,S4306401280,article
+W7169838591,https://doi.org/10.20944/preprints202607.1119.v1,DAO-TDS: Decentralized Autonomous Trusted Data Space for Global Data Circulation,2026,0,S6309402219,preprint
+W7161583659,https://doi.org/10.23919/dapic.2026.00074,A Real-Time Governance Framework for Trusted Data Spaces in Edge Intelligence Systems,2026,0,,conference-paper
+W4416341524,https://doi.org/10.1360/csb-2025-5317,Construction pathway and application prospect of trusted data space for traditional Chinese medicine,2025,0,S4210173430,article
+W4417403910,https://doi.org/10.1109/cncit65643.2025.11282835,Early Warning and Prevention of High-Frequency Emergencies Based on Trusted Data Spaces,2025,0,,conference-paper
+W7202395383,https://doi.org/10.56028/aehssr.17.1.474.2026,"Research on Trusted Data Space: Theoretical Evolution, Technology Integration and Governance Innovation",2026,0,S4387280434,article
+W4411019612,https://doi.org/10.1109/tpds.2025.3576438,SSS-DIMM: Removing Redundant Data Movement in Trusted DIMM-Based Near-Memory-Processing Kernel Offloading via Secure Space Sharing,2025,1,S97130795,article
+W7124898118,https://doi.org/10.1109/imcec66174.2025.11332076,Research on Power Industry Data Security Defense System based on Trusted Data Space,2025,0,,conference-paper
+W4411224828,https://doi.org/10.1145/3727505.3727520,Research on Incentive echanisms and Profit Distribution for Data Sharing in Personal Trusted Data Spaces,2025,0,,conference-paper
+W7161007577,https://doi.org/10.3390/electronics15102079,TDSR: Distributed Data Asset Registration and Cross-Jurisdictional Verification in Trusted Data Spaces,2026,0,S4210202905,article
+W7155023244,,A Data Security Hosting Scheme Based on Attribute-Based Encryption for Trusted Data Space,2026,0,S4306401280,article
+W7171394007,https://doi.org/10.13998/j.cnki.issn1002-1248.26-0080,Transformation Logic and Practical Pathways for University Libraries Integrating into the Trusted Data Space Construction,2026,0,S4306401280,article
+W4417338747,https://doi.org/10.1109/icdir66749.2025.11281107,A Cradle-to-Gate Product Carbon Footprint Calculation Method Based on Trusted Data Space,2025,0,,conference-paper
+W7202129996,https://doi.org/10.1109/icbdse70225.2026.11635394,Label-Driven Dynamic ABAC for Cross-Domain Access Control in Trusted Data Spaces,2026,0,,conference-paper
+W7123338423,https://doi.org/10.1109/iotir66925.2025.00008,Research on Privacy-Preserving Computing-Based Trusted Data Space for Urban IoT Perception,2025,0,,conference-paper
+W7125477308,https://doi.org/10.1109/admit67050.2025.11336836,Privacy-Preserving Trusted Data Space for Early Warning of High-Incidence and Sudden Diseases,2025,0,,conference-paper
+W7202113568,https://doi.org/10.1109/icbdse70225.2026.11635328,A Secure and Efficient Data Sharing Mechanism for Trusted Data Spaces Based on Federated Learning and Blockchain,2026,0,,conference-paper
+W7161788055,https://doi.org/10.1007/978-3-032-20080-8_13,Research on Security Control in Data Circulation and Utilization: A Case Study of Trusted Data Space Construction,2026,0,S106296714,conference-paper
+W4402325049,https://doi.org/10.1007/978-3-031-71633-1_13,Let Them Eat Data – Trusted Data Spaces from Farm to Fork (and Back to the Farm),2024,0,S4210185096,conference-paper
+W7140131848,https://doi.org/10.1117/12.3109800,Research on the application of data of new energy vehicles in battery material based on trusted data space,2026,0,,conference-paper
+W7154087294,https://doi.org/10.1117/12.3109412,Research on mechanism of batteries for NEV recycling and V2G technology with big data and trusted data space,2026,0,,conference-paper
+W7210278569,https://doi.org/10.12133/j.smartag.sa202605005,"Trusted Data Space for the Agricultural Industry Chain: Theoretical Framework, Operating Mechanism, and Implementation Path",2026,0,S4306401280,article
+W7167888019,https://doi.org/10.1016/j.iref.2026.105619,Supply chain data sharing in the era of trusted data spaces: A four-party evolutionary game analysis,2026,0,S168273071,article
+W4200172223,https://doi.org/10.2196/preprints.34123,Trusted Data Spaces as a Viable and Sustainable Solution for Networks of Population-Based Patient Registries (Preprint),2021,0,,preprint
+W7140145073,https://doi.org/10.1117/12.3108876,Research on technologies of big data fusion-driven vehicle-grid interaction based on trusted data space,2026,0,,conference-paper
+W7140091781,https://doi.org/10.1117/12.3109614,Research on carbon footprint of power batteries for new energy vehicles based on trusted data space technology,2026,0,,conference-paper
+W7161613172,,"Tokenization-based Cross-border Trusted Data Space: Key Technologies, System Construction and Future Outlook",2026,0,S4306401280,article
+W7154182829,https://doi.org/10.1117/12.3109518,Research on material properties of recycled power batteries for new energy vehicles based on trusted data space,2026,0,,conference-paper
+W7202254168,https://doi.org/10.1007/978-981-92-2875-1_9,Integration and Utilization of Urban Memory Resources Empowered by Trusted Data Spaces in Shanghai’s Wukang Road Historic District,2026,0,S4210179954,conference-paper
+W7140135016,https://doi.org/10.1117/12.3109323,Exploration research on new energy vehicle charging and energy supplement technology based on trusted data space technology,2026,0,,conference-paper
+W7131822897,https://doi.org/10.2139/ssrn.6315220,"How Does Verifiable Data Capital Form? Evidence from Trusted Data Space Pilots, Verifiable Disclosure, and Regulatory Inquiries",2026,0,S4210172589,preprint
+W7212679585,https://doi.org/10.3390/info17090888,Task-Bound Authorization and Compliance Auditing with Quantum-Safe Task Passports for Privacy-Preserving Computation in Trusted Data Spaces,2026,0,S4210219776,article
+W7149229666,,D2.2 Building a European Framework for the secure and trusted data space for agriculture : Design principles and guidelines for agricultural data spaces based on legislation and ethical principles,2024,0,S4210201231,report
+W7161253078,https://doi.org/10.1002/sres.70085,Collaborative Governance Strategies for Trusted Data Spaces in Marine Ranching: A Stochastic Evolutionary Game Analysis From the Perspective of Chain‐Leading Enterprises,2026,0,S126013225,article
+W7124172462,https://doi.org/10.5281/zenodo.18240482,Operationalising Trust in Data Spaces,2025,0,S4306400562,article
+W7124161972,https://doi.org/10.5281/zenodo.18240481,Operationalising Trust in Data Spaces,2025,0,S4306400562,article
+W4416250298,https://doi.org/10.1109/cscn67557.2025.11230730,Enabling Semi-trusted Proxies for Data Spaces,2025,0,,conference-paper
+W7128651549,,Identity management solution to provide trust in a Data Space,2025,0,S4306401964,dissertation
+W4416199367,https://doi.org/10.1007/978-3-032-09555-8_6,Distributed and Trusted Access to Data Spaces’ Products Employing Sovity and Data Fabric,2025,0,S2764900261,conference-paper
+W7162027857,https://doi.org/10.3233/shti260462,Breaking the Silo: Operationalizing Trust in the European Health Data Space,2026,0,S4210179765,book-chapter
+W7160753455,https://doi.org/10.69646/1csst15,"TOWARD COOPERATIVE SPACE SAFETY BRIDGING DATA, INFRASTRUCTURE, AND TRUST",2026,0,S4306530612,book-chapter
+W7203768484,https://doi.org/10.1109/zinc69910.2026.11655709,Architectures of Trust: Governance-by-Design in European Data Space Ecosystems,2026,0,,conference-paper
+W7133238272,https://doi.org/10.1109/meai68126.2025.11406290,Mendatory Data Access Control Using Encryptions in Trusted Energy Data Space,2025,0,,conference-paper
+W7114792577,https://doi.org/10.5167/uzh-281010,Trust Performance Indicators and Trust Stress Tests: A Conceptual Proposition for Trustworthy Health Data Spaces,2025,0,S4306401281,article
+W4415171459,https://doi.org/10.21552/ehpl/2025/3/6,From Data Sharing to Data Trust: Reclaiming Medical Secrecy in the European Health Data Space,2025,0,S4387284889,article
+W4416219229,https://doi.org/10.1007/978-3-032-08603-7_25,"Building Trust in Data Spaces: A Systematic Review of Perspectives, Definitions, and Mechanisms",2025,0,S4210177767,conference-paper
+W7170044833,https://doi.org/10.12688/openreseurope.24229.1,A blockchain-governed SSI trust architecture for EDC-based federated data spaces,2026,0,S4210238080,article
+W7161280872,https://doi.org/10.1145/3800000.3800222,Multi-Agent LLM Framework for Imageability Assessment in Trusted Multimodal Data Spaces,2025,0,,conference-paper
+W7203673846,https://doi.org/10.82135/tno-2026-16708,Towards a Comprehensive Evaluation of Trust Frameworks for Data Spaces: Evaluation Methodology and Criteria,2026,0,S7407055233,report
+W7171537544,https://doi.org/10.12688/openreseurope.24229.2,A blockchain-governed SSI trust architecture for EDC-based federated data spaces,2026,0,S4210238080,article
+W7132251598,,Harmonization Profiles for Trusted Data Sharing Between Data Spaces: Striking the Balance between Functionality and Complexity,2022,0,S7407055233,conference-paper
+W7136487740,https://doi.org/10.5281/zenodo.18954796,Enabling Data Sovereignty through Trusted Research Environments in European Data Spaces – EOSC-ENTRUST workshop,2026,0,S4306400562,article
+W7136491172,https://doi.org/10.5281/zenodo.18954795,Enabling Data Sovereignty through Trusted Research Environments in European Data Spaces – EOSC-ENTRUST workshop,2026,0,S4306400562,article
+W4411467319,https://doi.org/10.2139/ssrn.5312878,A Trusted Industrial Data Space Framework for Automotive Supply Chain: Enabling Secure and Traceable Data Sharing,2025,0,S4210172589,preprint
+W7167596708,https://doi.org/10.1145/3793828.3793831,Towards Trusted and Interoperable Data Sharing: Data Spaces and Blockchain in the MASA Project-An EBSI-Based Architecture,2026,0,,conference-paper
+W4402811583,https://doi.org/10.1109/iccc62479.2024.10681758,Access Control Strategy for Critical Data in Space Information Networks Integrating Trusted Mechanisms,2024,0,,conference-paper
+W7115904775,https://doi.org/10.57760/sciencedb.33817,Digital Calibration Certificate in a Trusted Quality Infrastructure Federated Data Space-A Proof of Concept,2025,0,S7407050937,dataset
+W4406552601,https://doi.org/10.1145/3704558.3705531,A Trusted Data Access and Transmission Method under Internal and External Threats in the Space Information Network,2024,0,,conference-paper
+W7203512291,,"Inputs to the European Data Innovation Board: common trust principles for interconnections in and between cloud–edge ecosystems, including data spaces",2026,0,S7407055233,report
+W7128474455,https://doi.org/10.3917/i2d.252.0115,Médias européens et data : pourquoi cela vaut la peine d’examiner le projet Trusted European Media Data Space (TEMS),2026,0,S4210225659,article
+W4384571279,https://doi.org/10.1017/dap.2023.23,Local Data Spaces: Leveraging trusted research environments for secure location-based policy research in the age of coronavirus disease-2019 – CORRIGENDUM,2023,0,S4210198237,erratum
+W7204913691,https://doi.org/10.21956/openreseurope.26748.r78427,Peer Review Report For: A blockchain-governed SSI trust architecture for EDC-based federated data spaces [version 2; peer review: 1 approved],2026,0,,peer-review
+W4254346055,https://doi.org/10.25046/aj020371,"Volume 2, Issue 3, Special issue on Recent Advances in Engineering Systems (Published Papers) Articles Transmit / Received Beamforming for Frequency Diverse Array with Symmetrical frequency offsets Shaddrack Yaw Nusenu Adv. Sci. Technol. Eng. Syst. J. 2(3), 1-6 (2017); View Description Detailed Anal",2017,2,S2764572829,editorial
+W4247806398,https://doi.org/10.25046/aj020358,"Volume 2, Issue 3, Special issue on Recent Advances in Engineering Systems (Published Papers) Articles Transmit / Received Beamforming for Frequency Diverse Array with Symmetrical frequency offsets Shaddrack Yaw Nusenu Adv. Sci. Technol. Eng. Syst. J. 2(3), 1-6 (2017); View Description Detailed Anal",2017,2,S2764572829,editorial
+W4236364529,https://doi.org/10.25046/aj020366,"Volume 2, Issue 3, Special issue on Recent Advances in Engineering Systems (Published Papers) Articles Transmit / Received Beamforming for Frequency Diverse Array with Symmetrical frequency offsets Shaddrack Yaw Nusenu Adv. Sci. Technol. Eng. Syst. J. 2(3), 1-6 (2017); View Description Detailed Anal",2016,1,S2764572829,editorial
+W4253933925,https://doi.org/10.25046/aj020319,"Volume 2, Issue 3, Special issue on Recent Advances in Engineering Systems (Published Papers) Articles Transmit / Received Beamforming for Frequency Diverse Array with Symmetrical frequency offsets Shaddrack Yaw Nusenu Adv. Sci. Technol. Eng. Syst. J. 2(3), 1-6 (2017); View Description Detailed Anal",2017,0,S2764572829,editorial
+W4240175703,https://doi.org/10.25046/aj020331,"Volume 2, Issue 3, Special issue on Recent Advances in Engineering Systems (Published Papers) Articles Transmit / Received Beamforming for Frequency Diverse Array with Symmetrical frequency offsets Shaddrack Yaw Nusenu Adv. Sci. Technol. Eng. Syst. J. 2(3), 1-6 (2017); View Description Detailed Anal",2017,0,S2764572829,editorial
+W4242909567,https://doi.org/10.25046/aj020339,"Volume 2, Issue 3, Special issue on Recent Advances in Engineering Systems (Published Papers) Articles Transmit / Received Beamforming for Frequency Diverse Array with Symmetrical frequency offsets Shaddrack Yaw Nusenu Adv. Sci. Technol. Eng. Syst. J. 2(3), 1-6 (2017); View Description Detailed Anal",2017,0,S2764572829,editorial
