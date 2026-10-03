@@ -172,18 +172,30 @@ class GenericSemanticQuery:
         CN = {"Scholar": "学者", "Publication": "论文", "Institution": "机构",
               "Company": "公司", "Industry": "行业", "Field": "领域",
               "Venue": "期刊/会议", "Dataset": "数据集", "DataSource": "数据源"}
+        what = CN.get(class_name) or "实体"
         cands = "、".join(str(x.get("name") if isinstance(x, dict) else x) for x in items[:8])
-        return {"intent": "not_found", "keyword": kw, "class": class_name, "count": 0,
-                "hint": f"平台里没有找到名为「{kw}」的{CN.get(class_name, class_name)}，"
-                        f"所以这次没法作答（不猜）。"
-                        f"图谱中多数机构只登记了英文名，换成英文名通常能问到。"
-                        f"也可以参考这些已接入的：{cands}。"}
+        hint = (f"平台里没有找到名为「{kw}」的{what}，所以这次没法作答（不猜）。"
+                f"图谱中多数机构只登记了英文名，换成英文名通常能问到。")
+        if cands:
+            hint += f"也可以参考这些已接入的：{cands}。"
+        return {"intent": "not_found", "keyword": kw, "class": class_name,
+                "count": 0, "hint": hint}
+
+    def _resolvable(self, name):
+        """这个名字在图谱里到底认不认得出来？认得出就不该报"没找到"。
+        修：复旦大学的论文 曾因只看句式、不检查主体是否已解析，被误报成"没找到复旦大学"。"""
+        if not name:
+            return False
+        try:
+            return bool(self.find_mentioned_entities(str(name)))
+        except Exception:
+            return False
 
     # 列举类问句里的"装饰词"：剥掉它们后若只剩类名，说明用户是想"列举某一类"，
     # 而不是在指名道姓
     LIST_FILLERS = ("所有", "全部", "一些", "有些", "哪些", "什么", "搜索", "查找",
                     "查询", "查一下", "查查", "找出", "找", "看看", "列出", "显示",
-                    "给我", "一下子", "一下")
+                    "给我", "一下子", "一下", "是谁", "是什么", "是啥", "的介绍")
 
     # 图谱里确实没有收录的人事/联系方式类字段。
     # 用户问了不该假装答上，也不该退化成"列出全部同类"。
@@ -208,11 +220,28 @@ class GenericSemanticQuery:
         """这次是不是"用户指了个具体名字、但我们没认出来"？返回那个名字，否则 None"""
         subj = self._unresolved_subject(question)          # 优先「X的」结构
         if subj:
-            return subj
+            # 用完整名字判断可否解析："复旦大学" 认得出来，"复旦" 反而认不出
+            return None if self._resolvable(subj) else subj
         if not kw or self._is_class_listing(kw):
             return None
         rest = self._strip_decorations(kw)
-        return rest if len(rest) >= 2 else None
+        if len(rest) < 2:
+            return None
+        # 用剥离后的名字判断："搜索张三学者" → "张三"，避开"学者"这类数据源标签的误命中
+        return None if self._resolvable(rest) else rest
+
+    # 问候/寒暄：别让"你好"掉进"抱歉我没理解清楚"
+    SMALLTALK = {
+        "你好": "你好！我是这个数据平台的语义问答助手。可以问我学者、论文、机构、企业、行业、领域相关的问题，例如「华东师范大学有哪些学者」「人工智能行业有哪些公司」。",
+        "您好": "您好！我是这个数据平台的语义问答助手，随时可以帮你查学者、论文、机构、企业和行业数据。",
+        "嗨": "嗨！想查点什么数据？学者、论文、机构、企业、行业都能问。",
+        "hello": "Hello! 我是这个数据平台的语义问答助手，可以帮你查学者、论文、机构、企业和行业数据。",
+        "hi": "Hi! 想查哪方面的数据？",
+        "谢谢": "不客气！还想查点什么？",
+        "多谢": "不客气！还想查点什么？",
+        "你是谁": "我是这个数据平台的语义问答助手：先在本体语义层查询统一知识图谱，再给出可核验的答案。",
+        "你能做什么": "我能查平台已接入的学术与企业数据：学者、论文、机构、领域、上市公司、行业。比如「清华大学的校友是谁」「大语言模型趋势」「物流快递行业有哪些公司」。",
+    }
 
     # ---------- 匹配：找问题里提到的实体 ----------
     def find_mentioned_entities(self, question):
@@ -376,6 +405,9 @@ class GenericSemanticQuery:
     # ---------- 智能入口 ----------
     def ask(self, question):
         """通用自然语言问数"""
+        _key = str(question).strip().strip("！!。.？?~,， ").lower()
+        if _key in self.SMALLTALK:
+            return {"intent": "smalltalk", "count": 0, "hint": self.SMALLTALK[_key]}
         LISTING = ("有哪些", "有什么", "列出", "所有", "全部", "清单", "列表")
         is_listing = any(k in question for k in LISTING)
         cls_list = self.find_mentioned_classes(question)
@@ -415,8 +447,9 @@ class GenericSemanticQuery:
         # 2) 实体详情（列举型问句不走这里；"某机构的校友/学者是谁"也不走，
         #    交给第 7 条按机构列人，否则只会吐出机构自己的属性而答非所问）
         _people_ask = any(k in question for k in self.PEOPLE_WORDS)
-        _inst_in_ents = any(self._class_of(u) == "Institution" for u, _ in ents)
-        if (not is_listing) and ents and not (_people_ask and _inst_in_ents) and any(
+        # "哪些学者研究知识图谱"问的是人，不是这个领域的详情 → 也要跳过实体详情
+        _subject_is_group = any(self._class_of(u) in ("Institution", "Field") for u, _ in ents)
+        if (not is_listing) and ents and not (_people_ask and _subject_is_group) and any(
                 k in question for k in ("谁", "什么", "详情", "介绍", "研究", "合作", "相关", "多少")):
             uri, label = ents[0]
             cls = self._class_of(uri)
@@ -552,6 +585,35 @@ class GenericSemanticQuery:
                         "count": len(rows), "scholars": [r["name"] for r in top],
                         "data": top}
 
+        # 7.5) 某实体的论文列表（"复旦大学的论文"、"兰曼的论文"）
+        if ents and any(k in question for k in ("论文", "文献", "文章")):
+            uri, label = ents[0]
+            cls = self._class_of(uri)
+            if cls == "Institution":
+                authors = [m["uri"] for m in self.reverse_related(uri, "affiliatedWith")]
+            elif cls == "Scholar":
+                authors = [uri]
+            else:
+                authors = []
+            if authors:
+                seen, rows = set(), []
+                for a in authors:
+                    for w in self.g.objects(a, ONTO.authorOf):
+                        if w in seen:
+                            continue
+                        seen.add(w)
+                        rows.append({"name": self._label(w),
+                                     "year": str(self.g.value(w, ONTO.year) or ""),
+                                     "cited": str(self.g.value(w, ONTO.cited_by_count) or "")})
+                        if len(rows) >= 30:
+                            break
+                    if len(rows) >= 30:
+                        break
+                if rows:
+                    return {"intent": "entity_publications", "entity": label,
+                            "count": len(rows), "data": rows,
+                            "entities": [r["name"] for r in rows]}
+
         # 8) 论文标题关键词检索
         kw = self._extract_keyword(question)
         if kw and ("论文" in question or "文献" in question or "研究" in question):
@@ -586,7 +648,15 @@ class GenericSemanticQuery:
                 return {"intent": "search_entities", "keyword": kw, "count": len(hits),
                         "entities": hits}
 
-        # 11) 兜底：概览
+        # 11) "X是谁 / X是什么" 却什么都没匹配上 → 诚实说没找到，别含糊兜底
+        #     （修：杨卓是谁 以前掉进 overview，界面回"抱歉我没理解清楚"）
+        #     只在明确的"问某个东西"句式上触发，避免把闲聊/常识问题也说成"没找到"
+        if kw and any(k in question for k in ("是谁", "是什么", "是啥", "的介绍")):
+            subj = self._unknown_subject(question, kw)
+            if subj:
+                return self._not_found(subj, None, [])
+
+        # 12) 兜底：概览
         return {"intent": "overview", "classes": self.classes(),
                 "hint": "可以问：华东师大有哪些学者 / 知识图谱领域有哪些论文 / "
                         "大语言模型趋势 / 人工智能行业有哪些公司 / 营收最高的公司"}

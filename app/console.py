@@ -414,9 +414,9 @@ def _extract_names(result: dict) -> list[str]:
 
 
 def _humanize_result(question: str, result: dict) -> str:
-    apology = ("抱歉，这个问题我暂时还没理解清楚。你可以换个更明确的问法试试，"
-               "例如：“华东师范大学有哪些学者？”、“大语言模型趋势”、"
-               "“物流快递行业有哪些公司？”。")
+    apology = ("这个问题不在平台的数据范围内。我是科研与企业数据的语义问答助手，"
+               "可以问学者、论文、机构、企业、行业、领域相关的问题，例如："
+               "“华东师范大学有哪些学者？”、“大语言模型趋势”、“物流快递行业有哪些公司？”。")
     if not isinstance(result, dict):
         return apology
     intent = result.get("intent", "unknown")
@@ -439,7 +439,7 @@ def _humanize_result(question: str, result: dict) -> str:
             summary = "、".join(f"{k} {v} 个" for k, v in list(classes.items())[:12])
             return f"平台当前覆盖 {len(classes)} 类数据：{summary}。"
         return apology
-    if intent in ("not_found", "unsupported_attribute"):
+    if intent in ("not_found", "unsupported_attribute", "smalltalk"):
         return result.get("hint") or apology
     # 趋势/逐年：必须排在下面通用分支之前。否则通用分支会把 data[].name 抽成
     # ["2022","2023",...] 直接返回，逐年数量（2/34/126/38）全丢了。
@@ -468,6 +468,7 @@ def _humanize_result(question: str, result: dict) -> str:
             "list_class": "实例",
             "cls_list": "实例",
             "list_sources": "数据源",
+            "entity_publications": "论文",
         }.get(intent, "结果")
         return f"这个问题共查到 {count} 条{label}相关数据，主要结果：{'、'.join(names)}。"
     if intent == "trend" or intent == "year_distribution":
