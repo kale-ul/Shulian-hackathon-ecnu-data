@@ -22,7 +22,10 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 class PlatformTools:
     def __init__(self, graph, catalog=None):
-        self.g = graph
+        # 归一化：调用方传的对象不一致——api_server 传 UnifiedGraph（真正的图在 .g），
+        # gateway / mcp_server 传裸 rdflib Graph。UnifiedGraph 本身没有 triples/subjects/value，
+        # 统一取出内层裸图，避免各方法在不同调用路径下随机 AttributeError。
+        self.g = getattr(graph, "g", graph)
         self._catalog = catalog
 
     # ---- 基础工具（本体驱动，通用）----
@@ -155,7 +158,7 @@ class PlatformTools:
                     "sources": [s["name"] for s in self._catalog.list()] if getattr(self, "_catalog", None) else []}
         if "本体" in q and ("哪些" in q or "列出" in q or "结构" in q):
             return self.list_ontology()
-        return GenericSemanticQuery(self.g.g).ask(question)
+        return GenericSemanticQuery(self.g).ask(question)
 
     def _all_industry_names(self):
         out = []
