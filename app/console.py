@@ -520,7 +520,11 @@ def render_chat() -> None:
     page_header("语义问答", "自然语言问题会先进入本体语义层，再交给选定 AI 生成可核验答案。", "语义引擎就绪")
     clients = list_clients()
     labels = ["— 选择 AI —"] + [c["name"] for c in clients]
-    picked_name = st.selectbox("驱动 AI", labels, index=0, key="chat_ai", label_visibility="collapsed")
+    # 默认选中"本平台端点"（kind=platform）：它不需要任何 Key。
+    # 修：原来默认停在占位项，页面一进来没有输入框，等于先逼用户去下拉框里挑一个 AI。
+    default_idx = next((i + 1 for i, c in enumerate(clients) if c.get("kind") == "platform"), 0)
+    picked_name = st.selectbox("驱动 AI", labels, index=default_idx, key="chat_ai",
+                               label_visibility="collapsed")
     picked = next((c for c in clients if c["name"] == picked_name), None)
     if picked is None:
         empty_state("选择一个 AI 客户端开始问答；平台自身和本地规则引擎无需外部 Key。")
