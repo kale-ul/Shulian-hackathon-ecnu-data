@@ -35,7 +35,7 @@ from aiplatform import privates
 from aiplatform.ai_clients import PRESETS, call_client, list_clients, register_client
 from aiplatform.build_platform import build
 from aiplatform.semantic import GenericSemanticQuery
-from aiplatform.upload import UPSTREAM_DIR, ingest_file
+from aiplatform.upload import UPSTREAM_DIR, ingest_file, persist_public, public_snapshot
 
 st.set_page_config(page_title="ECNU DataOS · 面向 AI 的大数据平台", layout="wide",
                    page_icon="AI", initial_sidebar_state="expanded")
@@ -273,7 +273,13 @@ def _handle_upload(uploaded) -> None:
                 _rebuild_query()
             else:
                 source_id = f"ds_upload_{_stable_hash(uploaded.name, 100000)}"
+                _before = public_snapshot(graph)
                 report = ingest_file(graph, cat, tmp_path, uploaded.name, source_id=source_id)
+                # 落盘，否则重启即丢（未登录上传以前只写内存）
+                _saved = persist_public(graph, _before)
+                if _saved:
+                    report.setdefault("steps", []).append(
+                        {"step": "⑤ 已持久化公共上传", "triples": _saved})
                 _rebuild_query()
             st.session_state.setdefault("uploads", []).append(report)
             if report.get("error"):

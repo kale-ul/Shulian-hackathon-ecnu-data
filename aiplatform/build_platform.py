@@ -64,6 +64,12 @@ def build():
     out = os.path.join(PROC, "platform_graph.ttl")
     graph.g.serialize(destination=out, format="turtle")
     print(f"\n统一图已保存: {out}", file=sys.stderr)
+
+    # 把上次通过界面上传的公共数据装回来（否则重启就丢）
+    from aiplatform.upload import load_public_uploads
+    restored = load_public_uploads(graph)
+    if restored:
+        print(f"已恢复公共上传数据: {restored} 条三元组", file=sys.stderr)
     return onto, cat, graph
 
 if __name__ == "__main__":
