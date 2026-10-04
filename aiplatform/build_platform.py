@@ -5,11 +5,44 @@
 """
 import os, sys, json
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from aiplatform.core import PlatformOntology, SourceCatalog, UnifiedGraph
+from aiplatform.core import PlatformOntology, SourceCatalog, UnifiedGraph, ONTO, RDF
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROC = os.path.join(BASE, "data", "processed")
 RAW = os.path.join(BASE, "data", "raw")
+
+def link_duplicates(graph):
+    """同一实体从两个数据源各进一次时，用 sameAs 建等价链接。
+
+    背景：companies.csv（30 家）与 companies_v2.csv（44 家）内容大面积重叠，
+    两套 ID 前缀（c_ / c2_）让同一家公司进了图谱两次——27 组、名称与营收与员工数三项全同。
+    本体里本来就定义了 sameAs，但从未使用。
+
+    策略：只加 sameAs 边，**不删实体、不改任何已有计数**；
+    判定条件是「名称 + 营收 + 员工数三项全同」，缺数值一律不判（宁可漏，不可错）。
+    Institution 的同名（如 Ministry of Education 分属 KR/NZ/CL）是不同实体，故不处理。
+    Scholar 同名不等于同一人，坚决不处理。
+    """
+    g = graph.g
+    buckets = {}
+    for s in g.subjects(RDF.type, ONTO.Company):
+        nm = g.value(s, ONTO.name)
+        rev = g.value(s, ONTO.revenue)
+        emp = g.value(s, ONTO.employees)
+        if not nm or rev is None or emp is None:
+            continue
+        buckets.setdefault((str(nm), str(rev), str(emp)), []).append(s)
+    n = 0
+    for sig, uris in buckets.items():
+        if len(uris) < 2:
+            continue
+        uris = sorted(set(uris), key=lambda u: (len(str(u)), str(u)))  # 短的当规范实体
+        canonical = uris[0]
+        for alias in uris[1:]:
+            g.add((canonical, ONTO.sameAs, alias))
+            n += 1
+    return n
+
 
 def build():
     onto = PlatformOntology(os.path.join(BASE, "ontology", "platform.owl"))
@@ -55,6 +88,9 @@ def build():
         print(f"  {name}: {res['rows']} 行 -> {res['triples_added']} 三元组", file=sys.stderr)
 
     print(f"\n== 统一语义图 ==", file=sys.stderr)
+    dup = link_duplicates(graph)
+    if dup:
+        print(f"已建立 sameAs 等价链接: {dup} 条", file=sys.stderr)
     stats = graph.stats()
     print(f"  总三元组: {stats['triples']}", file=sys.stderr)
     print(f"  总实体: {stats['entities']}", file=sys.stderr)

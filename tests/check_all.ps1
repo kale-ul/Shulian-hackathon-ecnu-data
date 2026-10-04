@@ -24,22 +24,27 @@ $env:PYTHONIOENCODING = 'utf-8'
 if (-not (Test-Path $PY)) { $PY = 'python' }
 $summary = @()
 
-Write-Host "`n===== 1/3  接口验收（42 项）=====" -ForegroundColor Cyan
+Write-Host "`n===== 1/4  接口验收（42 项）=====" -ForegroundColor Cyan
 $r1 = & $PS5 -NoProfile -ExecutionPolicy Bypass -File (Join-Path $TESTS 'test_platform.ps1') $Gateway *>&1
 $r1 | Select-Object -Last 3 | ForEach-Object { Write-Host $_ }
 $summary += ($r1 | Select-String '结果：PASS' | Select-Object -Last 1).Line
 
-Write-Host "`n===== 2/3  UI 巡检（Streamlit AppTest，12 项）=====" -ForegroundColor Cyan
+Write-Host "`n===== 2/4  UI 巡检（Streamlit AppTest，12 项）=====" -ForegroundColor Cyan
 $r2 = & $PY (Join-Path $TESTS 'ui_selftest.py') 2>$null
 $r2 | ForEach-Object { Write-Host $_ }
 $summary += ($r2 | Select-String '结果：PASS' | Select-Object -Last 1).Line
 
-Write-Host "`n===== 3/3  语义问答回测（36 题）=====" -ForegroundColor Cyan
+Write-Host "`n===== 3/4  语义问答回测（36 题）=====" -ForegroundColor Cyan
 $r3 = & $PY (Join-Path $TESTS 'semantic_battery.py') 2>$null
 $r3 | ForEach-Object { Write-Host $_ }
 
+Write-Host "`n===== 4/4  数据质量巡检 =====" -ForegroundColor Cyan
+$r4 = & $PY (Join-Path $TESTS 'data_quality.py') 2>$null
+$r4 | ForEach-Object { Write-Host $_ }
+$summary += ($r4 | Select-String '结果：PASS' | Select-Object -Last 1).Line
+
 Write-Host "`n===== 汇总 =====" -ForegroundColor Yellow
 $summary | Where-Object { $_ } | ForEach-Object { Write-Host "  $_" }
-$bad = ($r1 + $r2) | Select-String 'FAIL=[1-9]'
+$bad = ($r1 + $r2 + $r4) | Select-String 'FAIL=[1-9]'
 if ($bad) { Write-Host '  有失败项，请查看上方输出' -ForegroundColor Red; exit 1 }
 Write-Host '  全部通过 ✔' -ForegroundColor Green
